@@ -819,3 +819,31 @@ body:has(.cookie-bar:not(.hidden)) .wa-float{bottom:104px}
 .svc-card:hover .svc-ico{animation:fxPop .5s var(--ease)}
 @media(min-width:980px){.d-nav .inner{width:calc(100% - 2rem);max-width:1560px;flex-wrap:wrap;justify-content:center;overflow:visible}}
 @media(min-width:980px) and (max-width:1500px){.d-nav a,.d-nav button{padding:11px 9px;font-size:12.5px}}
+
+/* ===== Preços públicos (somente produtos com preço) + carrinho/checkout ===== */
+.price-tag{display:flex;flex-direction:column;gap:2px;margin:6px 0 8px}
+.card .price-tag .price,.product-page .price-tag .price,.price-tag .price{display:block!important;font-weight:800;color:var(--red);font-size:20px;line-height:1.1}
+.product-page .price-tag .price{font-size:30px}
+.price-tag small{color:var(--muted);font-size:12px}
+.cart-unit{font-size:13px;color:var(--red);font-weight:700;margin-top:2px}
+.cart-sum{display:flex;justify-content:space-between;align-items:center;font-size:15px;margin:6px 0}
+.cart-sum.total{font-size:18px;border-top:2px solid var(--black);padding-top:10px;margin-top:10px}
+.cart-sum.total strong{color:var(--red)}
+.checkout-wrap{display:grid;gap:20px;grid-template-columns:1fr;padding:16px 0 40px}
+@media(min-width:980px){.checkout-wrap{grid-template-columns:1.4fr 1fr}}
+.co-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow-sm)}
+.co-card h2{font-size:17px;margin:0 0 12px;display:flex;gap:8px;align-items:center}
+.co-card h2 .step{background:var(--red);color:#fff;border-radius:50%;width:24px;height:24px;display:inline-grid;place-items:center;font-size:13px}
+.co-grid{display:grid;gap:10px;grid-template-columns:1fr 1fr}
+.co-grid .full{grid-column:1/-1}
+.co-grid label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;color:var(--ink)}
+.co-grid input,.co-grid select{height:44px;border:1px solid #cfcfcf;border-radius:6px;padding:0 12px;font:inherit;font-size:14px}
+.co-grid input:focus{outline:2px solid var(--red);border-color:var(--red)}
+.co-grid input.invalid{border-color:var(--red);background:#fff5f5}
+.ship-opt{display:flex;gap:10px;align-items:center;border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-top:8px;cursor:pointer}
+.ship-opt:has(input:checked){border-color:var(--red);background:#fff5f5}
+.ship-opt .sp{margin-left:auto;font-weight:800}
+.co-msg{font-size:13px;margin-top:8px;color:var(--muted)}
+.co-msg.err{color:var(--red);font-weight:600}
+.btn-wa-final{background:#0A0A0A;color:#fff}
+.co-secure{font-size:12px;color:var(--muted);margin-top:8px;text-align:center}

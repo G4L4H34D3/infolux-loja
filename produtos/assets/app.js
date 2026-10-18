@@ -29,60 +29,69 @@ document.addEventListener('click', (e)=>{
   consultWhatsApp(btn.getAttribute('data-wa-name'), btn.getAttribute('data-wa-slug'));
 });
 
-function quoteWhatsApp(){
-  const c=loadCart(); if(!c.length) return;
-  let msg='Olá Lucas, vim pelo site da INFOLUX e quero um orçamento:\n\n';
-  c.forEach(i=>{
-    const url = productPageUrl(i.slug);
-    msg += `• ${i.qty}x ${i.name}\n  ${url}\n`;
-  });
-  msg += '\n(Sem valores — aguardo os preços, por favor.)';
-  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`,'_blank','noopener');
-}
+const money = n => (Number(n)||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+function escHtml(s){ return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
+function imgUrl(i){ return /^https?:/.test(i||'') ? i : siteBase() + String(i||'assets/logo-infolux.svg').replace(/^(\.\.\/)+/,''); }
 
-function loadCart(){ try{return JSON.parse(localStorage.getItem('infolux_cart')||'[]');}catch{return[]} }
+/* Cart: only priced items (id + price). Older "orçamento" entries without price are dropped. */
+function loadCart(){ try{ return JSON.parse(localStorage.getItem('infolux_cart')||'[]').filter(i=>i && i.id && Number(i.price)>0); }catch{ return []; } }
 function saveCart(c){ localStorage.setItem('infolux_cart', JSON.stringify(c)); updateCartBadge(); }
 function updateCartBadge(){
   const n=loadCart().reduce((a,i)=>a+(i.qty||1),0);
   document.querySelectorAll('[data-cart-count]').forEach(el=>el.textContent=String(n));
 }
+function cartSubtotal(c){ return Math.round((c||loadCart()).reduce((a,i)=>a+i.price*(i.qty||1),0)*100)/100; }
 function addToCart(item){
+  if(!item || !item.id || !(Number(item.price)>0)) return;
   const c=loadCart();
-  const i=c.find(x=>x.slug===item.slug);
-  if(i) i.qty+=(item.qty||1); else c.push({slug:item.slug, name:item.name, image:item.image, qty:item.qty||1});
+  const i=c.find(x=>x.id===item.id);
+  if(i) i.qty+=(item.qty||1);
+  else c.push({id:item.id, slug:item.slug, name:item.name, image:item.image, price:Number(item.price), category:item.category||'', subcategory:item.sub||item.subcategory||'', weight:item.weight??null, qty:item.qty||1});
   saveCart(c); openCart();
 }
-function removeFromCart(slug){ saveCart(loadCart().filter(x=>x.slug!==slug)); renderCart(); }
-function setQty(slug,qty){ const c=loadCart(); const i=c.find(x=>x.slug===slug); if(!i) return; i.qty=Math.max(1,qty|0); saveCart(c); renderCart(); }
+function removeFromCart(id){ saveCart(loadCart().filter(x=>x.id!==id)); renderCart(); document.dispatchEvent(new Event('cart:change')); }
+function setQty(id,qty){ const c=loadCart(); const i=c.find(x=>x.id===id); if(!i) return; i.qty=Math.max(1,Math.min(99,qty|0)); saveCart(c); renderCart(); document.dispatchEvent(new Event('cart:change')); }
 function openCart(){ const el=document.getElementById('cartDrawer'); if(!el) return; el.classList.add('open'); el.style.display='block'; renderCart(); }
 function closeCart(){ const el=document.getElementById('cartDrawer'); if(!el) return; el.classList.remove('open'); el.style.display='none'; }
 function openNav(){ const el=document.getElementById('navDrawer'); if(!el) return; el.classList.add('open'); el.style.display='block'; }
 function closeNav(){ const el=document.getElementById('navDrawer'); if(!el) return; el.classList.remove('open'); el.style.display='none'; }
+function cartItemsHTML(c){
+  return c.map(i=>`<div class="cart-item">
+    <img src="${escHtml(imgUrl(i.image))}" alt="" loading="lazy">
+    <div><strong style="font-size:13px">${escHtml(i.name)}</strong>
+      <div class="cart-unit">${money(i.price)}</div>
+      <div style="margin-top:6px"><button class="btn" type="button" onclick="setQty('${escHtml(i.id)}',${i.qty-1})">-</button>
+      <span style="margin:0 8px">${i.qty}</span>
+      <button class="btn" type="button" onclick="setQty('${escHtml(i.id)}',${i.qty+1})">+</button></div></div>
+    <button class="btn" type="button" aria-label="Remover" onclick="removeFromCart('${escHtml(i.id)}')">✕</button></div>`).join('');
+}
 function renderCart(){
   const box=document.getElementById('cartItems'); if(!box) return;
-  const title=document.querySelector('#cartDrawer h2');
-  if(title) title.textContent='Orçamento';
-  const c=loadCart();
+  const title=document.querySelector('#cartDrawer h2'); if(title) title.textContent='Carrinho';
+  const c=loadCart(); const t=document.getElementById('cartTotals');
   if(!c.length){ box.innerHTML=`<div class="cart-empty">
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M6 6L5 3H2"/></svg>
-<p>Seu orçamento está vazio</p>
+<p>Seu carrinho está vazio</p>
 <button class="btn-checkout" type="button" onclick="closeCart()">Continuar navegando</button>
-</div>`; const t=document.getElementById('cartTotals'); if(t) t.innerHTML=''; return; }
-  box.innerHTML=c.map(i=>`<div class="cart-item">
-    <img src="${/^https?:/.test(i.image||'') ? i.image : siteBase() + String(i.image||'assets/logo-infolux.svg').replace(/^(\.\.\/)+/,'')}" alt="" loading="lazy">
-    <div><strong style="font-size:13px">${i.name}</strong>
-      <div style="margin-top:6px"><button class="btn" onclick="setQty('${i.slug}',${i.qty-1})">-</button>
-      <span style="margin:0 8px">${i.qty}</span>
-      <button class="btn" onclick="setQty('${i.slug}',${i.qty+1})">+</button></div></div>
-    <button class="btn" onclick="removeFromCart('${i.slug}')">✕</button></div>`).join('');
-  document.getElementById('cartTotals').innerHTML=`
-    <div style="margin-top:14px;border-top:1px solid #eee;padding-top:12px">
-      <p style="font-size:13px;color:#666;margin:0 0 10px">Envie a lista no WhatsApp para receber os preços. Sem totais no site.</p>
-      <button class="btn btn-primary btn-block" style="margin-top:4px" onclick="quoteWhatsApp()">Pedir orçamento no WhatsApp</button>
-      <p style="font-size:11px;color:#666;margin:8px 0 0">WhatsApp: (66) 99207-0127</p>
+</div>`; if(t) t.innerHTML=''; return; }
+  box.innerHTML=cartItemsHTML(c);
+  if(t) t.innerHTML=`<div style="margin-top:14px;border-top:1px solid #eee;padding-top:12px">
+      <div class="cart-sum"><span>Subtotal</span><strong>${money(cartSubtotal(c))}</strong></div>
+      <p style="font-size:12px;color:#666;margin:4px 0 10px">Frete calculado no carrinho pelo CEP.</p>
+      <a class="btn btn-primary btn-block" href="${siteBase()}carrinho.html">Ir para o carrinho e finalizar</a>
     </div>`;
 }
-// back-compat alias
+function orderWhatsAppText(c, extra){
+  let msg='Olá Lucas, vim pelo site da INFOLUX e quero finalizar este pedido:\n\n';
+  c.forEach(i=>{ msg += `• ${i.qty}x ${i.name} — ${money(i.price*i.qty)}\n  ${productPageUrl(i.slug)}\n`; });
+  msg += `\nSubtotal: ${money(cartSubtotal(c))}`;
+  if(extra) msg += '\n' + extra;
+  return msg;
+}
+function quoteWhatsApp(){
+  const c=loadCart(); if(!c.length) return;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(orderWhatsAppText(c))}`,'_blank','noopener');
+}
 function checkoutWhatsApp(){ quoteWhatsApp(); }
 
 /* ===== Premium: swipe slider + autoplay ===== */
@@ -282,15 +291,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
     if(window.matchMedia('(max-width:979px)').matches){ openNav(); return; }
     m.classList.toggle('open'); m.hidden=!m.classList.contains('open');
   }));
-  // relabel cart → orçamento in chrome
-  document.querySelectorAll('#cartDrawer h2').forEach(el=>{ el.textContent='Orçamento'; });
-  document.querySelectorAll('button.cart-btn, .cart-btn').forEach(el=>{
-    if(el.getAttribute('aria-label')==='Carrinho') el.setAttribute('aria-label','Orçamento');
-  });
+  // relabel orçamento → carrinho in chrome
+  document.querySelectorAll('#cartDrawer h2').forEach(el=>{ el.textContent='Carrinho'; });
+  document.querySelectorAll('button.cart-btn, .cart-btn').forEach(el=>el.setAttribute('aria-label','Carrinho'));
   document.querySelectorAll('button.btn-primary').forEach(el=>{
-    if(/^Carrinho\b/.test(el.textContent.trim())){
-      el.innerHTML = el.innerHTML.replace(/Carrinho/,'Orçamento');
-    }
+    if(/^Orçamento\b/.test(el.textContent.trim())) el.innerHTML = el.innerHTML.replace(/Orçamento/,'Carrinho');
   });
   scrubSupplierLinks();
   initBannerSlider();

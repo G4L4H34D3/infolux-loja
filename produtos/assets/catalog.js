@@ -27,19 +27,23 @@
   }
   function esc(s){ return String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
 
+  function fmtBRL(n){ return Number(n).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}); }
+  function cartJSON(p){ return JSON.stringify({id:p.id,slug:p.slug,name:p.name,image:p.image||'',price:p.price_infolux,category:p.category||'',sub:p.subcategory||'',weight:p.weight??null}).replace(/'/g,'&#39;'); }
   function cardHTML(p){
     const href = productHref(p.slug);
     const img = imgSrc(p.image);
+    const priced = p.id && Number(p.price_infolux) > 0;
+    const buy = priced
+      ? `<div class="price-tag"><span class="price">${fmtBRL(p.price_infolux)}</span><small>Pix, boleto ou cartão</small></div>
+        <button class="btn btn-primary" type="button" onclick='addToCart(${cartJSON(p)})'>Adicionar ao carrinho</button>`
+      : `<button class="btn btn-primary btn-wa" type="button" data-wa-name="${esc(p.name)}" data-wa-slug="${esc(p.slug)}">Consulte no WhatsApp</button>
+        <div class="cta"><a class="btn btn-dark" href="${href}">Ver</a></div>`;
     return `<article class="card" data-product-card data-slug="${esc(p.slug)}" data-sub="${esc(p.subcategory||'')}" data-brand="${esc(p.brand||'')}">
       <a class="thumb" href="${href}"><img src="${esc(img)}" alt="${esc(p.name)}" loading="lazy" width="400" height="400"></a>
       <div class="body">
         <div class="brand">${esc(p.brand||p.subcategory||'')}</div>
         <h3><a href="${href}">${esc(p.name)}</a></h3>
-        <button class="btn btn-primary btn-wa" type="button" data-wa-name="${esc(p.name)}" data-wa-slug="${esc(p.slug)}">Consulte no WhatsApp</button>
-        <div class="cta">
-          <a class="btn btn-dark" href="${href}">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart(${JSON.stringify({slug:p.slug,name:p.name,image:p.image||""})})'>Orçamento</button>
-        </div>
+        ${buy}
       </div>
     </article>`;
   }
@@ -51,6 +55,7 @@
     const mode = sortSel?.value || 'name';
     list.sort((a,b)=>{
       if(mode==='name-desc') return b.name.localeCompare(a.name,'pt-BR');
+      if(mode==='price-asc'||mode==='price-desc'){ const pa=a.price_infolux||Infinity, pb=b.price_infolux||Infinity; if(pa!==pb) return mode==='price-asc'? pa-pb : (pb===Infinity?-1:pa===Infinity?1:pb-pa); }
       if(mode==='brand') return (`${a.brand||''}${a.name}`).localeCompare(`${b.brand||''}${b.name}`,'pt-BR');
       return a.name.localeCompare(b.name,'pt-BR');
     });

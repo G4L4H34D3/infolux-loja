@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Carrinho — INFOLUX</title>
+<meta name="theme-color" content="#F80000">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
+<link rel="stylesheet" href="assets/styles.css?v=20261018c">
+</head>
+<body>
+
+  <div class="topbar"><div class="inner">
+    <span>INFOLUX Informática · Garantia 90 dias · Seg–Sáb 7h–20h</span>
+    <span><a href="https://instagram.com/infoluxinformaticabr">@infoluxinformaticabr</a> · <a href="https://wa.me/5566992070127?text=Ol%C3%A1%20Lucas%2C%20vim%20pelo%20site%20da%20INFOLUX" target="_blank" rel="noopener">WhatsApp (66) 99207-0127</a> · infolux.app</span>
+  </div></div>
+  <header class="header">
+    <div class="m-logo-row">
+      <button class="btn-icon" type="button" aria-label="Menu" onclick="openNav()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <a class="m-logo" href="index.html"><img src="assets/logo-infolux.svg" alt="INFOLUX"></a>
+      <button class="btn-icon cart-btn" type="button" aria-label="Orçamento" onclick="openCart()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h7.4a2 2 0 0 0 2-1.5L21 7H7"/></svg>
+        <span class="cart-badge" data-cart-count>0</span>
+      </button>
+    </div>
+    <div class="search-mobile">
+      <form action="busca.html" method="get">
+        <input type="search" name="q" placeholder="Buscar" aria-label="Buscar">
+        <button type="submit" aria-label="Buscar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        </button>
+      </form>
+    </div>
+    <div class="d-header">
+      <a class="d-logo" href="index.html">
+        <img src="assets/logo-infolux.svg" alt="INFOLUX">
+        <div><strong>INFOLUX</strong><small>infolux.app</small></div>
+      </a>
+      <form class="d-search" action="busca.html" method="get">
+        <input type="search" name="q" placeholder="Buscar produtos, marcas, modelos...">
+        <button type="submit">Buscar</button>
+      </form>
+      <div style="display:flex;gap:8px">
+        <a class="btn" href="mailto:infolux.snd@gmail.com">Entrar</a>
+        <button class="btn btn-primary" type="button" onclick="openCart()">Orçamento (<span data-cart-count>0</span>)</button>
+      </div>
+    </div>
+    <nav class="d-nav"><div class="inner">
+      <button type="button" data-mega-toggle>☰ Categorias</button>
+      <a href="categorias/pcs-notebooks-e-acessorios.html">PCs, Notebooks e Acessórios</a><a href="categorias/impressao.html">Impressão</a><a href="categorias/rede-e-internet.html">Rede e Internet</a><a href="categorias/automacao-comercial.html">Automação Comercial</a><a href="categorias/cameras-e-alarmes.html">Câmeras e Alarmes</a><a href="categorias/eletronicos-audio-e-video.html">Eletrônicos, Áudio e Vídeo</a><a href="categorias/material-de-escritorio.html">Material de Escritório</a>
+      <a href="index.html#diferenciais">Diferenciais</a><a href="index.html#servicos">Serviços</a><a href="empresa.html">A Empresa</a><a href="index.html#ofertas" style="color:#fff;font-weight:700">Ofertas</a>
+    </div></nav>
+    <div class="mega" data-mega hidden><div class="mega-grid"><div><h4><a href="categorias/pcs-notebooks-e-acessorios.html">PCs, Notebooks e Acessórios</a></h4><a href="categorias/pcs-notebooks-e-acessorios.html?sub=acessorios-para-pcs">Acessórios para PCs</a><a href="categorias/pcs-notebooks-e-acessorios.html?sub=armazenamento">Armazenamento</a><a href="categorias/pcs-notebooks-e-acessorios.html?sub=componentes">Componentes</a><a href="categorias/pcs-notebooks-e-acessorios.html?sub=computadores">Computadores</a><a href="categorias/pcs-notebooks-e-acessorios.html?sub=monitores">Monitores</a><a href="categorias/pcs-notebooks-e-acessorios.html?sub=mouses-e-teclados">Mouses e Teclados</a><a href="categorias/pcs-notebooks-e-acessorios.html?sub=nobreaks-e-estabilizadores">Nobreaks e Estabilizadores</a><a href="categorias/pcs-notebooks-e-acessorios.html?sub=notebooks">Notebooks</a></div><div><h4><a href="categorias/impressao.html">Impressão</a></h4><a href="categorias/impressao.html?sub=impressoras">Impressoras</a><a href="categorias/impressao.html?sub=impressao">Impressão</a><a href="categorias/impressao.html?sub=papeis-para-impressao">Papéis para Impressão</a><a href="categorias/impressao.html?sub=toners-e-cartuchos">Toners e Cartuchos</a></div><div><h4><a href="categorias/rede-e-internet.html">Rede e Internet</a></h4><a href="categorias/rede-e-internet.html?sub=rede-e-internet">Rede e Internet</a><a href="categorias/rede-e-internet.html?sub=starlink-e-antenas">Starlink e Antenas</a><a href="categorias/rede-e-internet.html?sub=switches-e-cabos-de-rede">Switches e Cabos de Rede</a><a href="categorias/rede-e-internet.html?sub=wi-fi-e-roteadores">Wi-Fi e Roteadores</a></div><div><h4><a href="categorias/automacao-comercial.html">Automação Comercial</a></h4><a href="categorias/automacao-comercial.html?sub=automacao-comercial">Automação Comercial</a><a href="categorias/automacao-comercial.html?sub=pdv-e-leitores">PDV e Leitores</a></div><div><h4><a href="categorias/cameras-e-alarmes.html">Câmeras e Alarmes</a></h4><a href="categorias/cameras-e-alarmes.html?sub=alarmes-e-sensores">Alarmes e Sensores</a><a href="categorias/cameras-e-alarmes.html?sub=cameras-de-seguranca">Câmeras de Segurança</a></div><div><h4><a href="categorias/eletronicos-audio-e-video.html">Eletrônicos, Áudio e Vídeo</a></h4><a href="categorias/eletronicos-audio-e-video.html?sub=cabos-e-adaptadores">Cabos e Adaptadores</a><a href="categorias/eletronicos-audio-e-video.html?sub=eletronicos">Eletrônicos</a><a href="categorias/eletronicos-audio-e-video.html?sub=energia-e-fontes">Energia e Fontes</a><a href="categorias/eletronicos-audio-e-video.html?sub=audio">Áudio</a></div><div><h4><a href="categorias/material-de-escritorio.html">Material de Escritório</a></h4><a href="categorias/material-de-escritorio.html?sub=material-de-escritorio">Material de Escritório</a><a href="categorias/material-de-escritorio.html?sub=papelaria">Papelaria</a></div></div></div>
+  </header>
+  <div class="nav-drawer" id="navDrawer" style="display:none" onclick="if(event.target===this)closeNav()">
+    <div class="nav-panel">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <h3>Categorias</h3>
+        <button class="btn" type="button" onclick="closeNav()">Fechar</button>
+      </div>
+      <a href="categorias/pcs-notebooks-e-acessorios.html"><strong>PCs, Notebooks e Acessórios</strong></a><a class="sub" href="categorias/pcs-notebooks-e-acessorios.html?sub=acessorios-para-pcs">Acessórios para PCs</a><a class="sub" href="categorias/pcs-notebooks-e-acessorios.html?sub=armazenamento">Armazenamento</a><a class="sub" href="categorias/pcs-notebooks-e-acessorios.html?sub=componentes">Componentes</a><a class="sub" href="categorias/pcs-notebooks-e-acessorios.html?sub=computadores">Computadores</a><a class="sub" href="categorias/pcs-notebooks-e-acessorios.html?sub=monitores">Monitores</a><a class="sub" href="categorias/pcs-notebooks-e-acessorios.html?sub=mouses-e-teclados">Mouses e Teclados</a><a href="categorias/impressao.html"><strong>Impressão</strong></a><a class="sub" href="categorias/impressao.html?sub=impressoras">Impressoras</a><a class="sub" href="categorias/impressao.html?sub=impressao">Impressão</a><a class="sub" href="categorias/impressao.html?sub=papeis-para-impressao">Papéis para Impressão</a><a class="sub" href="categorias/impressao.html?sub=toners-e-cartuchos">Toners e Cartuchos</a><a href="categorias/rede-e-internet.html"><strong>Rede e Internet</strong></a><a class="sub" href="categorias/rede-e-internet.html?sub=rede-e-internet">Rede e Internet</a><a class="sub" href="categorias/rede-e-internet.html?sub=starlink-e-antenas">Starlink e Antenas</a><a class="sub" href="categorias/rede-e-internet.html?sub=switches-e-cabos-de-rede">Switches e Cabos de Rede</a><a class="sub" href="categorias/rede-e-internet.html?sub=wi-fi-e-roteadores">Wi-Fi e Roteadores</a><a href="categorias/automacao-comercial.html"><strong>Automação Comercial</strong></a><a class="sub" href="categorias/automacao-comercial.html?sub=automacao-comercial">Automação Comercial</a><a class="sub" href="categorias/automacao-comercial.html?sub=pdv-e-leitores">PDV e Leitores</a><a href="categorias/cameras-e-alarmes.html"><strong>Câmeras e Alarmes</strong></a><a class="sub" href="categorias/cameras-e-alarmes.html?sub=alarmes-e-sensores">Alarmes e Sensores</a><a class="sub" href="categorias/cameras-e-alarmes.html?sub=cameras-de-seguranca">Câmeras de Segurança</a><a href="categorias/eletronicos-audio-e-video.html"><strong>Eletrônicos, Áudio e Vídeo</strong></a><a class="sub" href="categorias/eletronicos-audio-e-video.html?sub=cabos-e-adaptadores">Cabos e Adaptadores</a><a class="sub" href="categorias/eletronicos-audio-e-video.html?sub=eletronicos">Eletrônicos</a><a class="sub" href="categorias/eletronicos-audio-e-video.html?sub=energia-e-fontes">Energia e Fontes</a><a class="sub" href="categorias/eletronicos-audio-e-video.html?sub=audio">Áudio</a><a href="categorias/material-de-escritorio.html"><strong>Material de Escritório</strong></a><a class="sub" href="categorias/material-de-escritorio.html?sub=material-de-escritorio">Material de Escritório</a><a class="sub" href="categorias/material-de-escritorio.html?sub=papelaria">Papelaria</a>
+    </div>
+  </div>
+  <div class="cart-drawer" id="cartDrawer" style="display:none" onclick="if(event.target===this)closeCart()">
+    <div class="cart-panel">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h2 style="margin:0;font-size:18px">Orçamento</h2>
+        <button class="btn" type="button" onclick="closeCart()">Fechar</button>
+      </div>
+      <div id="cartItems"></div>
+      <div id="cartTotals"></div>
+    </div>
+  </div>
+<main>
+<p class="crumb"><a href="index.html">Início</a> / Carrinho</p>
+<div class="section-head" style="padding-top:4px"><h1 style="margin:0;font-size:22px">Carrinho</h1></div>
+<div class="checkout-wrap" id="checkout">
+  <div style="display:grid;gap:20px;align-content:start">
+    <section class="co-card"><h2><span class="step">1</span>Itens</h2><div id="coItems"></div></section>
+    <section class="co-card"><h2><span class="step">2</span>Entrega</h2>
+      <form id="coCepForm" class="co-grid" autocomplete="on">
+        <label>CEP de destino<input id="coCep" name="postal-code" inputmode="numeric" maxlength="9" placeholder="00000-000" autocomplete="postal-code" required></label>
+        <label>&nbsp;<button class="btn btn-primary" type="submit" style="height:44px">Calcular frete</button></label>
+      </form>
+      <div class="co-msg" id="coCepMsg" aria-live="polite"></div>
+      <div id="coShip"></div>
+    </section>
+    <section class="co-card"><h2><span class="step">3</span>Seus dados</h2>
+      <form id="coForm" class="co-grid" autocomplete="on" novalidate>
+        <label class="full">Nome completo / Razão social<input name="name" autocomplete="name" required></label>
+        <label>CPF ou CNPJ<input name="cpfCnpj" inputmode="numeric" required></label>
+        <label>Telefone / WhatsApp<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required></label>
+        <label class="full">E-mail<input name="email" type="email" autocomplete="email" required></label>
+        <label class="full">Endereço (rua)<input name="address" autocomplete="address-line1" required></label>
+        <label>Número<input name="addressNumber" required></label>
+        <label>Complemento<input name="complement" autocomplete="address-line2"></label>
+        <label>Bairro<input name="province" required></label>
+        <label>Cidade<input name="city" autocomplete="address-level2" required></label>
+        <label>UF<input name="state" maxlength="2" autocomplete="address-level1" required></label>
+      </form>
+    </section>
+  </div>
+  <aside class="co-card" style="align-self:start;position:sticky;top:12px">
+    <h2>Resumo do pedido</h2>
+    <div class="cart-sum"><span>Subtotal</span><strong id="coSub">R$ 0,00</strong></div>
+    <div class="cart-sum"><span>Frete</span><strong id="coFrete">—</strong></div>
+    <div class="cart-sum total"><span>Total</span><strong id="coTotal">R$ 0,00</strong></div>
+    <p style="font-size:12px;color:#666">Pix, boleto ou cartão: você escolhe na página de pagamento segura da Asaas.</p>
+    <button class="btn btn-primary btn-block" type="button" id="coPay">Ir para o pagamento</button>
+    <button class="btn btn-block btn-wa-final" type="button" id="coWa" style="margin-top:8px">Finalizar pelo WhatsApp</button>
+    <div class="co-msg" id="coMsg" aria-live="polite"></div>
+    <p class="co-secure">Preços e frete são recalculados no servidor. Frete estimado; confirmado no envio.</p>
+  </aside>
+</div>
+</main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/logo-infolux-white.svg" alt="INFOLUX">
+        <p>INFOLUX Informática — tecnologia para empresas, fazendas e casas.</p>
+        <p>CNPJ 11.539.876/0001-27 · <a href="https://infolux.app">infolux.app</a></p>
+      </div>
+      <div><h4>Lojas</h4><ul>
+        <li>Serra Nova Dourada-MT — Av. dos Esportes, Qd 32 Lt 6</li>
+        <li>Espigão do Leste (São Félix do Araguaia-MT)</li>
+        <li>Seg–Sáb 7h–20h</li>
+      </ul></div>
+      <div><h4>Contato</h4><ul>
+        <li>WhatsApp: <a href="https://wa.me/5566992070127?text=Ol%C3%A1%20Lucas%2C%20vim%20pelo%20site%20da%20INFOLUX" target="_blank" rel="noopener">WhatsApp (66) 99207-0127</a></li>
+        <li><a href="https://instagram.com/infoluxinformaticabr">@infoluxinformaticabr</a></li>
+        <li><a href="mailto:infolux.snd@gmail.com">infolux.snd@gmail.com</a></li>
+      </ul></div>
+    </div>
+    <div class="copy">© 2010–2026 INFOLUX · cores vermelho/preto/branco · imagens locais</div>
+  </footer>
+  <script src="assets/app.js?v=20261018c"></script>
+<script src="assets/checkout-config.js"></script>
+<script defer src="assets/frete.js"></script>
+<script defer src="assets/checkout.js?v=20261018c"></script>
+</body></html>
