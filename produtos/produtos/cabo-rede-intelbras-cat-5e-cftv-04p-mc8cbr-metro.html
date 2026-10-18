@@ -20,7 +20,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
       <a class="m-logo" href="../index.html"><img src="../assets/logo-infolux.svg" alt="INFOLUX"></a>
-      <button class="btn-icon cart-btn" type="button" aria-label="Carrinho" onclick="openCart()">
+      <button class="btn-icon cart-btn" type="button" aria-label="Orçamento" onclick="openCart()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h7.4a2 2 0 0 0 2-1.5L21 7H7"/></svg>
         <span class="cart-badge" data-cart-count>0</span>
       </button>
@@ -44,7 +44,7 @@
       </form>
       <div style="display:flex;gap:8px">
         <a class="btn" href="mailto:infolux.snd@gmail.com">Entrar</a>
-        <button class="btn btn-primary" type="button" onclick="openCart()">Carrinho (<span data-cart-count>0</span>)</button>
+        <button class="btn btn-primary" type="button" onclick="openCart()">Orçamento (<span data-cart-count>0</span>)</button>
       </div>
     </div>
     <nav class="d-nav"><div class="inner">
@@ -66,7 +66,7 @@
   <div class="cart-drawer" id="cartDrawer" style="display:none" onclick="if(event.target===this)closeCart()">
     <div class="cart-panel">
       <div style="display:flex;justify-content:space-between;align-items:center">
-        <h2 style="margin:0;font-size:18px">Carrinho</h2>
+        <h2 style="margin:0;font-size:18px">Orçamento</h2>
         <button class="btn" type="button" onclick="closeCart()">Fechar</button>
       </div>
       <div id="cartItems"></div>
@@ -80,17 +80,13 @@
       <div>
         <div class="brand">INTELBRAS</div>
         <h1>Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro</h1>
-        <div class="note" style="margin:8px 0">Preço referência editável · products.json / produtos.csv</div>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="2,75"></div>
-        <div class="pix" data-pix>R$ 2,34 no Pix (ref.)</div>
-        <div class="install" data-parc>6x de R$ 0,46 sem juros (ref.)</div>
-        <div style="display:grid;gap:8px;margin:14px 0">
-          <button class="btn btn-primary btn-block" type="button" onclick='addToCart({"slug": "cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro", "name": "Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro", "price": 2.75, "image": "../assets/products/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.webp"})'>Adicionar ao carrinho</button>
-          <a class="btn btn-dark btn-block" href="#" onclick="checkoutWhatsApp();return false">Comprar no WhatsApp</a>
+<div style="display:grid;gap:8px;margin:14px 0">
+          <button class="btn btn-primary btn-block btn-wa" type="button" data-wa-name="Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro" data-wa-slug="cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro">Consulte no WhatsApp</button>
+          <button class="btn btn-primary btn-block" type="button" onclick='addToCart({"slug": "cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro", "name": "Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro", "image": "../assets/products/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.webp"})'>Adicionar ao orçamento</button>
+          
         </div>
         <h3 style="font-size:15px">Descrição</h3>
-        <p style="color:var(--muted)">Compre online Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro por R$2,75. Faça seu pedido e pague-o online.</p>
+        <p style="color:var(--muted)">Compre online Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro Faça seu pedido e pague-o online.</p>
         <h3 style="font-size:15px">Especificações</h3>
         <ul class="specs"><li><span>SKU</span><span>202215486</span></li><li><span>Marca</span><span>INTELBRAS</span></li><li><span>Categoria</span><span>Câmeras de Segurança</span></li></ul>
       </div>

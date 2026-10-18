@@ -20,7 +20,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
       <a class="m-logo" href="../index.html"><img src="../assets/logo-infolux.svg" alt="INFOLUX"></a>
-      <button class="btn-icon cart-btn" type="button" aria-label="Carrinho" onclick="openCart()">
+      <button class="btn-icon cart-btn" type="button" aria-label="Orçamento" onclick="openCart()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h7.4a2 2 0 0 0 2-1.5L21 7H7"/></svg>
         <span class="cart-badge" data-cart-count>0</span>
       </button>
@@ -44,7 +44,7 @@
       </form>
       <div style="display:flex;gap:8px">
         <a class="btn" href="mailto:infolux.snd@gmail.com">Entrar</a>
-        <button class="btn btn-primary" type="button" onclick="openCart()">Carrinho (<span data-cart-count>0</span>)</button>
+        <button class="btn btn-primary" type="button" onclick="openCart()">Orçamento (<span data-cart-count>0</span>)</button>
       </div>
     </div>
     <nav class="d-nav"><div class="inner">
@@ -66,7 +66,7 @@
   <div class="cart-drawer" id="cartDrawer" style="display:none" onclick="if(event.target===this)closeCart()">
     <div class="cart-panel">
       <div style="display:flex;justify-content:space-between;align-items:center">
-        <h2 style="margin:0;font-size:18px">Carrinho</h2>
+        <h2 style="margin:0;font-size:18px">Orçamento</h2>
         <button class="btn" type="button" onclick="closeCart()">Fechar</button>
       </div>
       <div id="cartItems"></div>
@@ -88,1173 +88,913 @@
         <h3 style="margin-top:10px">Marcas</h3><div id="brandFilters"><label><input type="checkbox" value="CONDUTTI"> CONDUTTI</label><label><input type="checkbox" value="EZVIZ"> EZVIZ</label><label><input type="checkbox" value="FC FONTES"> FC FONTES</label><label><input type="checkbox" value="FOSGOLD"> FOSGOLD</label><label><input type="checkbox" value="GEONAV"> GEONAV</label><label><input type="checkbox" value="Geonav"> Geonav</label><label><input type="checkbox" value="Green"> Green</label><label><input type="checkbox" value="INTELBRAS"> INTELBRAS</label><label><input type="checkbox" value="Intelbras"> Intelbras</label><label><input type="checkbox" value="MPT"> MPT</label><label><input type="checkbox" value="SEAGATE"> SEAGATE</label><label><input type="checkbox" value="TELECAM"> TELECAM</label><label><input type="checkbox" value="TP-LINK"> TP-LINK</label><label><input type="checkbox" value="WEG"> WEG</label></div>
       </aside>
       <div class="grid" id="catGrid">
-    <article class="card" data-product-card data-slug="bateria-weg-selada-12v-1-3ah-alarme-13801079" data-sub="Alarmes e Sensores" data-brand="WEG" data-price="180.0">
+    <article class="card" data-product-card data-slug="bateria-weg-selada-12v-1-3ah-alarme-13801079" data-sub="Alarmes e Sensores" data-brand="WEG">
       <a class="thumb" href="../produtos/bateria-weg-selada-12v-1-3ah-alarme-13801079.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/bateria-weg-selada-12v-1-3ah-alarme-13801079.webp" alt="BATERIA WEG SELADA 12V 1.3AH ALARME (13801079)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">WEG</div>
         <h3><a href="../produtos/bateria-weg-selada-12v-1-3ah-alarme-13801079.html">BATERIA WEG SELADA 12V 1.3AH ALARME (13801079)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="180,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 153,00 no Pix</div>
-        <div class="install" data-parc>6x de R$ 30,00</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/bateria-weg-selada-12v-1-3ah-alarme-13801079.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "bateria-weg-selada-12v-1-3ah-alarme-13801079", "name": "BATERIA WEG SELADA 12V 1.3AH ALARME (13801079)", "price": 180.0, "image": "../assets/products/bateria-weg-selada-12v-1-3ah-alarme-13801079.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="BATERIA WEG SELADA 12V 1.3AH ALARME (13801079)" data-wa-slug="bateria-weg-selada-12v-1-3ah-alarme-13801079">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/bateria-weg-selada-12v-1-3ah-alarme-13801079.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "bateria-weg-selada-12v-1-3ah-alarme-13801079", "name": "BATERIA WEG SELADA 12V 1.3AH ALARME (13801079)", "image": "../assets/products/bateria-weg-selada-12v-1-3ah-alarme-13801079.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco" data-sub="Câmeras de Segurança" data-brand="CONDUTTI" data-price="175.2">
+    <article class="card" data-product-card data-slug="cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco" data-sub="Câmeras de Segurança" data-brand="CONDUTTI">
       <a class="thumb" href="../produtos/cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco.webp" alt="Cabo Coaxial Condutti Cftv 4Mm 85% 75Ohm 2X26Awg Caixa 100M - Branco" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">CONDUTTI</div>
         <h3><a href="../produtos/cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco.html">Cabo Coaxial Condutti Cftv 4Mm 85% 75Ohm 2X26Awg Caixa 100M - Branco</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="175,20" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 148,92 no Pix</div>
-        <div class="install" data-parc>6x de R$ 29,20</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco", "name": "Cabo Coaxial Condutti Cftv 4Mm 85% 75Ohm 2X26Awg Caixa 100M - Branco", "price": 175.2, "image": "../assets/products/cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cabo Coaxial Condutti Cftv 4Mm 85% 75Ohm 2X26Awg Caixa 100M - Branco" data-wa-slug="cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco", "name": "Cabo Coaxial Condutti Cftv 4Mm 85% 75Ohm 2X26Awg Caixa 100M - Branco", "image": "../assets/products/cabo-coaxial-condutti-cftv-4mm-85-75ohm-2x26awg-caixa-100m-branco.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501" data-sub="Câmeras de Segurança" data-brand="TELECAM" data-price="239.6">
+    <article class="card" data-product-card data-slug="cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501" data-sub="Câmeras de Segurança" data-brand="TELECAM">
       <a class="thumb" href="../produtos/cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501.webp" alt="Cabo Coaxial Telecam Cftv 4 Mm 85% 26Awg Caixa 100M - Branco (200607501)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">TELECAM</div>
         <h3><a href="../produtos/cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501.html">Cabo Coaxial Telecam Cftv 4 Mm 85% 26Awg Caixa 100M - Branco (200607501)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="239,60" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 203,66 no Pix</div>
-        <div class="install" data-parc>6x de R$ 39,93</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501", "name": "Cabo Coaxial Telecam Cftv 4 Mm 85% 26Awg Caixa 100M - Branco (200607501)", "price": 239.6, "image": "../assets/products/cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cabo Coaxial Telecam Cftv 4 Mm 85% 26Awg Caixa 100M - Branco (200607501)" data-wa-slug="cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501", "name": "Cabo Coaxial Telecam Cftv 4 Mm 85% 26Awg Caixa 100M - Branco (200607501)", "image": "../assets/products/cabo-coaxial-telecam-cftv-4-mm-85-26awg-caixa-100m-branco-200607501.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="485.0">
+    <article class="card" data-product-card data-slug="cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m.webp" alt="Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Caixa 300M" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m.html">Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Caixa 300M</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="485,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 412,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 80,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m", "name": "Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Caixa 300M", "price": 485.0, "image": "../assets/products/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Caixa 300M" data-wa-slug="cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m", "name": "Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Caixa 300M", "image": "../assets/products/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-caixa-300m.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="2.75">
+    <article class="card" data-product-card data-slug="cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.webp" alt="Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.html">Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="2,75" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 2,34 no Pix</div>
-        <div class="install" data-parc>6x de R$ 0,46</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro", "name": "Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro", "price": 2.75, "image": "../assets/products/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro" data-wa-slug="cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro", "name": "Cabo Rede Intelbras Cat.5E Cftv 04P Mc8Cbr - Metro", "image": "../assets/products/cabo-rede-intelbras-cat-5e-cftv-04p-mc8cbr-metro.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="850.0">
+    <article class="card" data-product-card data-slug="cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m.webp" alt="Cabo Rede Intelbras Cat.5E Cmx Impact - Caixa 305M" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m.html">Cabo Rede Intelbras Cat.5E Cmx Impact - Caixa 305M</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="850,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 722,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 141,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m", "name": "Cabo Rede Intelbras Cat.5E Cmx Impact - Caixa 305M", "price": 850.0, "image": "../assets/products/cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cabo Rede Intelbras Cat.5E Cmx Impact - Caixa 305M" data-wa-slug="cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m", "name": "Cabo Rede Intelbras Cat.5E Cmx Impact - Caixa 305M", "image": "../assets/products/cabo-rede-intelbras-cat-5e-cmx-impact-caixa-305m.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m" data-sub="Câmeras de Segurança" data-brand="MPT" data-price="768.6">
+    <article class="card" data-product-card data-slug="cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m" data-sub="Câmeras de Segurança" data-brand="MPT">
       <a class="thumb" href="../produtos/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m.webp" alt="Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Caixa 305M" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">MPT</div>
         <h3><a href="../produtos/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m.html">Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Caixa 305M</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="768,60" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 653,31 no Pix</div>
-        <div class="install" data-parc>6x de R$ 128,10</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m", "name": "Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Caixa 305M", "price": 768.6, "image": "../assets/products/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Caixa 305M" data-wa-slug="cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m", "name": "Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Caixa 305M", "image": "../assets/products/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-caixa-305m.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro" data-sub="Câmeras de Segurança" data-brand="MPT" data-price="3.9">
+    <article class="card" data-product-card data-slug="cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro" data-sub="Câmeras de Segurança" data-brand="MPT">
       <a class="thumb" href="../produtos/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro.webp" alt="Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Metro" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">MPT</div>
         <h3><a href="../produtos/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro.html">Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Metro</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="3,90" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 3,31 no Pix</div>
-        <div class="install" data-parc>6x de R$ 0,65</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro", "name": "Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Metro", "price": 3.9, "image": "../assets/products/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Metro" data-wa-slug="cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro", "name": "Cabo Rede Mpt Cftv 24Awgx4P Cmx Int/Ext Pt Cb - Metro", "image": "../assets/products/cabo-rede-mpt-cftv-24awgx4p-cmx-int-ext-pt-cb-metro.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cabo-rca-10m-emenda-rca-simples-femea-p-camera-re" data-sub="Câmeras de Segurança" data-brand="" data-price="225.0">
+    <article class="card" data-product-card data-slug="cabo-rca-10m-emenda-rca-simples-femea-p-camera-re" data-sub="Câmeras de Segurança" data-brand="">
       <a class="thumb" href="../produtos/cabo-rca-10m-emenda-rca-simples-femea-p-camera-re.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cabo-rca-10m-emenda-rca-simples-femea-p-camera-re.webp" alt="Cabo Video Importado Rca 10M+Emenda Rca Femea P/ Camera Ré" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Câmeras de Segurança</div>
         <h3><a href="../produtos/cabo-rca-10m-emenda-rca-simples-femea-p-camera-re.html">Cabo Video Importado Rca 10M+Emenda Rca Femea P/ Camera Ré</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="225,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 191,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 37,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cabo-rca-10m-emenda-rca-simples-femea-p-camera-re.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rca-10m-emenda-rca-simples-femea-p-camera-re", "name": "Cabo Video Importado Rca 10M+Emenda Rca Femea P/ Camera Ré", "price": 225.0, "image": "../assets/products/cabo-rca-10m-emenda-rca-simples-femea-p-camera-re.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cabo Video Importado Rca 10M+Emenda Rca Femea P/ Camera Ré" data-wa-slug="cabo-rca-10m-emenda-rca-simples-femea-p-camera-re">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cabo-rca-10m-emenda-rca-simples-femea-p-camera-re.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cabo-rca-10m-emenda-rca-simples-femea-p-camera-re", "name": "Cabo Video Importado Rca 10M+Emenda Rca Femea P/ Camera Ré", "image": "../assets/products/cabo-rca-10m-emenda-rca-simples-femea-p-camera-re.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn" data-sub="Câmeras de Segurança" data-brand="EZVIZ" data-price="725.0">
+    <article class="card" data-product-card data-slug="camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn" data-sub="Câmeras de Segurança" data-brand="EZVIZ">
       <a class="thumb" href="../produtos/camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn.webp" alt="Camera Ezviz Ip Wi-Fi Bullet 2Mp Inteligente C3Tn" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">EZVIZ</div>
         <h3><a href="../produtos/camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn.html">Camera Ezviz Ip Wi-Fi Bullet 2Mp Inteligente C3Tn</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="725,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 616,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 120,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn", "name": "Camera Ezviz Ip Wi-Fi Bullet 2Mp Inteligente C3Tn", "price": 725.0, "image": "../assets/products/camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Ezviz Ip Wi-Fi Bullet 2Mp Inteligente C3Tn" data-wa-slug="camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn", "name": "Camera Ezviz Ip Wi-Fi Bullet 2Mp Inteligente C3Tn", "image": "../assets/products/camera-ezviz-ip-wi-fi-bullet-2mp-inteligente-c3tn.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c" data-sub="Câmeras de Segurança" data-brand="EZVIZ" data-price="1248.0">
+    <article class="card" data-product-card data-slug="camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c" data-sub="Câmeras de Segurança" data-brand="EZVIZ">
       <a class="thumb" href="../produtos/camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c.webp" alt="Camera Ezviz Ip Wi-Fi Luminaria 2Mp Lc1C" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">EZVIZ</div>
         <h3><a href="../produtos/camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c.html">Camera Ezviz Ip Wi-Fi Luminaria 2Mp Lc1C</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="1.248,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.060,80 no Pix</div>
-        <div class="install" data-parc>6x de R$ 208,00</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c", "name": "Camera Ezviz Ip Wi-Fi Luminaria 2Mp Lc1C", "price": 1248.0, "image": "../assets/products/camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Ezviz Ip Wi-Fi Luminaria 2Mp Lc1C" data-wa-slug="camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c", "name": "Camera Ezviz Ip Wi-Fi Luminaria 2Mp Lc1C", "image": "../assets/products/camera-ezviz-ip-wi-fi-luminaria-2mp-lc1c.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c" data-sub="Câmeras de Segurança" data-brand="EZVIZ" data-price="900.0">
+    <article class="card" data-product-card data-slug="camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c" data-sub="Câmeras de Segurança" data-brand="EZVIZ">
       <a class="thumb" href="../produtos/camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c.webp" alt="Camera Ezviz Ip Wi-Fi Speed Dome 2Mp Fhd C8C" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">EZVIZ</div>
         <h3><a href="../produtos/camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c.html">Camera Ezviz Ip Wi-Fi Speed Dome 2Mp Fhd C8C</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="900,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 765,00 no Pix</div>
-        <div class="install" data-parc>6x de R$ 150,00</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c", "name": "Camera Ezviz Ip Wi-Fi Speed Dome 2Mp Fhd C8C", "price": 900.0, "image": "../assets/products/camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Ezviz Ip Wi-Fi Speed Dome 2Mp Fhd C8C" data-wa-slug="camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c", "name": "Camera Ezviz Ip Wi-Fi Speed Dome 2Mp Fhd C8C", "image": "../assets/products/camera-ezviz-ip-wi-fi-speed-dome-2mp-fhd-c8c.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd" data-sub="Câmeras de Segurança" data-brand="GEONAV" data-price="665.0">
+    <article class="card" data-product-card data-slug="camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd" data-sub="Câmeras de Segurança" data-brand="GEONAV">
       <a class="thumb" href="../produtos/camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd.webp" alt="Camera Geonav Mini Bullet Inteligente Bateria 1080P Full Hd" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">GEONAV</div>
         <h3><a href="../produtos/camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd.html">Camera Geonav Mini Bullet Inteligente Bateria 1080P Full Hd</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="665,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 565,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 110,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd", "name": "Camera Geonav Mini Bullet Inteligente Bateria 1080P Full Hd", "price": 665.0, "image": "../assets/products/camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Geonav Mini Bullet Inteligente Bateria 1080P Full Hd" data-wa-slug="camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd", "name": "Camera Geonav Mini Bullet Inteligente Bateria 1080P Full Hd", "image": "../assets/products/camera-geonav-mini-bullet-inteligente-bateria-1080p-full-hd.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-geonav-panoramica-360-inteligente-branca" data-sub="Câmeras de Segurança" data-brand="GEONAV" data-price="646.4">
+    <article class="card" data-product-card data-slug="camera-geonav-panoramica-360-inteligente-branca" data-sub="Câmeras de Segurança" data-brand="GEONAV">
       <a class="thumb" href="../produtos/camera-geonav-panoramica-360-inteligente-branca.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-geonav-panoramica-360-inteligente-branca.webp" alt="Camera Geonav Panoramica 360 Inteligente Branca" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">GEONAV</div>
         <h3><a href="../produtos/camera-geonav-panoramica-360-inteligente-branca.html">Camera Geonav Panoramica 360 Inteligente Branca</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="646,40" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 549,44 no Pix</div>
-        <div class="install" data-parc>6x de R$ 107,73</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-geonav-panoramica-360-inteligente-branca.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-panoramica-360-inteligente-branca", "name": "Camera Geonav Panoramica 360 Inteligente Branca", "price": 646.4, "image": "../assets/products/camera-geonav-panoramica-360-inteligente-branca.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Geonav Panoramica 360 Inteligente Branca" data-wa-slug="camera-geonav-panoramica-360-inteligente-branca">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-geonav-panoramica-360-inteligente-branca.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-panoramica-360-inteligente-branca", "name": "Camera Geonav Panoramica 360 Inteligente Branca", "image": "../assets/products/camera-geonav-panoramica-360-inteligente-branca.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb" data-sub="Câmeras de Segurança" data-brand="Geonav" data-price="772.6">
+    <article class="card" data-product-card data-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb" data-sub="Câmeras de Segurança" data-brand="Geonav">
       <a class="thumb" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb.webp" alt="Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Geonav</div>
         <h3><a href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb.html">Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="772,60" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 656,71 no Pix</div>
-        <div class="install" data-parc>6x de R$ 128,77</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb", "name": "Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb", "price": 772.6, "image": "../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb" data-wa-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb", "name": "Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb", "image": "../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd" data-sub="Câmeras de Segurança" data-brand="Geonav" data-price="973.88">
+    <article class="card" data-product-card data-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd" data-sub="Câmeras de Segurança" data-brand="Geonav">
       <a class="thumb" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd.webp" alt="Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb Wd" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Geonav</div>
         <h3><a href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd.html">Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb Wd</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="973,88" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 827,80 no Pix</div>
-        <div class="install" data-parc>6x de R$ 162,31</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd", "name": "Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb Wd", "price": 973.88, "image": "../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb Wd" data-wa-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd", "name": "Camera Geonav Panoramica 360 Inteligente Branca + Cartao 32Gb Wd", "image": "../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-32gb-wd.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd" data-sub="Câmeras de Segurança" data-brand="Geonav" data-price="910.5">
+    <article class="card" data-product-card data-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd" data-sub="Câmeras de Segurança" data-brand="Geonav">
       <a class="thumb" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd.webp" alt="Camera Geonav Panoramica 360 Inteligente Branca + Cartao 64Gb Wd" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Geonav</div>
         <h3><a href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd.html">Camera Geonav Panoramica 360 Inteligente Branca + Cartao 64Gb Wd</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="910,50" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 773,92 no Pix</div>
-        <div class="install" data-parc>6x de R$ 151,75</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd", "name": "Camera Geonav Panoramica 360 Inteligente Branca + Cartao 64Gb Wd", "price": 910.5, "image": "../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Geonav Panoramica 360 Inteligente Branca + Cartao 64Gb Wd" data-wa-slug="camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd", "name": "Camera Geonav Panoramica 360 Inteligente Branca + Cartao 64Gb Wd", "image": "../assets/products/camera-geonav-panoramica-360-inteligente-branca-cartao-memoria-64gb-wd.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-1mp-visao-noturna-vhl1120b" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="165.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-1mp-visao-noturna-vhl1120b" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-1mp-visao-noturna-vhl1120b.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-1mp-visao-noturna-vhl1120b.webp" alt="Camera Intelbras Bullet 1Mp Visao Noturna Vhl1120B" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-bullet-1mp-visao-noturna-vhl1120b.html">Camera Intelbras Bullet 1Mp Visao Noturna Vhl1120B</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="165,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 140,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 27,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-1mp-visao-noturna-vhl1120b.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-1mp-visao-noturna-vhl1120b", "name": "Camera Intelbras Bullet 1Mp Visao Noturna Vhl1120B", "price": 165.0, "image": "../assets/products/camera-intelbras-bullet-1mp-visao-noturna-vhl1120b.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet 1Mp Visao Noturna Vhl1120B" data-wa-slug="camera-intelbras-bullet-1mp-visao-noturna-vhl1120b">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-1mp-visao-noturna-vhl1120b.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-1mp-visao-noturna-vhl1120b", "name": "Camera Intelbras Bullet 1Mp Visao Noturna Vhl1120B", "image": "../assets/products/camera-intelbras-bullet-1mp-visao-noturna-vhl1120b.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-2mp-hdcvi-vhl1220b" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="185.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-2mp-hdcvi-vhl1220b" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-2mp-hdcvi-vhl1220b.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-2mp-hdcvi-vhl1220b.webp" alt="Camera Intelbras Bullet 2Mp Hdcvi Vhl1220B" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-bullet-2mp-hdcvi-vhl1220b.html">Camera Intelbras Bullet 2Mp Hdcvi Vhl1220B</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="185,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 157,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 30,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-2mp-hdcvi-vhl1220b.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-2mp-hdcvi-vhl1220b", "name": "Camera Intelbras Bullet 2Mp Hdcvi Vhl1220B", "price": 185.0, "image": "../assets/products/camera-intelbras-bullet-2mp-hdcvi-vhl1220b.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet 2Mp Hdcvi Vhl1220B" data-wa-slug="camera-intelbras-bullet-2mp-hdcvi-vhl1220b">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-2mp-hdcvi-vhl1220b.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-2mp-hdcvi-vhl1220b", "name": "Camera Intelbras Bullet 2Mp Hdcvi Vhl1220B", "image": "../assets/products/camera-intelbras-bullet-2mp-hdcvi-vhl1220b.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-4k-vhd-5830b" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="725.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-4k-vhd-5830b" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-4k-vhd-5830b.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-4k-vhd-5830b.webp" alt="Camera Intelbras Bullet 4K Vhd 5830B" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-bullet-4k-vhd-5830b.html">Camera Intelbras Bullet 4K Vhd 5830B</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="725,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 616,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 120,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-4k-vhd-5830b.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-4k-vhd-5830b", "name": "Camera Intelbras Bullet 4K Vhd 5830B", "price": 725.0, "image": "../assets/products/camera-intelbras-bullet-4k-vhd-5830b.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet 4K Vhd 5830B" data-wa-slug="camera-intelbras-bullet-4k-vhd-5830b">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-4k-vhd-5830b.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-4k-vhd-5830b", "name": "Camera Intelbras Bullet 4K Vhd 5830B", "image": "../assets/products/camera-intelbras-bullet-4k-vhd-5830b.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="253.42">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8.webp" alt="Camera Intelbras Bullet Full Color Multi Hd Vhd 1220B G8" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8.html">Camera Intelbras Bullet Full Color Multi Hd Vhd 1220B G8</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="253,42" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 215,41 no Pix</div>
-        <div class="install" data-parc>6x de R$ 42,24</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8", "name": "Camera Intelbras Bullet Full Color Multi Hd Vhd 1220B G8", "price": 253.42, "image": "../assets/products/camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet Full Color Multi Hd Vhd 1220B G8" data-wa-slug="camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8", "name": "Camera Intelbras Bullet Full Color Multi Hd Vhd 1220B G8", "image": "../assets/products/camera-intelbras-bullet-full-color-multi-hd-vhd-1220b-g8.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-full-color-vhd-3240-g6" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="525.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-full-color-vhd-3240-g6" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-full-color-vhd-3240-g6.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-full-color-vhd-3240-g6.webp" alt="Camera Intelbras Bullet Full Color Vhd 3240 G6" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-bullet-full-color-vhd-3240-g6.html">Camera Intelbras Bullet Full Color Vhd 3240 G6</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="525,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 446,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 87,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-full-color-vhd-3240-g6.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-full-color-vhd-3240-g6", "name": "Camera Intelbras Bullet Full Color Vhd 3240 G6", "price": 525.0, "image": "../assets/products/camera-intelbras-bullet-full-color-vhd-3240-g6.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet Full Color Vhd 3240 G6" data-wa-slug="camera-intelbras-bullet-full-color-vhd-3240-g6">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-full-color-vhd-3240-g6.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-full-color-vhd-3240-g6", "name": "Camera Intelbras Bullet Full Color Vhd 3240 G6", "image": "../assets/products/camera-intelbras-bullet-full-color-vhd-3240-g6.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-vhl-1120b-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="175.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-vhl-1120b-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-vhl-1120b-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-vhl-1120b-g2.webp" alt="Camera Intelbras Bullet Vhl 1120B G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-bullet-vhl-1120b-g2.html">Camera Intelbras Bullet Vhl 1120B G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="175,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 148,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 29,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-vhl-1120b-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-vhl-1120b-g2", "name": "Camera Intelbras Bullet Vhl 1120B G2", "price": 175.0, "image": "../assets/products/camera-intelbras-bullet-vhl-1120b-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet Vhl 1120B G2" data-wa-slug="camera-intelbras-bullet-vhl-1120b-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-vhl-1120b-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-vhl-1120b-g2", "name": "Camera Intelbras Bullet Vhl 1120B G2", "image": "../assets/products/camera-intelbras-bullet-vhl-1120b-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-vhl-1220-g2-branca" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="215.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-vhl-1220-g2-branca" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-vhl-1220-g2-branca.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-vhl-1220-g2-branca.webp" alt="Camera Intelbras Bullet Vhl 1220 G2 Branca" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-bullet-vhl-1220-g2-branca.html">Camera Intelbras Bullet Vhl 1220 G2 Branca</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="215,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 182,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 35,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-vhl-1220-g2-branca.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-vhl-1220-g2-branca", "name": "Camera Intelbras Bullet Vhl 1220 G2 Branca", "price": 215.0, "image": "../assets/products/camera-intelbras-bullet-vhl-1220-g2-branca.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet Vhl 1220 G2 Branca" data-wa-slug="camera-intelbras-bullet-vhl-1220-g2-branca">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-vhl-1220-g2-branca.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-vhl-1220-g2-branca", "name": "Camera Intelbras Bullet Vhl 1220 G2 Branca", "image": "../assets/products/camera-intelbras-bullet-vhl-1220-g2-branca.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-vip-1230b-g51" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="525.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-vip-1230b-g51" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-vip-1230b-g51.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-vip-1230b-g51.webp" alt="Camera Intelbras Bullet Vip 1230B G5" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-bullet-vip-1230b-g51.html">Camera Intelbras Bullet Vip 1230B G5</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="525,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 446,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 87,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-vip-1230b-g51.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-vip-1230b-g51", "name": "Camera Intelbras Bullet Vip 1230B G5", "price": 525.0, "image": "../assets/products/camera-intelbras-bullet-vip-1230b-g51.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet Vip 1230B G5" data-wa-slug="camera-intelbras-bullet-vip-1230b-g51">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-vip-1230b-g51.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-vip-1230b-g51", "name": "Camera Intelbras Bullet Vip 1230B G5", "image": "../assets/products/camera-intelbras-bullet-vip-1230b-g51.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-bullet-vip-1230b-g5" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="550.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-bullet-vip-1230b-g5" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-bullet-vip-1230b-g5.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-bullet-vip-1230b-g5.webp" alt="Camera Intelbras Bullet Vip 1230B G5" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-bullet-vip-1230b-g5.html">Camera Intelbras Bullet Vip 1230B G5</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="550,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 467,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 91,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-bullet-vip-1230b-g5.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-vip-1230b-g5", "name": "Camera Intelbras Bullet Vip 1230B G5", "price": 550.0, "image": "../assets/products/camera-intelbras-bullet-vip-1230b-g5.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Bullet Vip 1230B G5" data-wa-slug="camera-intelbras-bullet-vip-1230b-g5">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-bullet-vip-1230b-g5.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-bullet-vip-1230b-g5", "name": "Camera Intelbras Bullet Vip 1230B G5", "image": "../assets/products/camera-intelbras-bullet-vip-1230b-g5.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-dome-1080p-fhd-vhd-1220d" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="258.79">
+    <article class="card" data-product-card data-slug="camera-intelbras-dome-1080p-fhd-vhd-1220d" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-dome-1080p-fhd-vhd-1220d.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-dome-1080p-fhd-vhd-1220d.webp" alt="Camera Intelbras Dome 1080P Fhd Vhd 1220D" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-dome-1080p-fhd-vhd-1220d.html">Camera Intelbras Dome 1080P Fhd Vhd 1220D</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="258,79" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 219,97 no Pix</div>
-        <div class="install" data-parc>6x de R$ 43,13</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-dome-1080p-fhd-vhd-1220d.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-dome-1080p-fhd-vhd-1220d", "name": "Camera Intelbras Dome 1080P Fhd Vhd 1220D", "price": 258.79, "image": "../assets/products/camera-intelbras-dome-1080p-fhd-vhd-1220d.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Dome 1080P Fhd Vhd 1220D" data-wa-slug="camera-intelbras-dome-1080p-fhd-vhd-1220d">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-dome-1080p-fhd-vhd-1220d.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-dome-1080p-fhd-vhd-1220d", "name": "Camera Intelbras Dome 1080P Fhd Vhd 1220D", "image": "../assets/products/camera-intelbras-dome-1080p-fhd-vhd-1220d.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-dome-hd-720p-pvhc-1120d" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="130.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-dome-hd-720p-pvhc-1120d" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-dome-hd-720p-pvhc-1120d.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-dome-hd-720p-pvhc-1120d.webp" alt="Camera Intelbras Dome Hd 720P Pvhc 1120D" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-dome-hd-720p-pvhc-1120d.html">Camera Intelbras Dome Hd 720P Pvhc 1120D</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="130,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 110,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 21,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-dome-hd-720p-pvhc-1120d.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-dome-hd-720p-pvhc-1120d", "name": "Camera Intelbras Dome Hd 720P Pvhc 1120D", "price": 130.0, "image": "../assets/products/camera-intelbras-dome-hd-720p-pvhc-1120d.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Dome Hd 720P Pvhc 1120D" data-wa-slug="camera-intelbras-dome-hd-720p-pvhc-1120d">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-dome-hd-720p-pvhc-1120d.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-dome-hd-720p-pvhc-1120d", "name": "Camera Intelbras Dome Hd 720P Pvhc 1120D", "image": "../assets/products/camera-intelbras-dome-hd-720p-pvhc-1120d.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="199.36">
+    <article class="card" data-product-card data-slug="camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2.webp" alt="Camera Intelbras Dome Ir 2.0M 2.8Mm Hdcvi Vhl 1220D G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2.html">Camera Intelbras Dome Ir 2.0M 2.8Mm Hdcvi Vhl 1220D G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="199,36" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 169,46 no Pix</div>
-        <div class="install" data-parc>6x de R$ 33,23</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2", "name": "Camera Intelbras Dome Ir 2.0M 2.8Mm Hdcvi Vhl 1220D G2", "price": 199.36, "image": "../assets/products/camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Dome Ir 2.0M 2.8Mm Hdcvi Vhl 1220D G2" data-wa-slug="camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2", "name": "Camera Intelbras Dome Ir 2.0M 2.8Mm Hdcvi Vhl 1220D G2", "image": "../assets/products/camera-intelbras-dome-ir-2-0m-2-8mm-hdcvi-vhl-1220d-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-dome-vhd-1220d-g8" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="272.88">
+    <article class="card" data-product-card data-slug="camera-intelbras-dome-vhd-1220d-g8" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-dome-vhd-1220d-g8.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-dome-vhd-1220d-g8.webp" alt="Camera Intelbras Dome Vhd 1220D G8" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-dome-vhd-1220d-g8.html">Camera Intelbras Dome Vhd 1220D G8</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="272,88" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 231,95 no Pix</div>
-        <div class="install" data-parc>6x de R$ 45,48</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-dome-vhd-1220d-g8.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-dome-vhd-1220d-g8", "name": "Camera Intelbras Dome Vhd 1220D G8", "price": 272.88, "image": "../assets/products/camera-intelbras-dome-vhd-1220d-g8.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Dome Vhd 1220D G8" data-wa-slug="camera-intelbras-dome-vhd-1220d-g8">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-dome-vhd-1220d-g8.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-dome-vhd-1220d-g8", "name": "Camera Intelbras Dome Vhd 1220D G8", "image": "../assets/products/camera-intelbras-dome-vhd-1220d-g8.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="645.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb.webp" alt="Camera Intelbras Interna Ip Wi-Fi Fhd Im4 C + Cartao 32Gb" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb.html">Camera Intelbras Interna Ip Wi-Fi Fhd Im4 C + Cartao 32Gb</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="645,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 548,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 107,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb", "name": "Camera Intelbras Interna Ip Wi-Fi Fhd Im4 C + Cartao 32Gb", "price": 645.0, "image": "../assets/products/camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Interna Ip Wi-Fi Fhd Im4 C + Cartao 32Gb" data-wa-slug="camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb", "name": "Camera Intelbras Interna Ip Wi-Fi Fhd Im4 C + Cartao 32Gb", "image": "../assets/products/camera-intelbras-interna-ip-wi-fi-fhd-im4-c-microsd-32gb.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-interna-ip-wi-fi-hd-imx1" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="325.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-interna-ip-wi-fi-hd-imx1" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-interna-ip-wi-fi-hd-imx1.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-interna-ip-wi-fi-hd-imx1.webp" alt="Camera Intelbras Interna Ip Wi-Fi Hd Imx1" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-interna-ip-wi-fi-hd-imx1.html">Camera Intelbras Interna Ip Wi-Fi Hd Imx1</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="325,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 276,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 54,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-interna-ip-wi-fi-hd-imx1.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-interna-ip-wi-fi-hd-imx1", "name": "Camera Intelbras Interna Ip Wi-Fi Hd Imx1", "price": 325.0, "image": "../assets/products/camera-intelbras-interna-ip-wi-fi-hd-imx1.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Interna Ip Wi-Fi Hd Imx1" data-wa-slug="camera-intelbras-interna-ip-wi-fi-hd-imx1">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-interna-ip-wi-fi-hd-imx1.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-interna-ip-wi-fi-hd-imx1", "name": "Camera Intelbras Interna Ip Wi-Fi Hd Imx1", "image": "../assets/products/camera-intelbras-interna-ip-wi-fi-hd-imx1.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="475.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4.webp" alt="Camera Intelbras Ip Bullet 2Mp Ir 3.6Mm Vip 1230B G4" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4.html">Camera Intelbras Ip Bullet 2Mp Ir 3.6Mm Vip 1230B G4</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="475,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 403,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 79,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4", "name": "Camera Intelbras Ip Bullet 2Mp Ir 3.6Mm Vip 1230B G4", "price": 475.0, "image": "../assets/products/camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Bullet 2Mp Ir 3.6Mm Vip 1230B G4" data-wa-slug="camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4", "name": "Camera Intelbras Ip Bullet 2Mp Ir 3.6Mm Vip 1230B G4", "image": "../assets/products/camera-intelbras-ip-bullet-2mp-ir-3-6mm-vip-1230b-g4.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="362.36">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2.webp" alt="Camera Intelbras Ip Bullet 2Mp Ir Vipc 1230B G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2.html">Camera Intelbras Ip Bullet 2Mp Ir Vipc 1230B G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="362,36" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 308,01 no Pix</div>
-        <div class="install" data-parc>6x de R$ 60,39</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2", "name": "Camera Intelbras Ip Bullet 2Mp Ir Vipc 1230B G2", "price": 362.36, "image": "../assets/products/camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Bullet 2Mp Ir Vipc 1230B G2" data-wa-slug="camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2", "name": "Camera Intelbras Ip Bullet 2Mp Ir Vipc 1230B G2", "image": "../assets/products/camera-intelbras-ip-bullet-2mp-ir-vipc-1230b-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="835.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2.webp" alt="Camera Intelbras Ip Bullet 4Mp Poe Vip 1430B G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2.html">Camera Intelbras Ip Bullet 4Mp Poe Vip 1430B G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="835,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 709,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 139,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2", "name": "Camera Intelbras Ip Bullet 4Mp Poe Vip 1430B G2", "price": 835.0, "image": "../assets/products/camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Bullet 4Mp Poe Vip 1430B G2" data-wa-slug="camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2", "name": "Camera Intelbras Ip Bullet 4Mp Poe Vip 1430B G2", "image": "../assets/products/camera-intelbras-ip-bullet-4mp-poe-vip-1430b-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="487.38">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5.webp" alt="Camera Intelbras Ip Dome Ir 2.0M 2.8Mm Vip 1230D G5" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5.html">Camera Intelbras Ip Dome Ir 2.0M 2.8Mm Vip 1230D G5</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="487,38" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 414,27 no Pix</div>
-        <div class="install" data-parc>6x de R$ 81,23</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5", "name": "Camera Intelbras Ip Dome Ir 2.0M 2.8Mm Vip 1230D G5", "price": 487.38, "image": "../assets/products/camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Dome Ir 2.0M 2.8Mm Vip 1230D G5" data-wa-slug="camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5", "name": "Camera Intelbras Ip Dome Ir 2.0M 2.8Mm Vip 1230D G5", "image": "../assets/products/camera-intelbras-ip-dome-ir-2-0m-2-8mm-vip-1230d-g5.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-dome-vipc-1230d-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="422.36">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-dome-vipc-1230d-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-dome-vipc-1230d-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-dome-vipc-1230d-g2.webp" alt="Camera Intelbras Ip Dome Vipc 1230D G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-dome-vipc-1230d-g2.html">Camera Intelbras Ip Dome Vipc 1230D G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="422,36" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 359,01 no Pix</div>
-        <div class="install" data-parc>6x de R$ 70,39</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-dome-vipc-1230d-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-dome-vipc-1230d-g2", "name": "Camera Intelbras Ip Dome Vipc 1230D G2", "price": 422.36, "image": "../assets/products/camera-intelbras-ip-dome-vipc-1230d-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Dome Vipc 1230D G2" data-wa-slug="camera-intelbras-ip-dome-vipc-1230d-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-dome-vipc-1230d-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-dome-vipc-1230d-g2", "name": "Camera Intelbras Ip Dome Vipc 1230D G2", "image": "../assets/products/camera-intelbras-ip-dome-vipc-1230d-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="8837.26">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2.webp" alt="Camera Intelbras Ip Speed Dome 2.0M 25X Opt25X Vip 5225 Sd Ir Ia G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2.html">Camera Intelbras Ip Speed Dome 2.0M 25X Opt25X Vip 5225 Sd Ir Ia G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="8.837,26" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 7.511,67 no Pix</div>
-        <div class="install" data-parc>6x de R$ 1.472,88</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2", "name": "Camera Intelbras Ip Speed Dome 2.0M 25X Opt25X Vip 5225 Sd Ir Ia G2", "price": 8837.26, "image": "../assets/products/camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Speed Dome 2.0M 25X Opt25X Vip 5225 Sd Ir Ia G2" data-wa-slug="camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2", "name": "Camera Intelbras Ip Speed Dome 2.0M 25X Opt25X Vip 5225 Sd Ir Ia G2", "image": "../assets/products/camera-intelbras-ip-speed-dome-2-0m-25x-opt25x-vip-5225-sd-ir-ia-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="6800.75">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2.webp" alt="Camera Intelbras Ip Speed Dome 2.0M Dome Vip 3225 Sd Ir Ia G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2.html">Camera Intelbras Ip Speed Dome 2.0M Dome Vip 3225 Sd Ir Ia G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="6.800,75" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 5.780,64 no Pix</div>
-        <div class="install" data-parc>6x de R$ 1.133,46</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2", "name": "Camera Intelbras Ip Speed Dome 2.0M Dome Vip 3225 Sd Ir Ia G2", "price": 6800.75, "image": "../assets/products/camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Speed Dome 2.0M Dome Vip 3225 Sd Ir Ia G2" data-wa-slug="camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2", "name": "Camera Intelbras Ip Speed Dome 2.0M Dome Vip 3225 Sd Ir Ia G2", "image": "../assets/products/camera-intelbras-ip-speed-dome-2-0m-dome-vip-3225-sd-ir-ia-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="11094.15">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2.webp" alt="Camera Intelbras Ip Speed Dome 2.0Mp 32X Vip 5232 Sd Ia G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2.html">Camera Intelbras Ip Speed Dome 2.0Mp 32X Vip 5232 Sd Ia G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="11.094,15" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 9.430,03 no Pix</div>
-        <div class="install" data-parc>6x de R$ 1.849,02</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2", "name": "Camera Intelbras Ip Speed Dome 2.0Mp 32X Vip 5232 Sd Ia G2", "price": 11094.15, "image": "../assets/products/camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Speed Dome 2.0Mp 32X Vip 5232 Sd Ia G2" data-wa-slug="camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2", "name": "Camera Intelbras Ip Speed Dome 2.0Mp 32X Vip 5232 Sd Ia G2", "image": "../assets/products/camera-intelbras-ip-speed-dome-2-0mp-32x-vip-5232-sd-ia-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="735.0">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb.webp" alt="Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 S Microsd 32Gb" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb.html">Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 S Microsd 32Gb</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="735,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 624,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 122,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb", "name": "Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 S Microsd 32Gb", "price": 735.0, "image": "../assets/products/camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 S Microsd 32Gb" data-wa-slug="camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb", "name": "Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 S Microsd 32Gb", "image": "../assets/products/camera-intelbras-ip-wi-fi-bullet-fhd-im5-s-microsd-32gb.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="627.9">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc.webp" alt="Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 Sc" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc.html">Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 Sc</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="627,90" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 533,71 no Pix</div>
-        <div class="install" data-parc>6x de R$ 104,65</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc", "name": "Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 Sc", "price": 627.9, "image": "../assets/products/camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 Sc" data-wa-slug="camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc", "name": "Camera Intelbras Ip Wi-Fi Bullet Fhd Im5 Sc", "image": "../assets/products/camera-intelbras-ip-wi-fi-bullet-fhd-im5-sc.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-fhd-imx-c" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="359.86">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-fhd-imx-c" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-fhd-imx-c.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-fhd-imx-c.webp" alt="Camera Intelbras Ip Wi-Fi Fhd Imx C" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-fhd-imx-c.html">Camera Intelbras Ip Wi-Fi Fhd Imx C</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="359,86" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 305,88 no Pix</div>
-        <div class="install" data-parc>6x de R$ 59,98</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-fhd-imx-c.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-fhd-imx-c", "name": "Camera Intelbras Ip Wi-Fi Fhd Imx C", "price": 359.86, "image": "../assets/products/camera-intelbras-ip-wi-fi-fhd-imx-c.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Fhd Imx C" data-wa-slug="camera-intelbras-ip-wi-fi-fhd-imx-c">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-fhd-imx-c.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-fhd-imx-c", "name": "Camera Intelbras Ip Wi-Fi Fhd Imx C", "image": "../assets/products/camera-intelbras-ip-wi-fi-fhd-imx-c.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="485.14">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb.webp" alt="Camera Intelbras Ip Wi-Fi Fhd Imx C + Cartao 32Gb" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb.html">Camera Intelbras Ip Wi-Fi Fhd Imx C + Cartao 32Gb</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="485,14" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 412,37 no Pix</div>
-        <div class="install" data-parc>6x de R$ 80,86</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb", "name": "Camera Intelbras Ip Wi-Fi Fhd Imx C + Cartao 32Gb", "price": 485.14, "image": "../assets/products/camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Fhd Imx C + Cartao 32Gb" data-wa-slug="camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb", "name": "Camera Intelbras Ip Wi-Fi Fhd Imx C + Cartao 32Gb", "image": "../assets/products/camera-intelbras-ip-wi-fi-fhd-imx-c-cartao-32gb.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="675.59">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5.webp" alt="Camera Intelbras Ip Wi-Fi Fhd Mic Full Color Im5+" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5.html">Camera Intelbras Ip Wi-Fi Fhd Mic Full Color Im5+</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="675,59" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 574,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 112,60</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5", "name": "Camera Intelbras Ip Wi-Fi Fhd Mic Full Color Im5+", "price": 675.59, "image": "../assets/products/camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Fhd Mic Full Color Im5+" data-wa-slug="camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5", "name": "Camera Intelbras Ip Wi-Fi Fhd Mic Full Color Im5+", "image": "../assets/products/camera-intelbras-ip-wi-fi-fhd-mic-full-color-im5.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="678.5">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color.webp" alt="Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color.html">Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="678,50" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 576,73 no Pix</div>
-        <div class="install" data-parc>6x de R$ 113,08</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color", "name": "Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color", "price": 678.5, "image": "../assets/products/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color" data-wa-slug="camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color", "name": "Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color", "image": "../assets/products/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="803.78">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb.webp" alt="Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color + Cartao 32Gb" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb.html">Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color + Cartao 32Gb</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="803,78" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 683,21 no Pix</div>
-        <div class="install" data-parc>6x de R$ 133,96</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb", "name": "Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color + Cartao 32Gb", "price": 803.78, "image": "../assets/products/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color + Cartao 32Gb" data-wa-slug="camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb", "name": "Camera Intelbras Ip Wi-Fi Speed Dome Full Hd Im7-S Full Color + Cartao 32Gb", "image": "../assets/products/camera-intelbras-ip-wi-fi-speed-dome-full-hd-im7-s-full-color-cartao-memoria-32gb.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-speed-dome-im9-full-color" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="1565.04">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-speed-dome-im9-full-color" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color.webp" alt="Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color.html">Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="1.565,04" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.330,28 no Pix</div>
-        <div class="install" data-parc>6x de R$ 260,84</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-speed-dome-im9-full-color", "name": "Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color", "price": 1565.04, "image": "../assets/products/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color" data-wa-slug="camera-intelbras-ip-wi-fi-speed-dome-im9-full-color">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-speed-dome-im9-full-color", "name": "Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color", "image": "../assets/products/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="1690.32">
+    <article class="card" data-product-card data-slug="camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb.webp" alt="Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color + Cartao 32Gb" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb.html">Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color + Cartao 32Gb</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="1.690,32" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.436,77 no Pix</div>
-        <div class="install" data-parc>6x de R$ 281,72</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb", "name": "Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color + Cartao 32Gb", "price": 1690.32, "image": "../assets/products/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color + Cartao 32Gb" data-wa-slug="camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb", "name": "Camera Intelbras Ip Wi-Fi Speed Dome Im9+ Full Color + Cartao 32Gb", "image": "../assets/products/camera-intelbras-ip-wi-fi-speed-dome-im9-full-color-cartao-memoria-32gb.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40" data-sub="Câmeras de Segurança" data-brand="TP-LINK" data-price="686.25">
+    <article class="card" data-product-card data-slug="camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40" data-sub="Câmeras de Segurança" data-brand="TP-LINK">
       <a class="thumb" href="../produtos/camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40.webp" alt="Camera Tp-Link Ip Wi-Fi Speed Dome 1080P Full Hd Tapo Tc40" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">TP-LINK</div>
         <h3><a href="../produtos/camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40.html">Camera Tp-Link Ip Wi-Fi Speed Dome 1080P Full Hd Tapo Tc40</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="686,25" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 583,31 no Pix</div>
-        <div class="install" data-parc>6x de R$ 114,38</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40", "name": "Camera Tp-Link Ip Wi-Fi Speed Dome 1080P Full Hd Tapo Tc40", "price": 686.25, "image": "../assets/products/camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Camera Tp-Link Ip Wi-Fi Speed Dome 1080P Full Hd Tapo Tc40" data-wa-slug="camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40", "name": "Camera Tp-Link Ip Wi-Fi Speed Dome 1080P Full Hd Tapo Tc40", "image": "../assets/products/camera-tp-link-ip-wi-fi-speed-dome-1080p-full-hd-tapo-tc40.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="25.0">
+    <article class="card" data-product-card data-slug="cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2.webp" alt="Cordao Optico Intelbras Sm 09.0 Simplex Sc Apc/Sc Apc 3.0M Xfc 2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2.html">Cordao Optico Intelbras Sm 09.0 Simplex Sc Apc/Sc Apc 3.0M Xfc 2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="25,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 21,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 4,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2", "name": "Cordao Optico Intelbras Sm 09.0 Simplex Sc Apc/Sc Apc 3.0M Xfc 2", "price": 25.0, "image": "../assets/products/cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cordao Optico Intelbras Sm 09.0 Simplex Sc Apc/Sc Apc 3.0M Xfc 2" data-wa-slug="cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2", "name": "Cordao Optico Intelbras Sm 09.0 Simplex Sc Apc/Sc Apc 3.0M Xfc 2", "image": "../assets/products/cordao-optico-intelbras-sm-09-0-simplex-sc-apc-sc-apc-3-0m-xfc-2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="25.0">
+    <article class="card" data-product-card data-slug="extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1.webp" alt="Extensao Optica Intelbras Sm 09.0 Simplex Sc/Upc 3.0M Xfe 1" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1.html">Extensao Optica Intelbras Sm 09.0 Simplex Sc/Upc 3.0M Xfe 1</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="25,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 21,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 4,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1", "name": "Extensao Optica Intelbras Sm 09.0 Simplex Sc/Upc 3.0M Xfe 1", "price": 25.0, "image": "../assets/products/extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Extensao Optica Intelbras Sm 09.0 Simplex Sc/Upc 3.0M Xfe 1" data-wa-slug="extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1", "name": "Extensao Optica Intelbras Sm 09.0 Simplex Sc/Upc 3.0M Xfe 1", "image": "../assets/products/extensao-optica-intelbras-sm-09-0-simplex-sc-upc-3-0m-xfe-1.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="fonte-12v-fasgold-2a-cftv-fs-302" data-sub="Câmeras de Segurança" data-brand="FOSGOLD" data-price="57.25">
+    <article class="card" data-product-card data-slug="fonte-12v-fasgold-2a-cftv-fs-302" data-sub="Câmeras de Segurança" data-brand="FOSGOLD">
       <a class="thumb" href="../produtos/fonte-12v-fasgold-2a-cftv-fs-302.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/fonte-12v-fasgold-2a-cftv-fs-302.webp" alt="Fonte 12V Fasgold 2A Cftv Fs-302" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">FOSGOLD</div>
         <h3><a href="../produtos/fonte-12v-fasgold-2a-cftv-fs-302.html">Fonte 12V Fasgold 2A Cftv Fs-302</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="57,25" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 48,66 no Pix</div>
-        <div class="install" data-parc>6x de R$ 9,54</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/fonte-12v-fasgold-2a-cftv-fs-302.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fonte-12v-fasgold-2a-cftv-fs-302", "name": "Fonte 12V Fasgold 2A Cftv Fs-302", "price": 57.25, "image": "../assets/products/fonte-12v-fasgold-2a-cftv-fs-302.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Fonte 12V Fasgold 2A Cftv Fs-302" data-wa-slug="fonte-12v-fasgold-2a-cftv-fs-302">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/fonte-12v-fasgold-2a-cftv-fs-302.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fonte-12v-fasgold-2a-cftv-fs-302", "name": "Fonte 12V Fasgold 2A Cftv Fs-302", "image": "../assets/products/fonte-12v-fasgold-2a-cftv-fs-302.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="fonte-12v-fc-fontes-1a-cftv-fc1201en" data-sub="Câmeras de Segurança" data-brand="FC FONTES" data-price="34.75">
+    <article class="card" data-product-card data-slug="fonte-12v-fc-fontes-1a-cftv-fc1201en" data-sub="Câmeras de Segurança" data-brand="FC FONTES">
       <a class="thumb" href="../produtos/fonte-12v-fc-fontes-1a-cftv-fc1201en.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/fonte-12v-fc-fontes-1a-cftv-fc1201en.webp" alt="Fonte 12V Fc Fontes 1A Cftv (Fc1201En)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">FC FONTES</div>
         <h3><a href="../produtos/fonte-12v-fc-fontes-1a-cftv-fc1201en.html">Fonte 12V Fc Fontes 1A Cftv (Fc1201En)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="34,75" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 29,54 no Pix</div>
-        <div class="install" data-parc>6x de R$ 5,79</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/fonte-12v-fc-fontes-1a-cftv-fc1201en.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fonte-12v-fc-fontes-1a-cftv-fc1201en", "name": "Fonte 12V Fc Fontes 1A Cftv (Fc1201En)", "price": 34.75, "image": "../assets/products/fonte-12v-fc-fontes-1a-cftv-fc1201en.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Fonte 12V Fc Fontes 1A Cftv (Fc1201En)" data-wa-slug="fonte-12v-fc-fontes-1a-cftv-fc1201en">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/fonte-12v-fc-fontes-1a-cftv-fc1201en.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fonte-12v-fc-fontes-1a-cftv-fc1201en", "name": "Fonte 12V Fc Fontes 1A Cftv (Fc1201En)", "image": "../assets/products/fonte-12v-fc-fontes-1a-cftv-fc1201en.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103" data-sub="Câmeras de Segurança" data-brand="Green" data-price="35.0">
+    <article class="card" data-product-card data-slug="fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103" data-sub="Câmeras de Segurança" data-brand="Green">
       <a class="thumb" href="../produtos/fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103.webp" alt="Fonte 12V Green 1A Cftv Biv 2.1Mm 044-1007/6103" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Green</div>
         <h3><a href="../produtos/fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103.html">Fonte 12V Green 1A Cftv Biv 2.1Mm 044-1007/6103</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="35,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 29,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 5,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103", "name": "Fonte 12V Green 1A Cftv Biv 2.1Mm 044-1007/6103", "price": 35.0, "image": "../assets/products/fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Fonte 12V Green 1A Cftv Biv 2.1Mm 044-1007/6103" data-wa-slug="fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103", "name": "Fonte 12V Green 1A Cftv Biv 2.1Mm 044-1007/6103", "image": "../assets/products/fonte-12v-green-1a-cftv-biv-2-1mm-044-1007-6103.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="hdd-seagate-sata-3-5-2tb-5-9k-cftv" data-sub="Câmeras de Segurança" data-brand="SEAGATE" data-price="0">
+    <article class="card" data-product-card data-slug="hdd-seagate-sata-3-5-2tb-5-9k-cftv" data-sub="Câmeras de Segurança" data-brand="SEAGATE">
       <a class="thumb" href="../produtos/hdd-seagate-sata-3-5-2tb-5-9k-cftv.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/hdd-seagate-sata-3-5-2tb-5-9k-cftv.webp" alt="Hdd Seagate Sata 3.5 2Tb 5.9K Cftv" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">SEAGATE</div>
         <h3><a href="../produtos/hdd-seagate-sata-3-5-2tb-5-9k-cftv.html">Hdd Seagate Sata 3.5 2Tb 5.9K Cftv</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="0,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 0,00 no Pix</div>
-        <div class="install" data-parc>6x de R$ 0,00</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/hdd-seagate-sata-3-5-2tb-5-9k-cftv.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hdd-seagate-sata-3-5-2tb-5-9k-cftv", "name": "Hdd Seagate Sata 3.5 2Tb 5.9K Cftv", "price": 0, "image": "../assets/products/hdd-seagate-sata-3-5-2tb-5-9k-cftv.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Hdd Seagate Sata 3.5 2Tb 5.9K Cftv" data-wa-slug="hdd-seagate-sata-3-5-2tb-5-9k-cftv">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/hdd-seagate-sata-3-5-2tb-5-9k-cftv.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hdd-seagate-sata-3-5-2tb-5-9k-cftv", "name": "Hdd Seagate Sata 3.5 2Tb 5.9K Cftv", "image": "../assets/products/hdd-seagate-sata-3-5-2tb-5-9k-cftv.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv" data-sub="Câmeras de Segurança" data-brand="SEAGATE" data-price="889.9">
+    <article class="card" data-product-card data-slug="hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv" data-sub="Câmeras de Segurança" data-brand="SEAGATE">
       <a class="thumb" href="../produtos/hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv.webp" alt="Hdd Seagate Sata 3.5 2Tb 5.9K Skyhawk Cftv" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">SEAGATE</div>
         <h3><a href="../produtos/hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv.html">Hdd Seagate Sata 3.5 2Tb 5.9K Skyhawk Cftv</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="889,90" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 756,41 no Pix</div>
-        <div class="install" data-parc>6x de R$ 148,32</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv", "name": "Hdd Seagate Sata 3.5 2Tb 5.9K Skyhawk Cftv", "price": 889.9, "image": "../assets/products/hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Hdd Seagate Sata 3.5 2Tb 5.9K Skyhawk Cftv" data-wa-slug="hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv", "name": "Hdd Seagate Sata 3.5 2Tb 5.9K Skyhawk Cftv", "image": "../assets/products/hdd-seagate-sata-3-5-2tb-5-9k-skyhawk-cftv.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="547.51">
+    <article class="card" data-product-card data-slug="inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401.webp" alt="Inversor Tensao Modificada Intelbras 400W 24Vcc/127Vac (Imv401)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401.html">Inversor Tensao Modificada Intelbras 400W 24Vcc/127Vac (Imv401)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="547,51" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 465,38 no Pix</div>
-        <div class="install" data-parc>6x de R$ 91,25</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401", "name": "Inversor Tensao Modificada Intelbras 400W 24Vcc/127Vac (Imv401)", "price": 547.51, "image": "../assets/products/inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Inversor Tensao Modificada Intelbras 400W 24Vcc/127Vac (Imv401)" data-wa-slug="inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401", "name": "Inversor Tensao Modificada Intelbras 400W 24Vcc/127Vac (Imv401)", "image": "../assets/products/inversor-tensao-modificada-intelbras-400w-24vcc-127vac-imv401.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="778.82">
+    <article class="card" data-product-card data-slug="inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652.webp" alt="Inversor Tensao Modificada Intelbras 650W 12Vcc/220Vac (Imd652)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652.html">Inversor Tensao Modificada Intelbras 650W 12Vcc/220Vac (Imd652)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="778,82" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 662,00 no Pix</div>
-        <div class="install" data-parc>6x de R$ 129,80</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652", "name": "Inversor Tensao Modificada Intelbras 650W 12Vcc/220Vac (Imd652)", "price": 778.82, "image": "../assets/products/inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Inversor Tensao Modificada Intelbras 650W 12Vcc/220Vac (Imd652)" data-wa-slug="inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652", "name": "Inversor Tensao Modificada Intelbras 650W 12Vcc/220Vac (Imd652)", "image": "../assets/products/inversor-tensao-modificada-intelbras-650w-12vcc-220vac-imd652.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="2817.04">
+    <article class="card" data-product-card data-slug="kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb.webp" alt="Kit Cftv 4 Cameras Intelbras Im5 + Cartao De 32Gb" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb.html">Kit Cftv 4 Cameras Intelbras Im5 + Cartao De 32Gb</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="2.817,04" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 2.394,48 no Pix</div>
-        <div class="install" data-parc>6x de R$ 469,51</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb", "name": "Kit Cftv 4 Cameras Intelbras Im5 + Cartao De 32Gb", "price": 2817.04, "image": "../assets/products/kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Kit Cftv 4 Cameras Intelbras Im5 + Cartao De 32Gb" data-wa-slug="kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb", "name": "Kit Cftv 4 Cameras Intelbras Im5 + Cartao De 32Gb", "image": "../assets/products/kit-cftv-4-cameras-intelbras-im5-cartao-de-memoria-32gb.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="nobreak-intelbras-600va-4-toma-attiv-seg-bi" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="763.9">
+    <article class="card" data-product-card data-slug="nobreak-intelbras-600va-4-toma-attiv-seg-bi" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/nobreak-intelbras-600va-4-toma-attiv-seg-bi.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/nobreak-intelbras-600va-4-toma-attiv-seg-bi.webp" alt="Nobreak Intelbras 600Va 4 Toma. Attiv Seg-Bi+" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/nobreak-intelbras-600va-4-toma-attiv-seg-bi.html">Nobreak Intelbras 600Va 4 Toma. Attiv Seg-Bi+</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="763,90" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 649,31 no Pix</div>
-        <div class="install" data-parc>6x de R$ 127,32</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/nobreak-intelbras-600va-4-toma-attiv-seg-bi.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "nobreak-intelbras-600va-4-toma-attiv-seg-bi", "name": "Nobreak Intelbras 600Va 4 Toma. Attiv Seg-Bi+", "price": 763.9, "image": "../assets/products/nobreak-intelbras-600va-4-toma-attiv-seg-bi.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Nobreak Intelbras 600Va 4 Toma. Attiv Seg-Bi+" data-wa-slug="nobreak-intelbras-600va-4-toma-attiv-seg-bi">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/nobreak-intelbras-600va-4-toma-attiv-seg-bi.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "nobreak-intelbras-600va-4-toma-attiv-seg-bi", "name": "Nobreak Intelbras 600Va 4 Toma. Attiv Seg-Bi+", "image": "../assets/products/nobreak-intelbras-600va-4-toma-attiv-seg-bi.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="17.75">
+    <article class="card" data-product-card data-slug="patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m.webp" alt="Patch Cord Intelbras Cat.5E Cftv 04P Mc8Cbr - 15M" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m.html">Patch Cord Intelbras Cat.5E Cftv 04P Mc8Cbr - 15M</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="17,75" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 15,09 no Pix</div>
-        <div class="install" data-parc>6x de R$ 2,96</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m", "name": "Patch Cord Intelbras Cat.5E Cftv 04P Mc8Cbr - 15M", "price": 17.75, "image": "../assets/products/patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Patch Cord Intelbras Cat.5E Cftv 04P Mc8Cbr - 15M" data-wa-slug="patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m", "name": "Patch Cord Intelbras Cat.5E Cftv 04P Mc8Cbr - 15M", "image": "../assets/products/patch-cord-intelbras-cat-5e-cftv-04p-mc8cbr-15m.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="patch-cord-intelbras-cat-6-1-5m-impact-giga-azul" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="35.0">
+    <article class="card" data-product-card data-slug="patch-cord-intelbras-cat-6-1-5m-impact-giga-azul" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/patch-cord-intelbras-cat-6-1-5m-impact-giga-azul.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/patch-cord-intelbras-cat-6-1-5m-impact-giga-azul.webp" alt="Patch Cord Intelbras Cat.6 1.5M Impact Giga - Azul" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/patch-cord-intelbras-cat-6-1-5m-impact-giga-azul.html">Patch Cord Intelbras Cat.6 1.5M Impact Giga - Azul</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="35,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 29,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 5,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/patch-cord-intelbras-cat-6-1-5m-impact-giga-azul.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "patch-cord-intelbras-cat-6-1-5m-impact-giga-azul", "name": "Patch Cord Intelbras Cat.6 1.5M Impact Giga - Azul", "price": 35.0, "image": "../assets/products/patch-cord-intelbras-cat-6-1-5m-impact-giga-azul.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Patch Cord Intelbras Cat.6 1.5M Impact Giga - Azul" data-wa-slug="patch-cord-intelbras-cat-6-1-5m-impact-giga-azul">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/patch-cord-intelbras-cat-6-1-5m-impact-giga-azul.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "patch-cord-intelbras-cat-6-1-5m-impact-giga-azul", "name": "Patch Cord Intelbras Cat.6 1.5M Impact Giga - Azul", "image": "../assets/products/patch-cord-intelbras-cat-6-1-5m-impact-giga-azul.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo" data-sub="Câmeras de Segurança" data-brand="Intelbras" data-price="685.0">
+    <article class="card" data-product-card data-slug="ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo" data-sub="Câmeras de Segurança" data-brand="Intelbras">
       <a class="thumb" href="../produtos/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo.webp" alt="Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Intelbras</div>
         <h3><a href="../produtos/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo.html">Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="685,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 582,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 114,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo", "name": "Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo", "price": 685.0, "image": "../assets/products/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo" data-wa-slug="ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo", "name": "Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo", "image": "../assets/products/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS" data-price="1675.0">
+    <article class="card" data-product-card data-slug="ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2" data-sub="Câmeras de Segurança" data-brand="INTELBRAS">
       <a class="thumb" href="../produtos/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2.webp" alt="Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo G2" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INTELBRAS</div>
         <h3><a href="../produtos/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2.html">Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo G2</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="1.675,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.423,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 279,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2", "name": "Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo G2", "price": 1675.0, "image": "../assets/products/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo G2" data-wa-slug="ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2", "name": "Ponto Acesso Intelbras Wi-Fi 5.0Ghz Outdoor Wom 5A Mimo G2", "image": "../assets/products/ponto-acesso-intelbras-wi-fi-5-0ghz-outdoor-wom-5a-mimo-g2.webp"})'>Orçamento</button>
         </div>
       </div>
     </article></div>

@@ -20,7 +20,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
       <a class="m-logo" href="../index.html"><img src="../assets/logo-infolux.svg" alt="INFOLUX"></a>
-      <button class="btn-icon cart-btn" type="button" aria-label="Carrinho" onclick="openCart()">
+      <button class="btn-icon cart-btn" type="button" aria-label="Orçamento" onclick="openCart()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h7.4a2 2 0 0 0 2-1.5L21 7H7"/></svg>
         <span class="cart-badge" data-cart-count>0</span>
       </button>
@@ -44,7 +44,7 @@
       </form>
       <div style="display:flex;gap:8px">
         <a class="btn" href="mailto:infolux.snd@gmail.com">Entrar</a>
-        <button class="btn btn-primary" type="button" onclick="openCart()">Carrinho (<span data-cart-count>0</span>)</button>
+        <button class="btn btn-primary" type="button" onclick="openCart()">Orçamento (<span data-cart-count>0</span>)</button>
       </div>
     </div>
     <nav class="d-nav"><div class="inner">
@@ -66,7 +66,7 @@
   <div class="cart-drawer" id="cartDrawer" style="display:none" onclick="if(event.target===this)closeCart()">
     <div class="cart-panel">
       <div style="display:flex;justify-content:space-between;align-items:center">
-        <h2 style="margin:0;font-size:18px">Carrinho</h2>
+        <h2 style="margin:0;font-size:18px">Orçamento</h2>
         <button class="btn" type="button" onclick="closeCart()">Fechar</button>
       </div>
       <div id="cartItems"></div>
@@ -88,1047 +88,815 @@
         <h3 style="margin-top:10px">Marcas</h3><div id="brandFilters"><label><input type="checkbox" value="BEMATECH"> BEMATECH</label><label><input type="checkbox" value="BROTHER"> BROTHER</label><label><input type="checkbox" value="Bematech"> Bematech</label><label><input type="checkbox" value="Brother"> Brother</label><label><input type="checkbox" value="C3TECH"> C3TECH</label><label><input type="checkbox" value="CIS"> CIS</label><label><input type="checkbox" value="CLAIR"> CLAIR</label><label><input type="checkbox" value="COMTAC"> COMTAC</label><label><input type="checkbox" value="CONTROL ID"> CONTROL ID</label><label><input type="checkbox" value="ELGIN"> ELGIN</label><label><input type="checkbox" value="ENERBRAS"> ENERBRAS</label><label><input type="checkbox" value="EXBOM"> EXBOM</label><label><input type="checkbox" value="Elgin"> Elgin</label><label><input type="checkbox" value="F3"> F3</label><label><input type="checkbox" value="FORONI"> FORONI</label><label><input type="checkbox" value="GET"> GET</label><label><input type="checkbox" value="HONEYWELL"> HONEYWELL</label><label><input type="checkbox" value="INNAL"> INNAL</label><label><input type="checkbox" value="MULTILASER"> MULTILASER</label><label><input type="checkbox" value="Multilaser"> Multilaser</label><label><input type="checkbox" value="NONUS"> NONUS</label><label><input type="checkbox" value="TANCA"> TANCA</label><label><input type="checkbox" value="VFLEX"> VFLEX</label><label><input type="checkbox" value="WALEU"> WALEU</label></div>
       </aside>
       <div class="grid" id="catGrid">
-    <article class="card" data-product-card data-slug="abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto" data-sub="Automação Comercial" data-brand="ENERBRAS" data-price="35.0">
+    <article class="card" data-product-card data-slug="abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto" data-sub="Automação Comercial" data-brand="ENERBRAS">
       <a class="thumb" href="../produtos/abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto.webp" alt="Abracadeira Enerbras Nylon 4.5X200 A45-E200P Pc.100Un - Preto" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">ENERBRAS</div>
         <h3><a href="../produtos/abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto.html">Abracadeira Enerbras Nylon 4.5X200 A45-E200P Pc.100Un - Preto</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="35,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 29,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 5,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto", "name": "Abracadeira Enerbras Nylon 4.5X200 A45-E200P Pc.100Un - Preto", "price": 35.0, "image": "../assets/products/abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Abracadeira Enerbras Nylon 4.5X200 A45-E200P Pc.100Un - Preto" data-wa-slug="abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto", "name": "Abracadeira Enerbras Nylon 4.5X200 A45-E200P Pc.100Un - Preto", "image": "../assets/products/abracadeira-enerbras-nylon-4-5x200-a45-e200p-pc-100un-preto.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p" data-sub="Automação Comercial" data-brand="ENERBRAS" data-price="12.6">
+    <article class="card" data-product-card data-slug="abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p" data-sub="Automação Comercial" data-brand="ENERBRAS">
       <a class="thumb" href="../produtos/abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p.webp" alt="Abracadeira Enerbras Plastica 2.5X100 Pc.100Un Preto (A25-E100P)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">ENERBRAS</div>
         <h3><a href="../produtos/abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p.html">Abracadeira Enerbras Plastica 2.5X100 Pc.100Un Preto (A25-E100P)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="12,60" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 10,71 no Pix</div>
-        <div class="install" data-parc>6x de R$ 2,10</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p", "name": "Abracadeira Enerbras Plastica 2.5X100 Pc.100Un Preto (A25-E100P)", "price": 12.6, "image": "../assets/products/abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Abracadeira Enerbras Plastica 2.5X100 Pc.100Un Preto (A25-E100P)" data-wa-slug="abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p", "name": "Abracadeira Enerbras Plastica 2.5X100 Pc.100Un Preto (A25-E100P)", "image": "../assets/products/abracadeira-enerbras-plastica-2-5x100-pc-100un-preto-a25-e100p.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150" data-sub="Automação Comercial" data-brand="ENERBRAS" data-price="16.78">
+    <article class="card" data-product-card data-slug="abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150" data-sub="Automação Comercial" data-brand="ENERBRAS">
       <a class="thumb" href="../produtos/abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150.webp" alt="Abracadeira Enerbras Plastica 2.5X150 Pc.100Un Branca (A25-E150)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">ENERBRAS</div>
         <h3><a href="../produtos/abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150.html">Abracadeira Enerbras Plastica 2.5X150 Pc.100Un Branca (A25-E150)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="16,78" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 14,26 no Pix</div>
-        <div class="install" data-parc>6x de R$ 2,80</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150", "name": "Abracadeira Enerbras Plastica 2.5X150 Pc.100Un Branca (A25-E150)", "price": 16.78, "image": "../assets/products/abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Abracadeira Enerbras Plastica 2.5X150 Pc.100Un Branca (A25-E150)" data-wa-slug="abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150", "name": "Abracadeira Enerbras Plastica 2.5X150 Pc.100Un Branca (A25-E150)", "image": "../assets/products/abracadeira-enerbras-plastica-2-5x150-pc-100un-branca-a25-e150.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p" data-sub="Automação Comercial" data-brand="ENERBRAS" data-price="45.68">
+    <article class="card" data-product-card data-slug="abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p" data-sub="Automação Comercial" data-brand="ENERBRAS">
       <a class="thumb" href="../produtos/abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p.webp" alt="Abracadeira Enerbras Plastica 3.5X300 Pc.100Un Preta (A35-E300P)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">ENERBRAS</div>
         <h3><a href="../produtos/abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p.html">Abracadeira Enerbras Plastica 3.5X300 Pc.100Un Preta (A35-E300P)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="45,68" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 38,83 no Pix</div>
-        <div class="install" data-parc>6x de R$ 7,61</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p", "name": "Abracadeira Enerbras Plastica 3.5X300 Pc.100Un Preta (A35-E300P)", "price": 45.68, "image": "../assets/products/abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Abracadeira Enerbras Plastica 3.5X300 Pc.100Un Preta (A35-E300P)" data-wa-slug="abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p", "name": "Abracadeira Enerbras Plastica 3.5X300 Pc.100Un Preta (A35-E300P)", "image": "../assets/products/abracadeira-enerbras-plastica-3-5x300-pc-100un-preta-a35-e300p.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="balanca-30kg-5g-s-b-elgin-dp3005" data-sub="Automação Comercial" data-brand="ELGIN" data-price="998.0">
+    <article class="card" data-product-card data-slug="balanca-30kg-5g-s-b-elgin-dp3005" data-sub="Automação Comercial" data-brand="ELGIN">
       <a class="thumb" href="../produtos/balanca-30kg-5g-s-b-elgin-dp3005.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/balanca-30kg-5g-s-b-elgin-dp3005.webp" alt="Balanca 30Kg 5G S B Elgin Dp3005" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">ELGIN</div>
         <h3><a href="../produtos/balanca-30kg-5g-s-b-elgin-dp3005.html">Balanca 30Kg 5G S B Elgin Dp3005</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="998,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 848,30 no Pix</div>
-        <div class="install" data-parc>6x de R$ 166,33</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/balanca-30kg-5g-s-b-elgin-dp3005.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "balanca-30kg-5g-s-b-elgin-dp3005", "name": "Balanca 30Kg 5G S B Elgin Dp3005", "price": 998.0, "image": "../assets/products/balanca-30kg-5g-s-b-elgin-dp3005.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Balanca 30Kg 5G S B Elgin Dp3005" data-wa-slug="balanca-30kg-5g-s-b-elgin-dp3005">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/balanca-30kg-5g-s-b-elgin-dp3005.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "balanca-30kg-5g-s-b-elgin-dp3005", "name": "Balanca 30Kg 5G S B Elgin Dp3005", "image": "../assets/products/balanca-30kg-5g-s-b-elgin-dp3005.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cadeira-vflex-secretaria-40mm-cv-sem-braco-preta" data-sub="Automação Comercial" data-brand="VFLEX" data-price="275.0">
+    <article class="card" data-product-card data-slug="cadeira-vflex-secretaria-40mm-cv-sem-braco-preta" data-sub="Automação Comercial" data-brand="VFLEX">
       <a class="thumb" href="../produtos/cadeira-vflex-secretaria-40mm-cv-sem-braco-preta.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cadeira-vflex-secretaria-40mm-cv-sem-braco-preta.webp" alt="Cadeira Vflex Secretaria 40Mm Cv Sem Braco - Preta" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">VFLEX</div>
         <h3><a href="../produtos/cadeira-vflex-secretaria-40mm-cv-sem-braco-preta.html">Cadeira Vflex Secretaria 40Mm Cv Sem Braco - Preta</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="275,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 233,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 45,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cadeira-vflex-secretaria-40mm-cv-sem-braco-preta.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cadeira-vflex-secretaria-40mm-cv-sem-braco-preta", "name": "Cadeira Vflex Secretaria 40Mm Cv Sem Braco - Preta", "price": 275.0, "image": "../assets/products/cadeira-vflex-secretaria-40mm-cv-sem-braco-preta.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cadeira Vflex Secretaria 40Mm Cv Sem Braco - Preta" data-wa-slug="cadeira-vflex-secretaria-40mm-cv-sem-braco-preta">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cadeira-vflex-secretaria-40mm-cv-sem-braco-preta.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cadeira-vflex-secretaria-40mm-cv-sem-braco-preta", "name": "Cadeira Vflex Secretaria 40Mm Cv Sem Braco - Preta", "image": "../assets/products/cadeira-vflex-secretaria-40mm-cv-sem-braco-preta.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un" data-sub="Automação Comercial" data-brand="WALEU" data-price="10.0">
+    <article class="card" data-product-card data-slug="chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un" data-sub="Automação Comercial" data-brand="WALEU">
       <a class="thumb" href="../produtos/chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un.webp" alt="Chaveiro Waleu Com Etiqueta Cores Sortidas C/ 5Un" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">WALEU</div>
         <h3><a href="../produtos/chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un.html">Chaveiro Waleu Com Etiqueta Cores Sortidas C/ 5Un</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="10,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 8,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 1,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un", "name": "Chaveiro Waleu Com Etiqueta Cores Sortidas C/ 5Un", "price": 10.0, "image": "../assets/products/chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Chaveiro Waleu Com Etiqueta Cores Sortidas C/ 5Un" data-wa-slug="chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un", "name": "Chaveiro Waleu Com Etiqueta Cores Sortidas C/ 5Un", "image": "../assets/products/chaveiro-waleu-com-etiqueta-cores-sortidas-c-5un.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6" data-sub="Automação Comercial" data-brand="FORONI" data-price="280.0">
+    <article class="card" data-product-card data-slug="envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6" data-sub="Automação Comercial" data-brand="FORONI">
       <a class="thumb" href="../produtos/envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6.webp" alt="Envelope Saco Ouro Foroni 260X360 Cx. 250 (18.2736-6)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">FORONI</div>
         <h3><a href="../produtos/envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6.html">Envelope Saco Ouro Foroni 260X360 Cx. 250 (18.2736-6)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="280,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 238,00 no Pix</div>
-        <div class="install" data-parc>6x de R$ 46,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6", "name": "Envelope Saco Ouro Foroni 260X360 Cx. 250 (18.2736-6)", "price": 280.0, "image": "../assets/products/envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Envelope Saco Ouro Foroni 260X360 Cx. 250 (18.2736-6)" data-wa-slug="envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6", "name": "Envelope Saco Ouro Foroni 260X360 Cx. 250 (18.2736-6)", "image": "../assets/products/envelope-saco-ouro-foroni-260x360-cx-250-18-2736-6.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo" data-sub="Automação Comercial" data-brand="CLAIR" data-price="25.0">
+    <article class="card" data-product-card data-slug="etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo" data-sub="Automação Comercial" data-brand="CLAIR">
       <a class="thumb" href="../produtos/etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo.webp" alt="Etiqueta Clair 40 X 40 1 Coluna Termica Linha Plus 1 Rolo" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">CLAIR</div>
         <h3><a href="../produtos/etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo.html">Etiqueta Clair 40 X 40 1 Coluna Termica Linha Plus 1 Rolo</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="25,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 21,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 4,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo", "name": "Etiqueta Clair 40 X 40 1 Coluna Termica Linha Plus 1 Rolo", "price": 25.0, "image": "../assets/products/etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Etiqueta Clair 40 X 40 1 Coluna Termica Linha Plus 1 Rolo" data-wa-slug="etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo", "name": "Etiqueta Clair 40 X 40 1 Coluna Termica Linha Plus 1 Rolo", "image": "../assets/products/etiqueta-clair-40-x-40-1-coluna-termica-linha-plus-1-rolo.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo" data-sub="Automação Comercial" data-brand="CLAIR" data-price="66.99">
+    <article class="card" data-product-card data-slug="etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo" data-sub="Automação Comercial" data-brand="CLAIR">
       <a class="thumb" href="../produtos/etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo.webp" alt="Etiqueta Clair 50 X 40 2 Coluna 41M Amarela 1 Rolo" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">CLAIR</div>
         <h3><a href="../produtos/etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo.html">Etiqueta Clair 50 X 40 2 Coluna 41M Amarela 1 Rolo</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="66,99" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 56,94 no Pix</div>
-        <div class="install" data-parc>6x de R$ 11,16</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo", "name": "Etiqueta Clair 50 X 40 2 Coluna 41M Amarela 1 Rolo", "price": 66.99, "image": "../assets/products/etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Etiqueta Clair 50 X 40 2 Coluna 41M Amarela 1 Rolo" data-wa-slug="etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo", "name": "Etiqueta Clair 50 X 40 2 Coluna 41M Amarela 1 Rolo", "image": "../assets/products/etiqueta-clair-50-x-40-2-coluna-41m-amarela-1-rolo.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo" data-sub="Automação Comercial" data-brand="" data-price="55.0">
+    <article class="card" data-product-card data-slug="etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo" data-sub="Automação Comercial" data-brand="">
       <a class="thumb" href="../produtos/etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo.webp" alt="Etiqueta Clair 90X30 Amarela Fluor S/ Furo 1 Rolo" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Automação Comercial</div>
         <h3><a href="../produtos/etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo.html">Etiqueta Clair 90X30 Amarela Fluor S/ Furo 1 Rolo</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="55,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 46,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 9,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo", "name": "Etiqueta Clair 90X30 Amarela Fluor S/ Furo 1 Rolo", "price": 55.0, "image": "../assets/products/etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Etiqueta Clair 90X30 Amarela Fluor S/ Furo 1 Rolo" data-wa-slug="etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo", "name": "Etiqueta Clair 90X30 Amarela Fluor S/ Furo 1 Rolo", "image": "../assets/products/etiqueta-clair-90x30-amarela-fluor-s-furo-1-rolo.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="fita-rotulador-brother-12mm-branco-preto-tzefx231-original" data-sub="Automação Comercial" data-brand="BROTHER" data-price="190.0">
+    <article class="card" data-product-card data-slug="fita-rotulador-brother-12mm-branco-preto-tzefx231-original" data-sub="Automação Comercial" data-brand="BROTHER">
       <a class="thumb" href="../produtos/fita-rotulador-brother-12mm-branco-preto-tzefx231-original.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/fita-rotulador-brother-12mm-branco-preto-tzefx231-original.webp" alt="Fita Rotulador Brother 12Mm Branco/Preto Tzefx231 Original" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">BROTHER</div>
         <h3><a href="../produtos/fita-rotulador-brother-12mm-branco-preto-tzefx231-original.html">Fita Rotulador Brother 12Mm Branco/Preto Tzefx231 Original</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="190,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 161,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 31,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/fita-rotulador-brother-12mm-branco-preto-tzefx231-original.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fita-rotulador-brother-12mm-branco-preto-tzefx231-original", "name": "Fita Rotulador Brother 12Mm Branco/Preto Tzefx231 Original", "price": 190.0, "image": "../assets/products/fita-rotulador-brother-12mm-branco-preto-tzefx231-original.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Fita Rotulador Brother 12Mm Branco/Preto Tzefx231 Original" data-wa-slug="fita-rotulador-brother-12mm-branco-preto-tzefx231-original">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/fita-rotulador-brother-12mm-branco-preto-tzefx231-original.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fita-rotulador-brother-12mm-branco-preto-tzefx231-original", "name": "Fita Rotulador Brother 12Mm Branco/Preto Tzefx231 Original", "image": "../assets/products/fita-rotulador-brother-12mm-branco-preto-tzefx231-original.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un" data-sub="Automação Comercial" data-brand="Brother" data-price="225.0">
+    <article class="card" data-product-card data-slug="fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un" data-sub="Automação Comercial" data-brand="Brother">
       <a class="thumb" href="../produtos/fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un.webp" alt="Fita Rotulador Brother 12Mm X-Full M-K231 Preto Kit Com 5Un" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Brother</div>
         <h3><a href="../produtos/fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un.html">Fita Rotulador Brother 12Mm X-Full M-K231 Preto Kit Com 5Un</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="225,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 191,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 37,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un", "name": "Fita Rotulador Brother 12Mm X-Full M-K231 Preto Kit Com 5Un", "price": 225.0, "image": "../assets/products/fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Fita Rotulador Brother 12Mm X-Full M-K231 Preto Kit Com 5Un" data-wa-slug="fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un", "name": "Fita Rotulador Brother 12Mm X-Full M-K231 Preto Kit Com 5Un", "image": "../assets/products/fita-rotulador-brother-12mm-x-full-m-k231-preto-kit-com-5un.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="fita-rotulador-dymo-12mm-multilaser-rf025-preto" data-sub="Automação Comercial" data-brand="Multilaser" data-price="55.0">
+    <article class="card" data-product-card data-slug="fita-rotulador-dymo-12mm-multilaser-rf025-preto" data-sub="Automação Comercial" data-brand="Multilaser">
       <a class="thumb" href="../produtos/fita-rotulador-dymo-12mm-multilaser-rf025-preto.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/fita-rotulador-dymo-12mm-multilaser-rf025-preto.webp" alt="Fita Rotulador Dymo 12Mm Multilaser Rf025 Preto" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Multilaser</div>
         <h3><a href="../produtos/fita-rotulador-dymo-12mm-multilaser-rf025-preto.html">Fita Rotulador Dymo 12Mm Multilaser Rf025 Preto</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="55,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 46,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 9,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/fita-rotulador-dymo-12mm-multilaser-rf025-preto.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fita-rotulador-dymo-12mm-multilaser-rf025-preto", "name": "Fita Rotulador Dymo 12Mm Multilaser Rf025 Preto", "price": 55.0, "image": "../assets/products/fita-rotulador-dymo-12mm-multilaser-rf025-preto.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Fita Rotulador Dymo 12Mm Multilaser Rf025 Preto" data-wa-slug="fita-rotulador-dymo-12mm-multilaser-rf025-preto">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/fita-rotulador-dymo-12mm-multilaser-rf025-preto.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fita-rotulador-dymo-12mm-multilaser-rf025-preto", "name": "Fita Rotulador Dymo 12Mm Multilaser Rf025 Preto", "image": "../assets/products/fita-rotulador-dymo-12mm-multilaser-rf025-preto.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="fragmentadora-documento-aurora-as600sb-220v" data-sub="Automação Comercial" data-brand="" data-price="436.62">
+    <article class="card" data-product-card data-slug="fragmentadora-documento-aurora-as600sb-220v" data-sub="Automação Comercial" data-brand="">
       <a class="thumb" href="../produtos/fragmentadora-documento-aurora-as600sb-220v.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/fragmentadora-documento-aurora-as600sb-220v.webp" alt="Fragmentadora Documento Aurora As600Sb - 220V" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Automação Comercial</div>
         <h3><a href="../produtos/fragmentadora-documento-aurora-as600sb-220v.html">Fragmentadora Documento Aurora As600Sb - 220V</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="436,62" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 371,13 no Pix</div>
-        <div class="install" data-parc>6x de R$ 72,77</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/fragmentadora-documento-aurora-as600sb-220v.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fragmentadora-documento-aurora-as600sb-220v", "name": "Fragmentadora Documento Aurora As600Sb - 220V", "price": 436.62, "image": "../assets/products/fragmentadora-documento-aurora-as600sb-220v.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Fragmentadora Documento Aurora As600Sb - 220V" data-wa-slug="fragmentadora-documento-aurora-as600sb-220v">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/fragmentadora-documento-aurora-as600sb-220v.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fragmentadora-documento-aurora-as600sb-220v", "name": "Fragmentadora Documento Aurora As600Sb - 220V", "image": "../assets/products/fragmentadora-documento-aurora-as600sb-220v.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="fragmentadora-documento-aurora-as810sd-220v" data-sub="Automação Comercial" data-brand="" data-price="620.54">
+    <article class="card" data-product-card data-slug="fragmentadora-documento-aurora-as810sd-220v" data-sub="Automação Comercial" data-brand="">
       <a class="thumb" href="../produtos/fragmentadora-documento-aurora-as810sd-220v.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/fragmentadora-documento-aurora-as810sd-220v.webp" alt="Fragmentadora Documento Aurora As810Sd - 220V" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Automação Comercial</div>
         <h3><a href="../produtos/fragmentadora-documento-aurora-as810sd-220v.html">Fragmentadora Documento Aurora As810Sd - 220V</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="620,54" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 527,46 no Pix</div>
-        <div class="install" data-parc>6x de R$ 103,42</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/fragmentadora-documento-aurora-as810sd-220v.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fragmentadora-documento-aurora-as810sd-220v", "name": "Fragmentadora Documento Aurora As810Sd - 220V", "price": 620.54, "image": "../assets/products/fragmentadora-documento-aurora-as810sd-220v.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Fragmentadora Documento Aurora As810Sd - 220V" data-wa-slug="fragmentadora-documento-aurora-as810sd-220v">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/fragmentadora-documento-aurora-as810sd-220v.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "fragmentadora-documento-aurora-as810sd-220v", "name": "Fragmentadora Documento Aurora As810Sd - 220V", "image": "../assets/products/fragmentadora-documento-aurora-as810sd-220v.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="gaveta-dinheiro-bematech-gd56-preta" data-sub="Automação Comercial" data-brand="Bematech" data-price="638.2">
+    <article class="card" data-product-card data-slug="gaveta-dinheiro-bematech-gd56-preta" data-sub="Automação Comercial" data-brand="Bematech">
       <a class="thumb" href="../produtos/gaveta-dinheiro-bematech-gd56-preta.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/gaveta-dinheiro-bematech-gd56-preta.webp" alt="Gaveta Dinheiro Bematech Gd56 Preta" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Bematech</div>
         <h3><a href="../produtos/gaveta-dinheiro-bematech-gd56-preta.html">Gaveta Dinheiro Bematech Gd56 Preta</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="638,20" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 542,47 no Pix</div>
-        <div class="install" data-parc>6x de R$ 106,37</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/gaveta-dinheiro-bematech-gd56-preta.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "gaveta-dinheiro-bematech-gd56-preta", "name": "Gaveta Dinheiro Bematech Gd56 Preta", "price": 638.2, "image": "../assets/products/gaveta-dinheiro-bematech-gd56-preta.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Gaveta Dinheiro Bematech Gd56 Preta" data-wa-slug="gaveta-dinheiro-bematech-gd56-preta">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/gaveta-dinheiro-bematech-gd56-preta.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "gaveta-dinheiro-bematech-gd56-preta", "name": "Gaveta Dinheiro Bematech Gd56 Preta", "image": "../assets/products/gaveta-dinheiro-bematech-gd56-preta.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="refil-marcador-quadro-branco-rm1001-azul" data-sub="Automação Comercial" data-brand="" data-price="6.5">
+    <article class="card" data-product-card data-slug="refil-marcador-quadro-branco-rm1001-azul" data-sub="Automação Comercial" data-brand="">
       <a class="thumb" href="../produtos/refil-marcador-quadro-branco-rm1001-azul.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/refil-marcador-quadro-branco-rm1001-azul.webp" alt="Refil Marcador Quadro Branco Rm1001 Azul" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Automação Comercial</div>
         <h3><a href="../produtos/refil-marcador-quadro-branco-rm1001-azul.html">Refil Marcador Quadro Branco Rm1001 Azul</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="6,50" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 5,52 no Pix</div>
-        <div class="install" data-parc>6x de R$ 1,08</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/refil-marcador-quadro-branco-rm1001-azul.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "refil-marcador-quadro-branco-rm1001-azul", "name": "Refil Marcador Quadro Branco Rm1001 Azul", "price": 6.5, "image": "../assets/products/refil-marcador-quadro-branco-rm1001-azul.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Refil Marcador Quadro Branco Rm1001 Azul" data-wa-slug="refil-marcador-quadro-branco-rm1001-azul">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/refil-marcador-quadro-branco-rm1001-azul.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "refil-marcador-quadro-branco-rm1001-azul", "name": "Refil Marcador Quadro Branco Rm1001 Azul", "image": "../assets/products/refil-marcador-quadro-branco-rm1001-azul.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="refil-marcador-quadro-branco-rm1003-vermelho" data-sub="Automação Comercial" data-brand="" data-price="6.5">
+    <article class="card" data-product-card data-slug="refil-marcador-quadro-branco-rm1003-vermelho" data-sub="Automação Comercial" data-brand="">
       <a class="thumb" href="../produtos/refil-marcador-quadro-branco-rm1003-vermelho.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/refil-marcador-quadro-branco-rm1003-vermelho.webp" alt="Refil Marcador Quadro Branco Rm1003 Vermelho" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Automação Comercial</div>
         <h3><a href="../produtos/refil-marcador-quadro-branco-rm1003-vermelho.html">Refil Marcador Quadro Branco Rm1003 Vermelho</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="6,50" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 5,52 no Pix</div>
-        <div class="install" data-parc>6x de R$ 1,08</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/refil-marcador-quadro-branco-rm1003-vermelho.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "refil-marcador-quadro-branco-rm1003-vermelho", "name": "Refil Marcador Quadro Branco Rm1003 Vermelho", "price": 6.5, "image": "../assets/products/refil-marcador-quadro-branco-rm1003-vermelho.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Refil Marcador Quadro Branco Rm1003 Vermelho" data-wa-slug="refil-marcador-quadro-branco-rm1003-vermelho">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/refil-marcador-quadro-branco-rm1003-vermelho.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "refil-marcador-quadro-branco-rm1003-vermelho", "name": "Refil Marcador Quadro Branco Rm1003 Vermelho", "image": "../assets/products/refil-marcador-quadro-branco-rm1003-vermelho.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="registrador-eletronico-ponto-control-id-rep-idclass-facial-prox" data-sub="Automação Comercial" data-brand="CONTROL ID" data-price="2825.95">
+    <article class="card" data-product-card data-slug="registrador-eletronico-ponto-control-id-rep-idclass-facial-prox" data-sub="Automação Comercial" data-brand="CONTROL ID">
       <a class="thumb" href="../produtos/registrador-eletronico-ponto-control-id-rep-idclass-facial-prox.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/registrador-eletronico-ponto-control-id-rep-idclass-facial-prox.webp" alt="Registrador Eletronico Ponto Control Id (Rep Idclass Facial Prox)" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">CONTROL ID</div>
         <h3><a href="../produtos/registrador-eletronico-ponto-control-id-rep-idclass-facial-prox.html">Registrador Eletronico Ponto Control Id (Rep Idclass Facial Prox)</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="2.825,95" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 2.402,06 no Pix</div>
-        <div class="install" data-parc>6x de R$ 470,99</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/registrador-eletronico-ponto-control-id-rep-idclass-facial-prox.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "registrador-eletronico-ponto-control-id-rep-idclass-facial-prox", "name": "Registrador Eletronico Ponto Control Id (Rep Idclass Facial Prox)", "price": 2825.95, "image": "../assets/products/registrador-eletronico-ponto-control-id-rep-idclass-facial-prox.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Registrador Eletronico Ponto Control Id (Rep Idclass Facial Prox)" data-wa-slug="registrador-eletronico-ponto-control-id-rep-idclass-facial-prox">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/registrador-eletronico-ponto-control-id-rep-idclass-facial-prox.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "registrador-eletronico-ponto-control-id-rep-idclass-facial-prox", "name": "Registrador Eletronico Ponto Control Id (Rep Idclass Facial Prox)", "image": "../assets/products/registrador-eletronico-ponto-control-id-rep-idclass-facial-prox.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="registrador-eletronico-ponto-control-id-rep-idclass-bio-prox" data-sub="Automação Comercial" data-brand="CONTROL ID" data-price="2225.15">
+    <article class="card" data-product-card data-slug="registrador-eletronico-ponto-control-id-rep-idclass-bio-prox" data-sub="Automação Comercial" data-brand="CONTROL ID">
       <a class="thumb" href="../produtos/registrador-eletronico-ponto-control-id-rep-idclass-bio-prox.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/registrador-eletronico-ponto-control-id-rep-idclass-bio-prox.webp" alt="Registrador Eletronico Ponto Control Id Rep Idclass Bio Prox" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">CONTROL ID</div>
         <h3><a href="../produtos/registrador-eletronico-ponto-control-id-rep-idclass-bio-prox.html">Registrador Eletronico Ponto Control Id Rep Idclass Bio Prox</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="2.225,15" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.891,38 no Pix</div>
-        <div class="install" data-parc>6x de R$ 370,86</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/registrador-eletronico-ponto-control-id-rep-idclass-bio-prox.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "registrador-eletronico-ponto-control-id-rep-idclass-bio-prox", "name": "Registrador Eletronico Ponto Control Id Rep Idclass Bio Prox", "price": 2225.15, "image": "../assets/products/registrador-eletronico-ponto-control-id-rep-idclass-bio-prox.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Registrador Eletronico Ponto Control Id Rep Idclass Bio Prox" data-wa-slug="registrador-eletronico-ponto-control-id-rep-idclass-bio-prox">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/registrador-eletronico-ponto-control-id-rep-idclass-bio-prox.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "registrador-eletronico-ponto-control-id-rep-idclass-bio-prox", "name": "Registrador Eletronico Ponto Control Id Rep Idclass Bio Prox", "image": "../assets/products/registrador-eletronico-ponto-control-id-rep-idclass-bio-prox.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="rotulador-brother-pt-m95-bk" data-sub="Automação Comercial" data-brand="BROTHER" data-price="526.58">
+    <article class="card" data-product-card data-slug="rotulador-brother-pt-m95-bk" data-sub="Automação Comercial" data-brand="BROTHER">
       <a class="thumb" href="../produtos/rotulador-brother-pt-m95-bk.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/rotulador-brother-pt-m95-bk.webp" alt="Rotulador Brother Pt M95 Bk" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">BROTHER</div>
         <h3><a href="../produtos/rotulador-brother-pt-m95-bk.html">Rotulador Brother Pt M95 Bk</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="526,58" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 447,59 no Pix</div>
-        <div class="install" data-parc>6x de R$ 87,76</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/rotulador-brother-pt-m95-bk.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "rotulador-brother-pt-m95-bk", "name": "Rotulador Brother Pt M95 Bk", "price": 526.58, "image": "../assets/products/rotulador-brother-pt-m95-bk.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Rotulador Brother Pt M95 Bk" data-wa-slug="rotulador-brother-pt-m95-bk">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/rotulador-brother-pt-m95-bk.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "rotulador-brother-pt-m95-bk", "name": "Rotulador Brother Pt M95 Bk", "image": "../assets/products/rotulador-brother-pt-m95-bk.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="rotulador-movel-brother-ptp300bt" data-sub="Automação Comercial" data-brand="Brother" data-price="450.0">
+    <article class="card" data-product-card data-slug="rotulador-movel-brother-ptp300bt" data-sub="Automação Comercial" data-brand="Brother">
       <a class="thumb" href="../produtos/rotulador-movel-brother-ptp300bt.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/rotulador-movel-brother-ptp300bt.webp" alt="Rotulador Movel Brother Ptp300Bt" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Brother</div>
         <h3><a href="../produtos/rotulador-movel-brother-ptp300bt.html">Rotulador Movel Brother Ptp300Bt</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="450,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 382,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 75,00</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/rotulador-movel-brother-ptp300bt.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "rotulador-movel-brother-ptp300bt", "name": "Rotulador Movel Brother Ptp300Bt", "price": 450.0, "image": "../assets/products/rotulador-movel-brother-ptp300bt.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Rotulador Movel Brother Ptp300Bt" data-wa-slug="rotulador-movel-brother-ptp300bt">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/rotulador-movel-brother-ptp300bt.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "rotulador-movel-brother-ptp300bt", "name": "Rotulador Movel Brother Ptp300Bt", "image": "../assets/products/rotulador-movel-brother-ptp300bt.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a" data-sub="PDV e Leitores" data-brand="" data-price="69.49">
+    <article class="card" data-product-card data-slug="base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a.webp" alt="Base Leitor Codigo Barras Exbom Lcb-Q210 Lcb-150 Lcb-S600A" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a.html">Base Leitor Codigo Barras Exbom Lcb-Q210 Lcb-150 Lcb-S600A</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="69,49" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 59,07 no Pix</div>
-        <div class="install" data-parc>6x de R$ 11,58</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a", "name": "Base Leitor Codigo Barras Exbom Lcb-Q210 Lcb-150 Lcb-S600A", "price": 69.49, "image": "../assets/products/base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Base Leitor Codigo Barras Exbom Lcb-Q210 Lcb-150 Lcb-S600A" data-wa-slug="base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a", "name": "Base Leitor Codigo Barras Exbom Lcb-Q210 Lcb-150 Lcb-S600A", "image": "../assets/products/base-leitor-codigo-barras-exbom-lcb-q210-lcb-150-lcb-s600a.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cpu-get-i3-6g-8gb-ssd-120-win11-pdv" data-sub="PDV e Leitores" data-brand="GET" data-price="2465.51">
+    <article class="card" data-product-card data-slug="cpu-get-i3-6g-8gb-ssd-120-win11-pdv" data-sub="PDV e Leitores" data-brand="GET">
       <a class="thumb" href="../produtos/cpu-get-i3-6g-8gb-ssd-120-win11-pdv.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cpu-get-i3-6g-8gb-ssd-120-win11-pdv.webp" alt="Cpu Get I3 6G 8Gb Ssd 120 Win11 Pdv" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">GET</div>
         <h3><a href="../produtos/cpu-get-i3-6g-8gb-ssd-120-win11-pdv.html">Cpu Get I3 6G 8Gb Ssd 120 Win11 Pdv</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="2.465,51" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 2.095,68 no Pix</div>
-        <div class="install" data-parc>6x de R$ 410,92</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cpu-get-i3-6g-8gb-ssd-120-win11-pdv.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cpu-get-i3-6g-8gb-ssd-120-win11-pdv", "name": "Cpu Get I3 6G 8Gb Ssd 120 Win11 Pdv", "price": 2465.51, "image": "../assets/products/cpu-get-i3-6g-8gb-ssd-120-win11-pdv.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cpu Get I3 6G 8Gb Ssd 120 Win11 Pdv" data-wa-slug="cpu-get-i3-6g-8gb-ssd-120-win11-pdv">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cpu-get-i3-6g-8gb-ssd-120-win11-pdv.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cpu-get-i3-6g-8gb-ssd-120-win11-pdv", "name": "Cpu Get I3 6G 8Gb Ssd 120 Win11 Pdv", "image": "../assets/products/cpu-get-i3-6g-8gb-ssd-120-win11-pdv.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="cpu-jetway-pdv-touch-screen-15-0-jpt-700" data-sub="PDV e Leitores" data-brand="" data-price="3995.0">
+    <article class="card" data-product-card data-slug="cpu-jetway-pdv-touch-screen-15-0-jpt-700" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/cpu-jetway-pdv-touch-screen-15-0-jpt-700.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/cpu-jetway-pdv-touch-screen-15-0-jpt-700.webp" alt="Cpu Jetway Pdv Touch Screen 15.0&quot; Jpt-700" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/cpu-jetway-pdv-touch-screen-15-0-jpt-700.html">Cpu Jetway Pdv Touch Screen 15.0&quot; Jpt-700</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="3.995,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 3.395,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 665,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/cpu-jetway-pdv-touch-screen-15-0-jpt-700.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cpu-jetway-pdv-touch-screen-15-0-jpt-700", "name": "Cpu Jetway Pdv Touch Screen 15.0\" Jpt-700", "price": 3995.0, "image": "../assets/products/cpu-jetway-pdv-touch-screen-15-0-jpt-700.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Cpu Jetway Pdv Touch Screen 15.0&quot; Jpt-700" data-wa-slug="cpu-jetway-pdv-touch-screen-15-0-jpt-700">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/cpu-jetway-pdv-touch-screen-15-0-jpt-700.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "cpu-jetway-pdv-touch-screen-15-0-jpt-700", "name": "Cpu Jetway Pdv Touch Screen 15.0\" Jpt-700", "image": "../assets/products/cpu-jetway-pdv-touch-screen-15-0-jpt-700.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="etiquetadora-8-dig-cis-azul" data-sub="PDV e Leitores" data-brand="CIS" data-price="95.0">
+    <article class="card" data-product-card data-slug="etiquetadora-8-dig-cis-azul" data-sub="PDV e Leitores" data-brand="CIS">
       <a class="thumb" href="../produtos/etiquetadora-8-dig-cis-azul.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/etiquetadora-8-dig-cis-azul.webp" alt="Etiquetadora 8 Dig. Cis - Azul" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">CIS</div>
         <h3><a href="../produtos/etiquetadora-8-dig-cis-azul.html">Etiquetadora 8 Dig. Cis - Azul</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="95,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 80,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 15,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/etiquetadora-8-dig-cis-azul.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "etiquetadora-8-dig-cis-azul", "name": "Etiquetadora 8 Dig. Cis - Azul", "price": 95.0, "image": "../assets/products/etiquetadora-8-dig-cis-azul.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Etiquetadora 8 Dig. Cis - Azul" data-wa-slug="etiquetadora-8-dig-cis-azul">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/etiquetadora-8-dig-cis-azul.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "etiquetadora-8-dig-cis-azul", "name": "Etiquetadora 8 Dig. Cis - Azul", "image": "../assets/products/etiquetadora-8-dig-cis-azul.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto" data-sub="PDV e Leitores" data-brand="C3TECH" data-price="57.64">
+    <article class="card" data-product-card data-slug="hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto" data-sub="PDV e Leitores" data-brand="C3TECH">
       <a class="thumb" href="../produtos/hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto.webp" alt="Hub Usb C3Tech 3P 2.0 Leitor De Cartao Hu-L200Bk Preto" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">C3TECH</div>
         <h3><a href="../produtos/hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto.html">Hub Usb C3Tech 3P 2.0 Leitor De Cartao Hu-L200Bk Preto</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="57,64" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 48,99 no Pix</div>
-        <div class="install" data-parc>6x de R$ 9,61</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto", "name": "Hub Usb C3Tech 3P 2.0 Leitor De Cartao Hu-L200Bk Preto", "price": 57.64, "image": "../assets/products/hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Hub Usb C3Tech 3P 2.0 Leitor De Cartao Hu-L200Bk Preto" data-wa-slug="hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto", "name": "Hub Usb C3Tech 3P 2.0 Leitor De Cartao Hu-L200Bk Preto", "image": "../assets/products/hub-usb-c3tech-3p-2-0-leitor-de-cartao-hu-l200bk-preto.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto" data-sub="PDV e Leitores" data-brand="EXBOM" data-price="75.0">
+    <article class="card" data-product-card data-slug="hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto" data-sub="PDV e Leitores" data-brand="EXBOM">
       <a class="thumb" href="../produtos/hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto.webp" alt="Hub Usb Exbom 3.0 3P + Leitor Cartao Uh-R32 Preto" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">EXBOM</div>
         <h3><a href="../produtos/hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto.html">Hub Usb Exbom 3.0 3P + Leitor Cartao Uh-R32 Preto</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="75,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 63,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 12,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto", "name": "Hub Usb Exbom 3.0 3P + Leitor Cartao Uh-R32 Preto", "price": 75.0, "image": "../assets/products/hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Hub Usb Exbom 3.0 3P + Leitor Cartao Uh-R32 Preto" data-wa-slug="hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto", "name": "Hub Usb Exbom 3.0 3P + Leitor Cartao Uh-R32 Preto", "image": "../assets/products/hub-usb-exbom-3-0-3p-leitor-cartao-uh-r32-preto.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="hub-usb-f3-3-usb-leitor-cartao" data-sub="PDV e Leitores" data-brand="F3" data-price="110.0">
+    <article class="card" data-product-card data-slug="hub-usb-f3-3-usb-leitor-cartao" data-sub="PDV e Leitores" data-brand="F3">
       <a class="thumb" href="../produtos/hub-usb-f3-3-usb-leitor-cartao.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/hub-usb-f3-3-usb-leitor-cartao.webp" alt="Hub Usb F3 3 Usb + Leitor Cartao" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">F3</div>
         <h3><a href="../produtos/hub-usb-f3-3-usb-leitor-cartao.html">Hub Usb F3 3 Usb + Leitor Cartao</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="110,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 93,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 18,33</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/hub-usb-f3-3-usb-leitor-cartao.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hub-usb-f3-3-usb-leitor-cartao", "name": "Hub Usb F3 3 Usb + Leitor Cartao", "price": 110.0, "image": "../assets/products/hub-usb-f3-3-usb-leitor-cartao.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Hub Usb F3 3 Usb + Leitor Cartao" data-wa-slug="hub-usb-f3-3-usb-leitor-cartao">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/hub-usb-f3-3-usb-leitor-cartao.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hub-usb-f3-3-usb-leitor-cartao", "name": "Hub Usb F3 3 Usb + Leitor Cartao", "image": "../assets/products/hub-usb-f3-3-usb-leitor-cartao.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="hub-usbc-f3-3-usb-leitor-cartao-603" data-sub="PDV e Leitores" data-brand="F3" data-price="157.42">
+    <article class="card" data-product-card data-slug="hub-usbc-f3-3-usb-leitor-cartao-603" data-sub="PDV e Leitores" data-brand="F3">
       <a class="thumb" href="../produtos/hub-usbc-f3-3-usb-leitor-cartao-603.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/hub-usbc-f3-3-usb-leitor-cartao-603.webp" alt="Hub Usbc F3 3-Usb + Leitor Cartao 603" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">F3</div>
         <h3><a href="../produtos/hub-usbc-f3-3-usb-leitor-cartao-603.html">Hub Usbc F3 3-Usb + Leitor Cartao 603</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="157,42" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 133,81 no Pix</div>
-        <div class="install" data-parc>6x de R$ 26,24</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/hub-usbc-f3-3-usb-leitor-cartao-603.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hub-usbc-f3-3-usb-leitor-cartao-603", "name": "Hub Usbc F3 3-Usb + Leitor Cartao 603", "price": 157.42, "image": "../assets/products/hub-usbc-f3-3-usb-leitor-cartao-603.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Hub Usbc F3 3-Usb + Leitor Cartao 603" data-wa-slug="hub-usbc-f3-3-usb-leitor-cartao-603">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/hub-usbc-f3-3-usb-leitor-cartao-603.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "hub-usbc-f3-3-usb-leitor-cartao-603", "name": "Hub Usbc F3 3-Usb + Leitor Cartao 603", "image": "../assets/products/hub-usbc-f3-3-usb-leitor-cartao-603.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-cartao-externo-usb-smartcard-comtac-9166" data-sub="PDV e Leitores" data-brand="COMTAC" data-price="98.88">
+    <article class="card" data-product-card data-slug="leitor-cartao-externo-usb-smartcard-comtac-9166" data-sub="PDV e Leitores" data-brand="COMTAC">
       <a class="thumb" href="../produtos/leitor-cartao-externo-usb-smartcard-comtac-9166.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-cartao-externo-usb-smartcard-comtac-9166.webp" alt="Leitor Cartao Externo Usb Smartcard Comtac 9166" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">COMTAC</div>
         <h3><a href="../produtos/leitor-cartao-externo-usb-smartcard-comtac-9166.html">Leitor Cartao Externo Usb Smartcard Comtac 9166</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="98,88" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 84,05 no Pix</div>
-        <div class="install" data-parc>6x de R$ 16,48</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-cartao-externo-usb-smartcard-comtac-9166.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-cartao-externo-usb-smartcard-comtac-9166", "name": "Leitor Cartao Externo Usb Smartcard Comtac 9166", "price": 98.88, "image": "../assets/products/leitor-cartao-externo-usb-smartcard-comtac-9166.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Cartao Externo Usb Smartcard Comtac 9166" data-wa-slug="leitor-cartao-externo-usb-smartcard-comtac-9166">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-cartao-externo-usb-smartcard-comtac-9166.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-cartao-externo-usb-smartcard-comtac-9166", "name": "Leitor Cartao Externo Usb Smartcard Comtac 9166", "image": "../assets/products/leitor-cartao-externo-usb-smartcard-comtac-9166.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-cartao-externo-usb-smartcard-comtac-9202" data-sub="PDV e Leitores" data-brand="" data-price="110.0">
+    <article class="card" data-product-card data-slug="leitor-cartao-externo-usb-smartcard-comtac-9202" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-cartao-externo-usb-smartcard-comtac-9202.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-cartao-externo-usb-smartcard-comtac-9202.webp" alt="Leitor Cartao Externo Usb Smartcard Comtac 9202" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-cartao-externo-usb-smartcard-comtac-9202.html">Leitor Cartao Externo Usb Smartcard Comtac 9202</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="110,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 93,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 18,33</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-cartao-externo-usb-smartcard-comtac-9202.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-cartao-externo-usb-smartcard-comtac-9202", "name": "Leitor Cartao Externo Usb Smartcard Comtac 9202", "price": 110.0, "image": "../assets/products/leitor-cartao-externo-usb-smartcard-comtac-9202.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Cartao Externo Usb Smartcard Comtac 9202" data-wa-slug="leitor-cartao-externo-usb-smartcard-comtac-9202">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-cartao-externo-usb-smartcard-comtac-9202.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-cartao-externo-usb-smartcard-comtac-9202", "name": "Leitor Cartao Externo Usb Smartcard Comtac 9202", "image": "../assets/products/leitor-cartao-externo-usb-smartcard-comtac-9202.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-cartao-externo-usb-smartcard-nonus" data-sub="PDV e Leitores" data-brand="" data-price="129.9">
+    <article class="card" data-product-card data-slug="leitor-cartao-externo-usb-smartcard-nonus" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-cartao-externo-usb-smartcard-nonus.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-cartao-externo-usb-smartcard-nonus.webp" alt="Leitor Cartao Externo Usb Smartcard Nonus" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-cartao-externo-usb-smartcard-nonus.html">Leitor Cartao Externo Usb Smartcard Nonus</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="129,90" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 110,42 no Pix</div>
-        <div class="install" data-parc>6x de R$ 21,65</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-cartao-externo-usb-smartcard-nonus.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-cartao-externo-usb-smartcard-nonus", "name": "Leitor Cartao Externo Usb Smartcard Nonus", "price": 129.9, "image": "../assets/products/leitor-cartao-externo-usb-smartcard-nonus.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Cartao Externo Usb Smartcard Nonus" data-wa-slug="leitor-cartao-externo-usb-smartcard-nonus">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-cartao-externo-usb-smartcard-nonus.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-cartao-externo-usb-smartcard-nonus", "name": "Leitor Cartao Externo Usb Smartcard Nonus", "image": "../assets/products/leitor-cartao-externo-usb-smartcard-nonus.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-2d-fixo-usb-bematech-i3200" data-sub="PDV e Leitores" data-brand="BEMATECH" data-price="1640.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-2d-fixo-usb-bematech-i3200" data-sub="PDV e Leitores" data-brand="BEMATECH">
       <a class="thumb" href="../produtos/leitor-codigo-barras-2d-fixo-usb-bematech-i3200.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-2d-fixo-usb-bematech-i3200.webp" alt="Leitor Codigo Barras 2D Fixo Usb Bematech I3200" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">BEMATECH</div>
         <h3><a href="../produtos/leitor-codigo-barras-2d-fixo-usb-bematech-i3200.html">Leitor Codigo Barras 2D Fixo Usb Bematech I3200</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="1.640,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.394,00 no Pix</div>
-        <div class="install" data-parc>6x de R$ 273,33</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-2d-fixo-usb-bematech-i3200.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-2d-fixo-usb-bematech-i3200", "name": "Leitor Codigo Barras 2D Fixo Usb Bematech I3200", "price": 1640.0, "image": "../assets/products/leitor-codigo-barras-2d-fixo-usb-bematech-i3200.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras 2D Fixo Usb Bematech I3200" data-wa-slug="leitor-codigo-barras-2d-fixo-usb-bematech-i3200">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-2d-fixo-usb-bematech-i3200.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-2d-fixo-usb-bematech-i3200", "name": "Leitor Codigo Barras 2D Fixo Usb Bematech I3200", "image": "../assets/products/leitor-codigo-barras-2d-fixo-usb-bematech-i3200.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-2d-fixo-usb-elgin-el8600" data-sub="PDV e Leitores" data-brand="Elgin" data-price="1762.3">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-2d-fixo-usb-elgin-el8600" data-sub="PDV e Leitores" data-brand="Elgin">
       <a class="thumb" href="../produtos/leitor-codigo-barras-2d-fixo-usb-elgin-el8600.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-2d-fixo-usb-elgin-el8600.webp" alt="Leitor Codigo Barras 2D Fixo Usb Elgin El8600" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Elgin</div>
         <h3><a href="../produtos/leitor-codigo-barras-2d-fixo-usb-elgin-el8600.html">Leitor Codigo Barras 2D Fixo Usb Elgin El8600</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="1.762,30" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.497,95 no Pix</div>
-        <div class="install" data-parc>6x de R$ 293,72</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-2d-fixo-usb-elgin-el8600.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-2d-fixo-usb-elgin-el8600", "name": "Leitor Codigo Barras 2D Fixo Usb Elgin El8600", "price": 1762.3, "image": "../assets/products/leitor-codigo-barras-2d-fixo-usb-elgin-el8600.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras 2D Fixo Usb Elgin El8600" data-wa-slug="leitor-codigo-barras-2d-fixo-usb-elgin-el8600">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-2d-fixo-usb-elgin-el8600.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-2d-fixo-usb-elgin-el8600", "name": "Leitor Codigo Barras 2D Fixo Usb Elgin El8600", "image": "../assets/products/leitor-codigo-barras-2d-fixo-usb-elgin-el8600.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-bematech-2d-suporte-imager-el-250" data-sub="PDV e Leitores" data-brand="" data-price="864.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-bematech-2d-suporte-imager-el-250" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-codigo-barras-bematech-2d-suporte-imager-el-250.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-bematech-2d-suporte-imager-el-250.webp" alt="Leitor Codigo Barras Bematech 2D Suporte Imager El-250" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-codigo-barras-bematech-2d-suporte-imager-el-250.html">Leitor Codigo Barras Bematech 2D Suporte Imager El-250</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="864,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 734,40 no Pix</div>
-        <div class="install" data-parc>6x de R$ 144,00</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-bematech-2d-suporte-imager-el-250.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-bematech-2d-suporte-imager-el-250", "name": "Leitor Codigo Barras Bematech 2D Suporte Imager El-250", "price": 864.0, "image": "../assets/products/leitor-codigo-barras-bematech-2d-suporte-imager-el-250.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Bematech 2D Suporte Imager El-250" data-wa-slug="leitor-codigo-barras-bematech-2d-suporte-imager-el-250">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-bematech-2d-suporte-imager-el-250.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-bematech-2d-suporte-imager-el-250", "name": "Leitor Codigo Barras Bematech 2D Suporte Imager El-250", "image": "../assets/products/leitor-codigo-barras-bematech-2d-suporte-imager-el-250.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk" data-sub="PDV e Leitores" data-brand="C3TECH" data-price="519.6">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk" data-sub="PDV e Leitores" data-brand="C3TECH">
       <a class="thumb" href="../produtos/leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk.webp" alt="Leitor Codigo Barras C3Tech Sem Fio Branco Lb-W300Bk" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">C3TECH</div>
         <h3><a href="../produtos/leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk.html">Leitor Codigo Barras C3Tech Sem Fio Branco Lb-W300Bk</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="519,60" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 441,66 no Pix</div>
-        <div class="install" data-parc>6x de R$ 86,60</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk", "name": "Leitor Codigo Barras C3Tech Sem Fio Branco Lb-W300Bk", "price": 519.6, "image": "../assets/products/leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras C3Tech Sem Fio Branco Lb-W300Bk" data-wa-slug="leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk", "name": "Leitor Codigo Barras C3Tech Sem Fio Branco Lb-W300Bk", "image": "../assets/products/leitor-codigo-barras-c3tech-sem-fio-branco-lb-w300bk.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-comtac-ccd-ps750" data-sub="PDV e Leitores" data-brand="COMTAC" data-price="250.99">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-comtac-ccd-ps750" data-sub="PDV e Leitores" data-brand="COMTAC">
       <a class="thumb" href="../produtos/leitor-codigo-barras-comtac-ccd-ps750.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-comtac-ccd-ps750.webp" alt="Leitor Codigo Barras Comtac Ccd Ps750" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">COMTAC</div>
         <h3><a href="../produtos/leitor-codigo-barras-comtac-ccd-ps750.html">Leitor Codigo Barras Comtac Ccd Ps750</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="250,99" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 213,34 no Pix</div>
-        <div class="install" data-parc>6x de R$ 41,83</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-comtac-ccd-ps750.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-comtac-ccd-ps750", "name": "Leitor Codigo Barras Comtac Ccd Ps750", "price": 250.99, "image": "../assets/products/leitor-codigo-barras-comtac-ccd-ps750.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Comtac Ccd Ps750" data-wa-slug="leitor-codigo-barras-comtac-ccd-ps750">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-comtac-ccd-ps750.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-comtac-ccd-ps750", "name": "Leitor Codigo Barras Comtac Ccd Ps750", "image": "../assets/products/leitor-codigo-barras-comtac-ccd-ps750.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-comtac-hs970" data-sub="PDV e Leitores" data-brand="" data-price="389.9">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-comtac-hs970" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-codigo-barras-comtac-hs970.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-comtac-hs970.webp" alt="Leitor Codigo Barras Comtac Hs970" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-codigo-barras-comtac-hs970.html">Leitor Codigo Barras Comtac Hs970</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="389,90" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 331,41 no Pix</div>
-        <div class="install" data-parc>6x de R$ 64,98</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-comtac-hs970.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-comtac-hs970", "name": "Leitor Codigo Barras Comtac Hs970", "price": 389.9, "image": "../assets/products/leitor-codigo-barras-comtac-hs970.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Comtac Hs970" data-wa-slug="leitor-codigo-barras-comtac-hs970">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-comtac-hs970.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-comtac-hs970", "name": "Leitor Codigo Barras Comtac Hs970", "image": "../assets/products/leitor-codigo-barras-comtac-hs970.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-elgin-flash-ii" data-sub="PDV e Leitores" data-brand="ELGIN" data-price="345.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-elgin-flash-ii" data-sub="PDV e Leitores" data-brand="ELGIN">
       <a class="thumb" href="../produtos/leitor-codigo-barras-elgin-flash-ii.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-elgin-flash-ii.webp" alt="Leitor Codigo Barras Elgin Flash Ii" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">ELGIN</div>
         <h3><a href="../produtos/leitor-codigo-barras-elgin-flash-ii.html">Leitor Codigo Barras Elgin Flash Ii</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="345,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 293,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 57,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-elgin-flash-ii.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-elgin-flash-ii", "name": "Leitor Codigo Barras Elgin Flash Ii", "price": 345.0, "image": "../assets/products/leitor-codigo-barras-elgin-flash-ii.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Elgin Flash Ii" data-wa-slug="leitor-codigo-barras-elgin-flash-ii">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-elgin-flash-ii.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-elgin-flash-ii", "name": "Leitor Codigo Barras Elgin Flash Ii", "image": "../assets/products/leitor-codigo-barras-elgin-flash-ii.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250" data-sub="PDV e Leitores" data-brand="Elgin" data-price="864.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250" data-sub="PDV e Leitores" data-brand="Elgin">
       <a class="thumb" href="../produtos/leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250.webp" alt="Leitor Codigo Barras Elgin Pedestal 2D Imager Usb El-250" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">Elgin</div>
         <h3><a href="../produtos/leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250.html">Leitor Codigo Barras Elgin Pedestal 2D Imager Usb El-250</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="864,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 734,40 no Pix</div>
-        <div class="install" data-parc>6x de R$ 144,00</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250", "name": "Leitor Codigo Barras Elgin Pedestal 2D Imager Usb El-250", "price": 864.0, "image": "../assets/products/leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Elgin Pedestal 2D Imager Usb El-250" data-wa-slug="leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250", "name": "Leitor Codigo Barras Elgin Pedestal 2D Imager Usb El-250", "image": "../assets/products/leitor-codigo-barras-elgin-pedestal-2d-imager-usb-el-250.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-fixo-usb-bematech-i-3200" data-sub="PDV e Leitores" data-brand="BEMATECH" data-price="1875.97">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-fixo-usb-bematech-i-3200" data-sub="PDV e Leitores" data-brand="BEMATECH">
       <a class="thumb" href="../produtos/leitor-codigo-barras-fixo-usb-bematech-i-3200.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-fixo-usb-bematech-i-3200.webp" alt="Leitor Codigo Barras Fixo Usb Bematech I-3200" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">BEMATECH</div>
         <h3><a href="../produtos/leitor-codigo-barras-fixo-usb-bematech-i-3200.html">Leitor Codigo Barras Fixo Usb Bematech I-3200</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="1.875,97" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.594,57 no Pix</div>
-        <div class="install" data-parc>6x de R$ 312,66</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-fixo-usb-bematech-i-3200.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-fixo-usb-bematech-i-3200", "name": "Leitor Codigo Barras Fixo Usb Bematech I-3200", "price": 1875.97, "image": "../assets/products/leitor-codigo-barras-fixo-usb-bematech-i-3200.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Fixo Usb Bematech I-3200" data-wa-slug="leitor-codigo-barras-fixo-usb-bematech-i-3200">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-fixo-usb-bematech-i-3200.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-fixo-usb-bematech-i-3200", "name": "Leitor Codigo Barras Fixo Usb Bematech I-3200", "image": "../assets/products/leitor-codigo-barras-fixo-usb-bematech-i-3200.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-get-fixo-1d-2d" data-sub="PDV e Leitores" data-brand="GET" data-price="999.36">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-get-fixo-1d-2d" data-sub="PDV e Leitores" data-brand="GET">
       <a class="thumb" href="../produtos/leitor-codigo-barras-get-fixo-1d-2d.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-get-fixo-1d-2d.webp" alt="Leitor Codigo Barras Get Fixo 1D 2D" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">GET</div>
         <h3><a href="../produtos/leitor-codigo-barras-get-fixo-1d-2d.html">Leitor Codigo Barras Get Fixo 1D 2D</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="999,36" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 849,46 no Pix</div>
-        <div class="install" data-parc>6x de R$ 166,56</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-get-fixo-1d-2d.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-get-fixo-1d-2d", "name": "Leitor Codigo Barras Get Fixo 1D 2D", "price": 999.36, "image": "../assets/products/leitor-codigo-barras-get-fixo-1d-2d.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Get Fixo 1D 2D" data-wa-slug="leitor-codigo-barras-get-fixo-1d-2d">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-get-fixo-1d-2d.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-get-fixo-1d-2d", "name": "Leitor Codigo Barras Get Fixo 1D 2D", "image": "../assets/products/leitor-codigo-barras-get-fixo-1d-2d.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d" data-sub="PDV e Leitores" data-brand="GET" data-price="488.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d" data-sub="PDV e Leitores" data-brand="GET">
       <a class="thumb" href="../produtos/leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d.webp" alt="Leitor Codigo Barras Get Sem Fio Bluetooh Lt 200B 2D" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">GET</div>
         <h3><a href="../produtos/leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d.html">Leitor Codigo Barras Get Sem Fio Bluetooh Lt 200B 2D</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="488,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 414,80 no Pix</div>
-        <div class="install" data-parc>6x de R$ 81,33</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d", "name": "Leitor Codigo Barras Get Sem Fio Bluetooh Lt 200B 2D", "price": 488.0, "image": "../assets/products/leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Get Sem Fio Bluetooh Lt 200B 2D" data-wa-slug="leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d", "name": "Leitor Codigo Barras Get Sem Fio Bluetooh Lt 200B 2D", "image": "../assets/products/leitor-codigo-barras-get-sem-fio-bluetooh-lt-200b-2d.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-honeywell-eclipse-5145-kit-usb" data-sub="PDV e Leitores" data-brand="HONEYWELL" data-price="560.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-honeywell-eclipse-5145-kit-usb" data-sub="PDV e Leitores" data-brand="HONEYWELL">
       <a class="thumb" href="../produtos/leitor-codigo-barras-honeywell-eclipse-5145-kit-usb.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-honeywell-eclipse-5145-kit-usb.webp" alt="Leitor Codigo Barras Honeywell Eclipse 5145 Kit Usb" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">HONEYWELL</div>
         <h3><a href="../produtos/leitor-codigo-barras-honeywell-eclipse-5145-kit-usb.html">Leitor Codigo Barras Honeywell Eclipse 5145 Kit Usb</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="560,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 476,00 no Pix</div>
-        <div class="install" data-parc>6x de R$ 93,33</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-honeywell-eclipse-5145-kit-usb.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-honeywell-eclipse-5145-kit-usb", "name": "Leitor Codigo Barras Honeywell Eclipse 5145 Kit Usb", "price": 560.0, "image": "../assets/products/leitor-codigo-barras-honeywell-eclipse-5145-kit-usb.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Honeywell Eclipse 5145 Kit Usb" data-wa-slug="leitor-codigo-barras-honeywell-eclipse-5145-kit-usb">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-honeywell-eclipse-5145-kit-usb.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-honeywell-eclipse-5145-kit-usb", "name": "Leitor Codigo Barras Honeywell Eclipse 5145 Kit Usb", "image": "../assets/products/leitor-codigo-barras-honeywell-eclipse-5145-kit-usb.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200" data-sub="PDV e Leitores" data-brand="NONUS" data-price="682.51">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200" data-sub="PDV e Leitores" data-brand="NONUS">
       <a class="thumb" href="../produtos/leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200.webp" alt="Leitor Codigo Barras Sem Fio Laser Usb Nonus Lw200" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">NONUS</div>
         <h3><a href="../produtos/leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200.html">Leitor Codigo Barras Sem Fio Laser Usb Nonus Lw200</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="682,51" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 580,13 no Pix</div>
-        <div class="install" data-parc>6x de R$ 113,75</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200", "name": "Leitor Codigo Barras Sem Fio Laser Usb Nonus Lw200", "price": 682.51, "image": "../assets/products/leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Sem Fio Laser Usb Nonus Lw200" data-wa-slug="leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200", "name": "Leitor Codigo Barras Sem Fio Laser Usb Nonus Lw200", "image": "../assets/products/leitor-codigo-barras-sem-fio-laser-usb-nonus-lw200.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk" data-sub="PDV e Leitores" data-brand="C3TECH" data-price="325.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk" data-sub="PDV e Leitores" data-brand="C3TECH">
       <a class="thumb" href="../produtos/leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk.webp" alt="Leitor Codigo Barras Sem Fio Preto C3Tech Lb-W200V2Bk" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">C3TECH</div>
         <h3><a href="../produtos/leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk.html">Leitor Codigo Barras Sem Fio Preto C3Tech Lb-W200V2Bk</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="325,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 276,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 54,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk", "name": "Leitor Codigo Barras Sem Fio Preto C3Tech Lb-W200V2Bk", "price": 325.0, "image": "../assets/products/leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Sem Fio Preto C3Tech Lb-W200V2Bk" data-wa-slug="leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk", "name": "Leitor Codigo Barras Sem Fio Preto C3Tech Lb-W200V2Bk", "image": "../assets/products/leitor-codigo-barras-sem-fio-preto-c3tech-lb-w200v2bk.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-sem-fio-usb-tanca-tl-120w" data-sub="PDV e Leitores" data-brand="" data-price="645.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-sem-fio-usb-tanca-tl-120w" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-codigo-barras-sem-fio-usb-tanca-tl-120w.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-sem-fio-usb-tanca-tl-120w.webp" alt="Leitor Codigo Barras Sem Fio Usb Tanca Tl-120W" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-codigo-barras-sem-fio-usb-tanca-tl-120w.html">Leitor Codigo Barras Sem Fio Usb Tanca Tl-120W</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="645,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 548,25 no Pix</div>
-        <div class="install" data-parc>6x de R$ 107,50</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-sem-fio-usb-tanca-tl-120w.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-sem-fio-usb-tanca-tl-120w", "name": "Leitor Codigo Barras Sem Fio Usb Tanca Tl-120W", "price": 645.0, "image": "../assets/products/leitor-codigo-barras-sem-fio-usb-tanca-tl-120w.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Sem Fio Usb Tanca Tl-120W" data-wa-slug="leitor-codigo-barras-sem-fio-usb-tanca-tl-120w">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-sem-fio-usb-tanca-tl-120w.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-sem-fio-usb-tanca-tl-120w", "name": "Leitor Codigo Barras Sem Fio Usb Tanca Tl-120W", "image": "../assets/products/leitor-codigo-barras-sem-fio-usb-tanca-tl-120w.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-semi-fixo-multilaser-ga148" data-sub="PDV e Leitores" data-brand="MULTILASER" data-price="1280.03">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-semi-fixo-multilaser-ga148" data-sub="PDV e Leitores" data-brand="MULTILASER">
       <a class="thumb" href="../produtos/leitor-codigo-barras-semi-fixo-multilaser-ga148.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-semi-fixo-multilaser-ga148.webp" alt="Leitor Codigo Barras Semi Fixo Multilaser Ga148" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">MULTILASER</div>
         <h3><a href="../produtos/leitor-codigo-barras-semi-fixo-multilaser-ga148.html">Leitor Codigo Barras Semi Fixo Multilaser Ga148</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="1.280,03" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 1.088,03 no Pix</div>
-        <div class="install" data-parc>6x de R$ 213,34</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-semi-fixo-multilaser-ga148.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-semi-fixo-multilaser-ga148", "name": "Leitor Codigo Barras Semi Fixo Multilaser Ga148", "price": 1280.03, "image": "../assets/products/leitor-codigo-barras-semi-fixo-multilaser-ga148.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Semi Fixo Multilaser Ga148" data-wa-slug="leitor-codigo-barras-semi-fixo-multilaser-ga148">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-semi-fixo-multilaser-ga148.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-semi-fixo-multilaser-ga148", "name": "Leitor Codigo Barras Semi Fixo Multilaser Ga148", "image": "../assets/products/leitor-codigo-barras-semi-fixo-multilaser-ga148.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-semi-fixo-usb-jetway-jl-500" data-sub="PDV e Leitores" data-brand="" data-price="850.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-semi-fixo-usb-jetway-jl-500" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-codigo-barras-semi-fixo-usb-jetway-jl-500.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-semi-fixo-usb-jetway-jl-500.webp" alt="Leitor Codigo Barras Semi-Fixo Usb Jetway Jl-500" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-codigo-barras-semi-fixo-usb-jetway-jl-500.html">Leitor Codigo Barras Semi-Fixo Usb Jetway Jl-500</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="850,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 722,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 141,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-semi-fixo-usb-jetway-jl-500.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-semi-fixo-usb-jetway-jl-500", "name": "Leitor Codigo Barras Semi-Fixo Usb Jetway Jl-500", "price": 850.0, "image": "../assets/products/leitor-codigo-barras-semi-fixo-usb-jetway-jl-500.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Semi-Fixo Usb Jetway Jl-500" data-wa-slug="leitor-codigo-barras-semi-fixo-usb-jetway-jl-500">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-semi-fixo-usb-jetway-jl-500.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-semi-fixo-usb-jetway-jl-500", "name": "Leitor Codigo Barras Semi-Fixo Usb Jetway Jl-500", "image": "../assets/products/leitor-codigo-barras-semi-fixo-usb-jetway-jl-500.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-jetway-jl200" data-sub="PDV e Leitores" data-brand="" data-price="299.5">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-jetway-jl200" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-codigo-barras-usb-jetway-jl200.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-usb-jetway-jl200.webp" alt="Leitor Codigo Barras Usb Jetway Jl200" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-codigo-barras-usb-jetway-jl200.html">Leitor Codigo Barras Usb Jetway Jl200</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="299,50" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 254,57 no Pix</div>
-        <div class="install" data-parc>6x de R$ 49,92</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-usb-jetway-jl200.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-jetway-jl200", "name": "Leitor Codigo Barras Usb Jetway Jl200", "price": 299.5, "image": "../assets/products/leitor-codigo-barras-usb-jetway-jl200.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Usb Jetway Jl200" data-wa-slug="leitor-codigo-barras-usb-jetway-jl200">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-usb-jetway-jl200.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-jetway-jl200", "name": "Leitor Codigo Barras Usb Jetway Jl200", "image": "../assets/products/leitor-codigo-barras-usb-jetway-jl200.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d" data-sub="PDV e Leitores" data-brand="" data-price="487.99">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d.webp" alt="Leitor Codigo Barras Usb Laser 2D 1D Nonus Qr302D" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d.html">Leitor Codigo Barras Usb Laser 2D 1D Nonus Qr302D</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="487,99" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 414,79 no Pix</div>
-        <div class="install" data-parc>6x de R$ 81,33</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d", "name": "Leitor Codigo Barras Usb Laser 2D 1D Nonus Qr302D", "price": 487.99, "image": "../assets/products/leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Usb Laser 2D 1D Nonus Qr302D" data-wa-slug="leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d", "name": "Leitor Codigo Barras Usb Laser 2D 1D Nonus Qr302D", "image": "../assets/products/leitor-codigo-barras-usb-laser-2d-1d-nonus-qr302d.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw" data-sub="PDV e Leitores" data-brand="TANCA" data-price="550.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw" data-sub="PDV e Leitores" data-brand="TANCA">
       <a class="thumb" href="../produtos/leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw.webp" alt="Leitor Codigo Barras Usb Sem Fio Tanca Tl-150Btw" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">TANCA</div>
         <h3><a href="../produtos/leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw.html">Leitor Codigo Barras Usb Sem Fio Tanca Tl-150Btw</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="550,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 467,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 91,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw", "name": "Leitor Codigo Barras Usb Sem Fio Tanca Tl-150Btw", "price": 550.0, "image": "../assets/products/leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Usb Sem Fio Tanca Tl-150Btw" data-wa-slug="leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw", "name": "Leitor Codigo Barras Usb Sem Fio Tanca Tl-150Btw", "image": "../assets/products/leitor-codigo-barras-usb-sem-fio-tanca-tl-150btw.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-tanca-tl-320" data-sub="PDV e Leitores" data-brand="" data-price="535.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-tanca-tl-320" data-sub="PDV e Leitores" data-brand="">
       <a class="thumb" href="../produtos/leitor-codigo-barras-usb-tanca-tl-320.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-usb-tanca-tl-320.webp" alt="Leitor Codigo Barras Usb Tanca Tl-320" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">PDV e Leitores</div>
         <h3><a href="../produtos/leitor-codigo-barras-usb-tanca-tl-320.html">Leitor Codigo Barras Usb Tanca Tl-320</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="535,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 454,75 no Pix</div>
-        <div class="install" data-parc>6x de R$ 89,17</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-usb-tanca-tl-320.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-tanca-tl-320", "name": "Leitor Codigo Barras Usb Tanca Tl-320", "price": 535.0, "image": "../assets/products/leitor-codigo-barras-usb-tanca-tl-320.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Usb Tanca Tl-320" data-wa-slug="leitor-codigo-barras-usb-tanca-tl-320">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-usb-tanca-tl-320.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-tanca-tl-320", "name": "Leitor Codigo Barras Usb Tanca Tl-320", "image": "../assets/products/leitor-codigo-barras-usb-tanca-tl-320.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-tanca-tl120" data-sub="PDV e Leitores" data-brand="TANCA" data-price="250.0">
+    <article class="card" data-product-card data-slug="leitor-codigo-barras-usb-tanca-tl120" data-sub="PDV e Leitores" data-brand="TANCA">
       <a class="thumb" href="../produtos/leitor-codigo-barras-usb-tanca-tl120.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/leitor-codigo-barras-usb-tanca-tl120.webp" alt="Leitor Codigo Barras Usb Tanca Tl120" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">TANCA</div>
         <h3><a href="../produtos/leitor-codigo-barras-usb-tanca-tl120.html">Leitor Codigo Barras Usb Tanca Tl120</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="250,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 212,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 41,67</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/leitor-codigo-barras-usb-tanca-tl120.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-tanca-tl120", "name": "Leitor Codigo Barras Usb Tanca Tl120", "price": 250.0, "image": "../assets/products/leitor-codigo-barras-usb-tanca-tl120.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Leitor Codigo Barras Usb Tanca Tl120" data-wa-slug="leitor-codigo-barras-usb-tanca-tl120">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/leitor-codigo-barras-usb-tanca-tl120.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "leitor-codigo-barras-usb-tanca-tl120", "name": "Leitor Codigo Barras Usb Tanca Tl120", "image": "../assets/products/leitor-codigo-barras-usb-tanca-tl120.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19" data-sub="PDV e Leitores" data-brand="GET" data-price="4703.63">
+    <article class="card" data-product-card data-slug="micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19" data-sub="PDV e Leitores" data-brand="GET">
       <a class="thumb" href="../produtos/micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19.webp" alt="Micro Completo Get I3-1005G1 4Gb Ssd 256Gb + Leitor Sem Fio E Monitor 19" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">GET</div>
         <h3><a href="../produtos/micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19.html">Micro Completo Get I3-1005G1 4Gb Ssd 256Gb + Leitor Sem Fio E Monitor 19</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="4.703,63" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 3.998,09 no Pix</div>
-        <div class="install" data-parc>6x de R$ 783,94</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19", "name": "Micro Completo Get I3-1005G1 4Gb Ssd 256Gb + Leitor Sem Fio E Monitor 19", "price": 4703.63, "image": "../assets/products/micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Micro Completo Get I3-1005G1 4Gb Ssd 256Gb + Leitor Sem Fio E Monitor 19" data-wa-slug="micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19", "name": "Micro Completo Get I3-1005G1 4Gb Ssd 256Gb + Leitor Sem Fio E Monitor 19", "image": "../assets/products/micro-completo-get-i3-1005g1-4gb-ssd-256gb-leitor-sem-fio-e-monitor-19.webp"})'>Orçamento</button>
         </div>
       </div>
     </article>
-    <article class="card" data-product-card data-slug="suporte-leitor-codigo-barras-e-pin-pad-preto" data-sub="PDV e Leitores" data-brand="INNAL" data-price="450.0">
+    <article class="card" data-product-card data-slug="suporte-leitor-codigo-barras-e-pin-pad-preto" data-sub="PDV e Leitores" data-brand="INNAL">
       <a class="thumb" href="../produtos/suporte-leitor-codigo-barras-e-pin-pad-preto.html">
-        <span class="tag">Ref. editável</span>
         <img src="../assets/products/suporte-leitor-codigo-barras-e-pin-pad-preto.webp" alt="Suporte Leitor Codigo Barras E Pin Pad - Preto" loading="lazy">
       </a>
       <div class="body">
         <div class="brand">INNAL</div>
         <h3><a href="../produtos/suporte-leitor-codigo-barras-e-pin-pad-preto.html">Suporte Leitor Codigo Barras E Pin Pad - Preto</a></h3>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="450,00" aria-label="Preço"></div>
-        <div class="pix" data-pix>R$ 382,50 no Pix</div>
-        <div class="install" data-parc>6x de R$ 75,00</div>
-        <div class="cta">
-          <a class="btn btn-primary" href="../produtos/suporte-leitor-codigo-barras-e-pin-pad-preto.html">Ver</a>
-          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "suporte-leitor-codigo-barras-e-pin-pad-preto", "name": "Suporte Leitor Codigo Barras E Pin Pad - Preto", "price": 450.0, "image": "../assets/products/suporte-leitor-codigo-barras-e-pin-pad-preto.webp"})'>Carrinho</button>
+        <button class="btn btn-primary btn-wa" type="button" data-wa-name="Suporte Leitor Codigo Barras E Pin Pad - Preto" data-wa-slug="suporte-leitor-codigo-barras-e-pin-pad-preto">Consulte no WhatsApp</button>
+<div class="cta">
+          <a class="btn btn-dark" href="../produtos/suporte-leitor-codigo-barras-e-pin-pad-preto.html">Ver</a>
+          <button class="btn btn-dark" type="button" onclick='addToCart({"slug": "suporte-leitor-codigo-barras-e-pin-pad-preto", "name": "Suporte Leitor Codigo Barras E Pin Pad - Preto", "image": "../assets/products/suporte-leitor-codigo-barras-e-pin-pad-preto.webp"})'>Orçamento</button>
         </div>
       </div>
     </article></div>

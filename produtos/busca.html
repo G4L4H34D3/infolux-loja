@@ -20,7 +20,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
       <a class="m-logo" href="index.html"><img src="assets/logo-infolux.svg" alt="INFOLUX"></a>
-      <button class="btn-icon cart-btn" type="button" aria-label="Carrinho" onclick="openCart()">
+      <button class="btn-icon cart-btn" type="button" aria-label="Orçamento" onclick="openCart()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h7.4a2 2 0 0 0 2-1.5L21 7H7"/></svg>
         <span class="cart-badge" data-cart-count>0</span>
       </button>
@@ -44,7 +44,7 @@
       </form>
       <div style="display:flex;gap:8px">
         <a class="btn" href="mailto:infolux.snd@gmail.com">Entrar</a>
-        <button class="btn btn-primary" type="button" onclick="openCart()">Carrinho (<span data-cart-count>0</span>)</button>
+        <button class="btn btn-primary" type="button" onclick="openCart()">Orçamento (<span data-cart-count>0</span>)</button>
       </div>
     </div>
     <nav class="d-nav"><div class="inner">
@@ -66,7 +66,7 @@
   <div class="cart-drawer" id="cartDrawer" style="display:none" onclick="if(event.target===this)closeCart()">
     <div class="cart-panel">
       <div style="display:flex;justify-content:space-between;align-items:center">
-        <h2 style="margin:0;font-size:18px">Carrinho</h2>
+        <h2 style="margin:0;font-size:18px">Orçamento</h2>
         <button class="btn" type="button" onclick="closeCart()">Fechar</button>
       </div>
       <div id="cartItems"></div>
@@ -85,11 +85,20 @@ fetch('data/products.json').then(r=>r.json()).then(products=>{
   box.value=new URLSearchParams(location.search).get('q')||'';
   function render(){
     const q=box.value.toLowerCase().trim();
-    const list=!q?products.slice(0,40):products.filter(p=>JSON.stringify(p).toLowerCase().includes(q)).slice(0,100);
+    const list=!q?products.slice(0,40):products.filter(p=>{const {supplier_url,...s}=p; return JSON.stringify(s).toLowerCase().includes(q)}).slice(0,100);
     document.getElementById('searchCount').textContent=list.length;
-    grid.innerHTML=list.map(p=>`<article class="card"><a class="thumb" href="produtos/${p.slug}.html"><img src="${p.image||'assets/logo-infolux.svg'}" alt="" loading="lazy"></a>
-      <div class="body"><div class="brand">${p.brand||''}</div><h3><a href="produtos/${p.slug}.html">${p.name}</a></h3>
-      <div class="price">R$ ${(p.price_infolux??p.price_vzro??0).toLocaleString('pt-BR',{minimumFractionDigits:2})}</div></div></article>`).join('');
+    grid.innerHTML=list.map(p=>{
+      const safe={slug:p.slug,name:p.name,brand:p.brand,image:p.image};
+      const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+      return `<article class="card" data-product-card data-slug="${esc(safe.slug)}">
+      <a class="thumb" href="produtos/${esc(safe.slug)}.html"><img src="${esc(safe.image||'assets/logo-infolux.svg')}" alt="" loading="lazy"></a>
+      <div class="body"><div class="brand">${esc(safe.brand||'')}</div><h3><a href="produtos/${esc(safe.slug)}.html">${esc(safe.name)}</a></h3>
+      <button class="btn btn-primary btn-wa" type="button" data-wa-name="${esc(safe.name)}" data-wa-slug="${esc(safe.slug)}">Consulte no WhatsApp</button>
+      <div class="cta">
+        <a class="btn btn-dark" href="produtos/${esc(safe.slug)}.html">Ver</a>
+        <button class="btn btn-dark" type="button" onclick='addToCart(${JSON.stringify({slug:safe.slug,name:safe.name,image:safe.image||"assets/logo-infolux.svg"})})'>Orçamento</button>
+      </div></div></article>`;
+    }).join('');
   }
   box.addEventListener('input', render); render();
 });

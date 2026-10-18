@@ -20,7 +20,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
       <a class="m-logo" href="../index.html"><img src="../assets/logo-infolux.svg" alt="INFOLUX"></a>
-      <button class="btn-icon cart-btn" type="button" aria-label="Carrinho" onclick="openCart()">
+      <button class="btn-icon cart-btn" type="button" aria-label="Orçamento" onclick="openCart()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h7.4a2 2 0 0 0 2-1.5L21 7H7"/></svg>
         <span class="cart-badge" data-cart-count>0</span>
       </button>
@@ -44,7 +44,7 @@
       </form>
       <div style="display:flex;gap:8px">
         <a class="btn" href="mailto:infolux.snd@gmail.com">Entrar</a>
-        <button class="btn btn-primary" type="button" onclick="openCart()">Carrinho (<span data-cart-count>0</span>)</button>
+        <button class="btn btn-primary" type="button" onclick="openCart()">Orçamento (<span data-cart-count>0</span>)</button>
       </div>
     </div>
     <nav class="d-nav"><div class="inner">
@@ -66,7 +66,7 @@
   <div class="cart-drawer" id="cartDrawer" style="display:none" onclick="if(event.target===this)closeCart()">
     <div class="cart-panel">
       <div style="display:flex;justify-content:space-between;align-items:center">
-        <h2 style="margin:0;font-size:18px">Carrinho</h2>
+        <h2 style="margin:0;font-size:18px">Orçamento</h2>
         <button class="btn" type="button" onclick="closeCart()">Fechar</button>
       </div>
       <div id="cartItems"></div>
@@ -80,14 +80,10 @@
       <div>
         <div class="brand">Elgin</div>
         <h1>Toner Elgin Pb211</h1>
-        <div class="note" style="margin:8px 0">Preço referência editável · products.json / produtos.csv</div>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="83,82"></div>
-        <div class="pix" data-pix>R$ 71,25 no Pix (ref.)</div>
-        <div class="install" data-parc>6x de R$ 13,97 sem juros (ref.)</div>
-        <div style="display:grid;gap:8px;margin:14px 0">
-          <button class="btn btn-primary btn-block" type="button" onclick='addToCart({"slug": "toner-elgin-pb211", "name": "Toner Elgin Pb211", "price": 83.82, "image": "../assets/products/toner-elgin-pb211.webp"})'>Adicionar ao carrinho</button>
-          <a class="btn btn-dark btn-block" href="#" onclick="checkoutWhatsApp();return false">Comprar no WhatsApp</a>
+<div style="display:grid;gap:8px;margin:14px 0">
+          <button class="btn btn-primary btn-block btn-wa" type="button" data-wa-name="Toner Elgin Pb211" data-wa-slug="toner-elgin-pb211">Consulte no WhatsApp</button>
+          <button class="btn btn-primary btn-block" type="button" onclick='addToCart({"slug": "toner-elgin-pb211", "name": "Toner Elgin Pb211", "image": "../assets/products/toner-elgin-pb211.webp"})'>Adicionar ao orçamento</button>
+          
         </div>
         <h3 style="font-size:15px">Descrição</h3>
         <p style="color:var(--muted)">Toner Elgin PB211 compatível, com impressão preta nítida e até 1.600 cópias. Garanta qualidade e economia para sua impressora Elgin.</p>

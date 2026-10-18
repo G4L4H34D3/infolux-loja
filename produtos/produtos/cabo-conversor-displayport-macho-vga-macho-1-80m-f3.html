@@ -20,7 +20,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
       </button>
       <a class="m-logo" href="../index.html"><img src="../assets/logo-infolux.svg" alt="INFOLUX"></a>
-      <button class="btn-icon cart-btn" type="button" aria-label="Carrinho" onclick="openCart()">
+      <button class="btn-icon cart-btn" type="button" aria-label="Orçamento" onclick="openCart()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h7.4a2 2 0 0 0 2-1.5L21 7H7"/></svg>
         <span class="cart-badge" data-cart-count>0</span>
       </button>
@@ -44,7 +44,7 @@
       </form>
       <div style="display:flex;gap:8px">
         <a class="btn" href="mailto:infolux.snd@gmail.com">Entrar</a>
-        <button class="btn btn-primary" type="button" onclick="openCart()">Carrinho (<span data-cart-count>0</span>)</button>
+        <button class="btn btn-primary" type="button" onclick="openCart()">Orçamento (<span data-cart-count>0</span>)</button>
       </div>
     </div>
     <nav class="d-nav"><div class="inner">
@@ -66,7 +66,7 @@
   <div class="cart-drawer" id="cartDrawer" style="display:none" onclick="if(event.target===this)closeCart()">
     <div class="cart-panel">
       <div style="display:flex;justify-content:space-between;align-items:center">
-        <h2 style="margin:0;font-size:18px">Carrinho</h2>
+        <h2 style="margin:0;font-size:18px">Orçamento</h2>
         <button class="btn" type="button" onclick="closeCart()">Fechar</button>
       </div>
       <div id="cartItems"></div>
@@ -80,14 +80,10 @@
       <div>
         <div class="brand">F3</div>
         <h1>Conversor F3 Displayport Para Vga Macho 1.8M</h1>
-        <div class="note" style="margin:8px 0">Preço referência editável · products.json / produtos.csv</div>
-        <div class="price-label">Preço ref. (editável)</div>
-        <div class="price"><input data-price-input type="text" value="78,89"></div>
-        <div class="pix" data-pix>R$ 67,06 no Pix (ref.)</div>
-        <div class="install" data-parc>6x de R$ 13,15 sem juros (ref.)</div>
-        <div style="display:grid;gap:8px;margin:14px 0">
-          <button class="btn btn-primary btn-block" type="button" onclick='addToCart({"slug": "cabo-conversor-displayport-macho-vga-macho-1-80m-f3", "name": "Conversor F3 Displayport Para Vga Macho 1.8M", "price": 78.89, "image": "../assets/products/cabo-conversor-displayport-macho-vga-macho-1-80m-f3.webp"})'>Adicionar ao carrinho</button>
-          <a class="btn btn-dark btn-block" href="#" onclick="checkoutWhatsApp();return false">Comprar no WhatsApp</a>
+<div style="display:grid;gap:8px;margin:14px 0">
+          <button class="btn btn-primary btn-block btn-wa" type="button" data-wa-name="Conversor F3 Displayport Para Vga Macho 1.8M" data-wa-slug="cabo-conversor-displayport-macho-vga-macho-1-80m-f3">Consulte no WhatsApp</button>
+          <button class="btn btn-primary btn-block" type="button" onclick='addToCart({"slug": "cabo-conversor-displayport-macho-vga-macho-1-80m-f3", "name": "Conversor F3 Displayport Para Vga Macho 1.8M", "image": "../assets/products/cabo-conversor-displayport-macho-vga-macho-1-80m-f3.webp"})'>Adicionar ao orçamento</button>
+          
         </div>
         <h3 style="font-size:15px">Descrição</h3>
         <p style="color:var(--muted)">Conecte seus dispositivos com saída DisplayPort a monitores ou projetores com entrada VGA com o Cabo Conversor DisplayPort Macho x VGA Macho 1.80m F3. Suporta resoluções de até 1920x1200 e compatível com computadores, laptops e tablets. Com garantia de 12</p>
