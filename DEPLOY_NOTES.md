@@ -47,3 +47,18 @@ gh api -X POST repos/G4L4H34D3/infolux-loja/pages -f build_type=legacy -f source
 ```
 
 Then set DNS as above.
+
+## Current state (2026-10-18)
+
+- `infolux.app` (apex) = Lovable institutional site (not in this repo).
+- `loja.infolux.app` = this repo (CNAME). Root `/` → `/produtos/`.
+- `404.html` repairs legacy paths without the `/produtos/` prefix
+  (`/categorias/…`, `/empresa.html`, `/slug-do-produto.html`) and falls back to `/produtos/`.
+
+## FX v2 (front-end)
+
+All effects live in `produtos/assets/styles.css` (section "INFOLUX FX v2") and
+`produtos/assets/app.js` (initParallax, initTilt, initCounters, initReveal, initDynamicCards,
+initWhatsAppFloat). No external libraries. Everything is disabled under `prefers-reduced-motion`.
+Assets use `?v=YYYYMMDD` cache-busting — bump it in every page when CSS/JS change.
+New home section: `#diferenciais` ("Mais que uma loja online").

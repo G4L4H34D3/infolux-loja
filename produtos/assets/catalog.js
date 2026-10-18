@@ -21,7 +21,7 @@
   }
   function imgSrc(image){
     if(!image) return (root.dataset.depth==='2'?'../../':'../') + 'assets/logo-infolux.svg';
-    if(image.startsWith('http')||image.startsWith('assets/')||image.startsWith('../')) return image;
+    if(image.startsWith('http')||image.startsWith('../')) return image;
     const depth = root.dataset.depth || '1';
     return (depth==='2'?'../../':'../') + image.replace(/^\//,'');
   }

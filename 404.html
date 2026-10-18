@@ -1,4 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8"><title>INFOLUX</title>
-<meta http-equiv="refresh" content="0;url=/produtos/"></head>
-<body><p><a href="/produtos/">Loja INFOLUX</a></p></body></html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<script>
+/* A loja vive em loja.infolux.app/produtos/. Links antigos sem o prefixo
+   (ex.: /categorias/x.html, /produtos/x.html, /empresa.html) são corrigidos aqui. */
+(function(){
+  var p=location.pathname, q=location.search+location.hash;
+  if(!/^\/produtos\//.test(p)){
+    if(/^\/produtos\/?$/.test(p)) { location.replace('/produtos/'+q); return; }
+    if(/^\/[^/]+\.html$/.test(p) && !/^\/(categorias|produtos)\//.test(p) && !/^\/(empresa|busca|index)\.html$/.test(p)){
+      location.replace('/produtos/produtos'+p+q); return;      // /slug-do-produto.html
+    }
+    location.replace('/produtos'+p+q); return;                   // /categorias/..., /empresa.html, /assets/...
+  }
+  location.replace('/produtos/'+(location.search||''));        // dentro da loja mas inexistente → início
+})();
+</script>
+<meta http-equiv="refresh" content="2;url=/produtos/"></head>
+<body style="font-family:system-ui,sans-serif;background:#0A0A0A;color:#fff;display:grid;place-items:center;min-height:100vh;margin:0">
+<p>Redirecionando para a <a style="color:#F80000" href="/produtos/">Loja INFOLUX</a>…</p></body></html>
