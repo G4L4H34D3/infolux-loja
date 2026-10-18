@@ -1,5 +1,5 @@
-/* INFOLUX checkout config. Set live:true once the Cloudflare Worker is deployed. */
+/* INFOLUX checkout config. Cloudflare Worker deployed (infolux-checkout, Asaas production). */
 window.INFOLUX_CHECKOUT = {
-  CHECKOUT_API: 'https://infolux-checkout.workers.dev/checkout',
-  live: false
+  CHECKOUT_API: 'https://infolux-checkout.infolux.workers.dev/checkout',
+  live: true
 };
