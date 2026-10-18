@@ -1,0 +1,292 @@
+{
+  "_meta": {
+    "version": 1,
+    "updated": "2026-10-18",
+    "origin_note": "Sempre postado de Serra Nova Dourada-MT (CEP 78685-000).",
+    "disclaimer": "Valores estimados à vista (balcão), sem contrato Correios. Confirmados no WhatsApp no ato do pedido.",
+    "sources": [
+      {
+        "name": "Calculador oficial Correios (preços e prazos à vista)",
+        "url": "https://www2.correios.com.br/sistemas/precosPrazos/",
+        "note": "Fonte normativa para simulação balcão; preços dependem de peso e CEPs."
+      },
+      {
+        "name": "Ministério das Comunicações — tarifas postais (vigência 12/04/2026)",
+        "url": "https://www.gov.br/mcom/pt-br/assuntos/servico-postal-4/tarifas-de-malote-1",
+        "note": "Reajuste IPCA 2025 (~4,26%) aprovado; vigência abril/2026 para serviços postais."
+      },
+      {
+        "name": "Diglion — resumo do reajuste PAC/SEDEX abr/2026",
+        "url": "https://diglion.com.br/pt/blog/correios-reajustam-frete-pac-e-sedex-a-partir-de-12-de-abril",
+        "note": "Contexto do reajuste 4,26% a partir de 12/04/2026."
+      },
+      {
+        "name": "ViaCEP",
+        "url": "https://viacep.com.br/",
+        "note": "Validação de CEP e cidade/UF."
+      }
+    ],
+    "method": "Estimador racional por faixa de CEP (região/distância a partir de 78685-000), peso real ou estimado por categoria, e peso cúbico (fator 6000). Bases calibradas a partir de simulações típicas de balcão PAC/SEDEX pós-reajuste 2026 — NÃO são cotação contratual."
+  },
+  "origin": {
+    "cep": "78685000",
+    "label": "Serra Nova Dourada - MT",
+    "city": "Serra Nova Dourada",
+    "uf": "MT"
+  },
+  "cubic_factor_cm3_per_kg": 6000,
+  "default_dims_cm": {
+    "l": 20,
+    "w": 15,
+    "h": 10
+  },
+  "category_weight_kg": {
+    "default": 0.8,
+    "PCs, Notebooks e Acessórios": 1.2,
+    "Notebooks": 2.2,
+    "Monitores": 4.5,
+    "Computadores": 6.0,
+    "Impressão": 2.5,
+    "Impressoras": 5.5,
+    "Toners e Cartuchos": 0.6,
+    "Rede e Internet": 0.7,
+    "Wi-Fi e Roteadores": 0.9,
+    "Eletrônicos, Áudio e Vídeo": 1.0,
+    "Material de Escritório": 0.5,
+    "Câmeras e Alarmes": 0.9,
+    "Automação Comercial": 1.5,
+    "Nobreaks e Estabilizadores": 5.0,
+    "Energia e Fontes": 2.0
+  },
+  "regions": {
+    "mt_local": {
+      "label": "MT — interior / região Araguaia",
+      "match": {
+        "ufs": [
+          "MT"
+        ],
+        "exclude_cep_prefix": [
+          "780",
+          "781"
+        ]
+      },
+      "pac": {
+        "base": 26.9,
+        "per_kg": 5.8,
+        "min": 26.9
+      },
+      "sedex": {
+        "base": 42.9,
+        "per_kg": 9.5,
+        "min": 42.9
+      },
+      "days_pac": [
+        2,
+        5
+      ],
+      "days_sedex": [
+        1,
+        2
+      ]
+    },
+    "mt_capital": {
+      "label": "MT — Cuiabá / Várzea Grande",
+      "match": {
+        "cep_prefix": [
+          "780",
+          "781"
+        ]
+      },
+      "pac": {
+        "base": 29.9,
+        "per_kg": 6.2,
+        "min": 29.9
+      },
+      "sedex": {
+        "base": 48.9,
+        "per_kg": 10.2,
+        "min": 48.9
+      },
+      "days_pac": [
+        3,
+        6
+      ],
+      "days_sedex": [
+        1,
+        3
+      ]
+    },
+    "centro_oeste": {
+      "label": "Centro-Oeste (GO / MS / DF / TO)",
+      "match": {
+        "ufs": [
+          "GO",
+          "MS",
+          "DF",
+          "TO"
+        ]
+      },
+      "pac": {
+        "base": 36.9,
+        "per_kg": 7.4,
+        "min": 36.9
+      },
+      "sedex": {
+        "base": 58.9,
+        "per_kg": 12.5,
+        "min": 58.9
+      },
+      "days_pac": [
+        4,
+        8
+      ],
+      "days_sedex": [
+        1,
+        3
+      ]
+    },
+    "sudeste": {
+      "label": "Sudeste (SP / RJ / MG / ES)",
+      "match": {
+        "ufs": [
+          "SP",
+          "RJ",
+          "MG",
+          "ES"
+        ]
+      },
+      "pac": {
+        "base": 44.9,
+        "per_kg": 8.9,
+        "min": 44.9
+      },
+      "sedex": {
+        "base": 72.9,
+        "per_kg": 15.8,
+        "min": 72.9
+      },
+      "days_pac": [
+        5,
+        10
+      ],
+      "days_sedex": [
+        2,
+        4
+      ]
+    },
+    "sul": {
+      "label": "Sul (PR / SC / RS)",
+      "match": {
+        "ufs": [
+          "PR",
+          "SC",
+          "RS"
+        ]
+      },
+      "pac": {
+        "base": 48.9,
+        "per_kg": 9.4,
+        "min": 48.9
+      },
+      "sedex": {
+        "base": 78.9,
+        "per_kg": 16.9,
+        "min": 78.9
+      },
+      "days_pac": [
+        6,
+        12
+      ],
+      "days_sedex": [
+        2,
+        5
+      ]
+    },
+    "nordeste": {
+      "label": "Nordeste",
+      "match": {
+        "ufs": [
+          "BA",
+          "SE",
+          "AL",
+          "PE",
+          "PB",
+          "RN",
+          "CE",
+          "PI",
+          "MA"
+        ]
+      },
+      "pac": {
+        "base": 52.9,
+        "per_kg": 10.2,
+        "min": 52.9
+      },
+      "sedex": {
+        "base": 86.9,
+        "per_kg": 18.5,
+        "min": 86.9
+      },
+      "days_pac": [
+        7,
+        14
+      ],
+      "days_sedex": [
+        3,
+        6
+      ]
+    },
+    "norte": {
+      "label": "Norte",
+      "match": {
+        "ufs": [
+          "PA",
+          "AM",
+          "AC",
+          "RO",
+          "RR",
+          "AP"
+        ]
+      },
+      "pac": {
+        "base": 58.9,
+        "per_kg": 11.5,
+        "min": 58.9
+      },
+      "sedex": {
+        "base": 96.9,
+        "per_kg": 20.9,
+        "min": 96.9
+      },
+      "days_pac": [
+        8,
+        16
+      ],
+      "days_sedex": [
+        3,
+        7
+      ]
+    }
+  },
+  "xavante": {
+    "id": "xavante",
+    "name": "Viação Xavante (rodoviário, região MT/GO)",
+    "ufs": [
+      "MT",
+      "GO"
+    ],
+    "base": 22.0,
+    "per_kg": 3.8,
+    "min": 22.0,
+    "days": [
+      2,
+      6
+    ],
+    "note": "valor estimado, confirmado no WhatsApp"
+  },
+  "labels": {
+    "pac": "PAC (Correios) — estimado",
+    "sedex": "SEDEX (Correios) — estimado",
+    "footnote": "Estimativa à vista sem contrato. Confirme no WhatsApp antes do pagamento."
+  }
+}
