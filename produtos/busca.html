@@ -85,10 +85,10 @@ fetch('data/products.json').then(r=>r.json()).then(products=>{
   box.value=new URLSearchParams(location.search).get('q')||'';
   function render(){
     const q=box.value.toLowerCase().trim();
-    const list=!q?products.slice(0,40):products.filter(p=>{const {supplier_url,...s}=p; return JSON.stringify(s).toLowerCase().includes(q)}).slice(0,100);
+    const list=!q?products.slice(0,40):products.filter(p=>{const s=(({supplier_url, ...rest})=>rest)(p); return JSON.stringify(s).toLowerCase().includes(q)}).slice(0,100);
     document.getElementById('searchCount').textContent=list.length;
     grid.innerHTML=list.map(p=>{
-      const safe={slug:p.slug,name:p.name,brand:p.brand,image:p.image};
+      const safe={slug:p.slug,name:p.name,brand:p.brand,image:p.image}; /* no supplier_url */
       const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
       return `<article class="card" data-product-card data-slug="${esc(safe.slug)}">
       <a class="thumb" href="produtos/${esc(safe.slug)}.html"><img src="${esc(safe.image||'assets/logo-infolux.svg')}" alt="" loading="lazy"></a>

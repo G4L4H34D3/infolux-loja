@@ -1,0 +1,1103 @@
+{
+  "categories": [
+    {
+      "slug": "pcs-notebooks-e-acessorios",
+      "name": "PCs, Notebooks e Acessórios",
+      "count": 1881,
+      "children": [
+        {
+          "slug": "all-in-one",
+          "name": "All In One",
+          "count": 2
+        },
+        {
+          "slug": "mini-pcs",
+          "name": "Mini PCs",
+          "count": 31
+        },
+        {
+          "slug": "computadores",
+          "name": "Computadores",
+          "count": 44
+        },
+        {
+          "slug": "suportes-e-mesas",
+          "name": "Suportes e Mesas",
+          "count": 13
+        },
+        {
+          "slug": "kits-de-acessorios",
+          "name": "Kits de Acessórios",
+          "count": 7
+        },
+        {
+          "slug": "cabos-e-adaptadores",
+          "name": "Cabos e Adaptadores",
+          "count": 21
+        },
+        {
+          "slug": "coolers-externos",
+          "name": "Coolers Externos",
+          "count": 3
+        },
+        {
+          "slug": "mochilas-porta-notebooks",
+          "name": "Mochilas Porta Notebooks",
+          "count": 16
+        },
+        {
+          "slug": "carregadores",
+          "name": "Carregadores",
+          "count": 38
+        },
+        {
+          "slug": "passadores-de-slides",
+          "name": "Passadores de Slides",
+          "count": 2
+        },
+        {
+          "slug": "capas",
+          "name": "Capas",
+          "count": 4
+        },
+        {
+          "slug": "controles-remotos",
+          "name": "Controles Remotos",
+          "count": 1
+        },
+        {
+          "slug": "baterias",
+          "name": "Baterias",
+          "count": 19
+        },
+        {
+          "slug": "memorias-ram",
+          "name": "Memórias RAM",
+          "count": 53
+        },
+        {
+          "slug": "teclados",
+          "name": "Teclados",
+          "count": 60
+        },
+        {
+          "slug": "placas",
+          "name": "Placas",
+          "count": 5
+        },
+        {
+          "slug": "telas",
+          "name": "Telas",
+          "count": 8
+        },
+        {
+          "slug": "notebooks",
+          "name": "Notebooks",
+          "count": 20
+        },
+        {
+          "slug": "fones",
+          "name": "Fones",
+          "count": 68
+        },
+        {
+          "slug": "cadeiras-gamer",
+          "name": "Cadeiras Gamer",
+          "count": 10
+        },
+        {
+          "slug": "controles-e-joysticks",
+          "name": "Controles e Joysticks",
+          "count": 2
+        },
+        {
+          "slug": "memory-cards",
+          "name": "Memory Cards",
+          "count": 4
+        },
+        {
+          "slug": "volantes",
+          "name": "Volantes",
+          "count": 1
+        },
+        {
+          "slug": "microfones",
+          "name": "Microfones",
+          "count": 5
+        },
+        {
+          "slug": "joysticks",
+          "name": "Joysticks",
+          "count": 1
+        },
+        {
+          "slug": "headsets",
+          "name": "Headsets",
+          "count": 2
+        },
+        {
+          "slug": "gamepads-e-joysticks",
+          "name": "Gamepads e Joysticks",
+          "count": 1
+        },
+        {
+          "slug": "hds",
+          "name": "HDs",
+          "count": 55
+        },
+        {
+          "slug": "consoles",
+          "name": "Consoles",
+          "count": 2
+        },
+        {
+          "slug": "acessorios",
+          "name": "Acessórios",
+          "count": 5
+        },
+        {
+          "slug": "tablets",
+          "name": "Tablets",
+          "count": 1
+        },
+        {
+          "slug": "suportes",
+          "name": "Suportes",
+          "count": 8
+        },
+        {
+          "slug": "bases-elevatorias",
+          "name": "Bases Elevatórias",
+          "count": 2
+        },
+        {
+          "slug": "outros",
+          "name": "Outros",
+          "count": 1
+        },
+        {
+          "slug": "monitores",
+          "name": "Monitores",
+          "count": 40
+        },
+        {
+          "slug": "nobreaks",
+          "name": "Nobreaks",
+          "count": 43
+        },
+        {
+          "slug": "estabilizadores",
+          "name": "Estabilizadores",
+          "count": 14
+        },
+        {
+          "slug": "cabos",
+          "name": "Cabos",
+          "count": 23
+        },
+        {
+          "slug": "hubs-usb",
+          "name": "Hubs USB",
+          "count": 35
+        },
+        {
+          "slug": "mouses",
+          "name": "Mouses",
+          "count": 69
+        },
+        {
+          "slug": "mouse-pads",
+          "name": "Mouse Pads",
+          "count": 9
+        },
+        {
+          "slug": "caixas-de-som-e-subwoofer",
+          "name": "Caixas de Som e Subwoofer",
+          "count": 16
+        },
+        {
+          "slug": "hds-e-ssds",
+          "name": "HDs e SSDs",
+          "count": 60
+        },
+        {
+          "slug": "cabos-adaptadores",
+          "name": "Cabos Adaptadores",
+          "count": 4
+        },
+        {
+          "slug": "gavetas-para-hds",
+          "name": "Gavetas para HDs",
+          "count": 12
+        },
+        {
+          "slug": "pen-drives",
+          "name": "Pen Drives",
+          "count": 19
+        },
+        {
+          "slug": "webcams",
+          "name": "Webcams",
+          "count": 15
+        },
+        {
+          "slug": "suportes-para-cpu-s",
+          "name": "Suportes para CPU's",
+          "count": 2
+        },
+        {
+          "slug": "limpa-telas",
+          "name": "Limpa Telas",
+          "count": 2
+        },
+        {
+          "slug": "pasta-termica",
+          "name": "Pasta Térmica",
+          "count": 18
+        },
+        {
+          "slug": "limpadores",
+          "name": "Limpadores",
+          "count": 1
+        },
+        {
+          "slug": "limpa-contatos",
+          "name": "Limpa Contatos",
+          "count": 1
+        },
+        {
+          "slug": "alcool-isopropilico",
+          "name": "Álcool Isopropílico",
+          "count": 1
+        },
+        {
+          "slug": "gabinetes",
+          "name": "Gabinetes",
+          "count": 5
+        },
+        {
+          "slug": "fontes",
+          "name": "Fontes",
+          "count": 52
+        },
+        {
+          "slug": "cabos-de-energia",
+          "name": "Cabos de Energia",
+          "count": 3
+        },
+        {
+          "slug": "coolers-e-ventoinhas",
+          "name": "Coolers e Ventoinhas",
+          "count": 25
+        },
+        {
+          "slug": "placas-de-video",
+          "name": "Placas de Vídeo",
+          "count": 4
+        },
+        {
+          "slug": "placas-de-som",
+          "name": "Placas de Som",
+          "count": 6
+        },
+        {
+          "slug": "placas-controladoras",
+          "name": "Placas Controladoras",
+          "count": 4
+        },
+        {
+          "slug": "placas-mae",
+          "name": "Placas-Mãe",
+          "count": 4
+        },
+        {
+          "slug": "placas-usb-e-firewire",
+          "name": "Placas USB e Firewire",
+          "count": 3
+        },
+        {
+          "slug": "mouses-e-teclados",
+          "name": "Mouses e Teclados",
+          "count": 24
+        },
+        {
+          "slug": "informatica",
+          "name": "Informatica",
+          "count": 14
+        },
+        {
+          "slug": "fontes-de-alimentacao",
+          "name": "Fontes De Alimentacao",
+          "count": 6
+        },
+        {
+          "slug": "estabilizadores-e-no-breaks1",
+          "name": "Estabilizadores E No Breaks1",
+          "count": 5
+        },
+        {
+          "slug": "playstation-5",
+          "name": "Playstation 5",
+          "count": 2
+        },
+        {
+          "slug": "para-xbox",
+          "name": "Para Xbox",
+          "count": 2
+        },
+        {
+          "slug": "monitores-e-acessorios2",
+          "name": "Monitores E Acessorios2",
+          "count": 1
+        },
+        {
+          "slug": "discos-e-acessorios",
+          "name": "Discos E Acessorios",
+          "count": 1
+        },
+        {
+          "slug": "portateis-e-acessorios",
+          "name": "Portateis E Acessorios",
+          "count": 1
+        },
+        {
+          "slug": "acessorios-para-notebook",
+          "name": "Acessorios Para Notebook",
+          "count": 1
+        },
+        {
+          "slug": "maletas-e-bolsas",
+          "name": "Maletas E Bolsas",
+          "count": 3
+        },
+        {
+          "slug": "geral",
+          "name": "Geral",
+          "count": 816
+        }
+      ]
+    },
+    {
+      "slug": "impressao",
+      "name": "Impressão",
+      "count": 400,
+      "children": [
+        {
+          "slug": "impressoras-laser",
+          "name": "Impressoras Laser",
+          "count": 2
+        },
+        {
+          "slug": "impressoras-termicas",
+          "name": "Impressoras Térmicas",
+          "count": 2
+        },
+        {
+          "slug": "toners",
+          "name": "Toners",
+          "count": 175
+        },
+        {
+          "slug": "cartuchos-de-tinta",
+          "name": "Cartuchos de Tinta",
+          "count": 58
+        },
+        {
+          "slug": "tintas",
+          "name": "Tintas",
+          "count": 72
+        },
+        {
+          "slug": "ribbons",
+          "name": "Ribbons",
+          "count": 8
+        },
+        {
+          "slug": "fotografico",
+          "name": "Fotográfico",
+          "count": 3
+        },
+        {
+          "slug": "cilindros-e-unidades-de-imagem",
+          "name": "Cilindros e Unidades de Imagem",
+          "count": 11
+        },
+        {
+          "slug": "fusores-e-peliculas",
+          "name": "Fusores e Películas",
+          "count": 3
+        },
+        {
+          "slug": "outras-pecas",
+          "name": "Outras Peças",
+          "count": 2
+        },
+        {
+          "slug": "acessorios",
+          "name": "Acessórios",
+          "count": 3
+        },
+        {
+          "slug": "impressoras",
+          "name": "Impressoras",
+          "count": 46
+        },
+        {
+          "slug": "impressao",
+          "name": "Impressão",
+          "count": 1
+        },
+        {
+          "slug": "papeis-para-impressao1",
+          "name": "Papeis Para Impressao1",
+          "count": 7
+        },
+        {
+          "slug": "pecas",
+          "name": "Pecas",
+          "count": 5
+        },
+        {
+          "slug": "suprimentos-de-impressao",
+          "name": "Suprimentos De Impressao",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "rede-e-internet",
+      "name": "Rede e Internet",
+      "count": 353,
+      "children": [
+        {
+          "slug": "roteadores-wi-fi",
+          "name": "Roteadores Wi-Fi",
+          "count": 2
+        },
+        {
+          "slug": "access-points-internos",
+          "name": "Access Points internos",
+          "count": 2
+        },
+        {
+          "slug": "antenas-ponto-a-ponto",
+          "name": "Antenas ponto a ponto",
+          "count": 2
+        },
+        {
+          "slug": "roteadores-empresariais",
+          "name": "Roteadores empresariais",
+          "count": 2
+        },
+        {
+          "slug": "kits-starlink",
+          "name": "Kits Starlink",
+          "count": 4
+        },
+        {
+          "slug": "suportes",
+          "name": "Suportes",
+          "count": 2
+        },
+        {
+          "slug": "adaptadores",
+          "name": "Adaptadores",
+          "count": 2
+        },
+        {
+          "slug": "cabos-e-acessorios",
+          "name": "Cabos e acessórios",
+          "count": 7
+        },
+        {
+          "slug": "switches-comuns",
+          "name": "Switches comuns",
+          "count": 1
+        },
+        {
+          "slug": "switches-poe",
+          "name": "Switches PoE",
+          "count": 3
+        },
+        {
+          "slug": "switches-gerenciaveis",
+          "name": "Switches gerenciáveis",
+          "count": 2
+        },
+        {
+          "slug": "cabos-de-rede",
+          "name": "Cabos de Rede",
+          "count": 85
+        },
+        {
+          "slug": "conectores-rj45",
+          "name": "Conectores RJ45",
+          "count": 20
+        },
+        {
+          "slug": "organizadores-de-cabos",
+          "name": "Organizadores de Cabos",
+          "count": 4
+        },
+        {
+          "slug": "ferramentas",
+          "name": "Ferramentas",
+          "count": 22
+        },
+        {
+          "slug": "patch-panels",
+          "name": "Patch Panels",
+          "count": 6
+        },
+        {
+          "slug": "racks",
+          "name": "Racks",
+          "count": 2
+        },
+        {
+          "slug": "organizadores",
+          "name": "Organizadores",
+          "count": 4
+        },
+        {
+          "slug": "bandejas",
+          "name": "Bandejas",
+          "count": 3
+        },
+        {
+          "slug": "adaptadores-de-cabos-de-rede",
+          "name": "Adaptadores de Cabos de Rede",
+          "count": 10
+        },
+        {
+          "slug": "injetores-e-fontes-poe",
+          "name": "Injetores e fontes PoE",
+          "count": 8
+        },
+        {
+          "slug": "placas-de-rede",
+          "name": "Placas de Rede",
+          "count": 24
+        },
+        {
+          "slug": "conectividade-e-redes",
+          "name": "Conectividade E Redes",
+          "count": 8
+        },
+        {
+          "slug": "adaptadores-e-acessorios",
+          "name": "Adaptadores E Acessorios",
+          "count": 2
+        },
+        {
+          "slug": "antenas",
+          "name": "Antenas",
+          "count": 2
+        },
+        {
+          "slug": "cabos-de-rede-e-acessorios",
+          "name": "Cabos De Rede E Acessorios",
+          "count": 35
+        },
+        {
+          "slug": "internet-starlink",
+          "name": "Internet Starlink",
+          "count": 1
+        },
+        {
+          "slug": "interruptores-de-rede",
+          "name": "Interruptores De Rede",
+          "count": 22
+        },
+        {
+          "slug": "racks-de-servidores",
+          "name": "Racks De Servidores",
+          "count": 34
+        },
+        {
+          "slug": "roteadores1",
+          "name": "Roteadores1",
+          "count": 21
+        },
+        {
+          "slug": "voip-telefonia-via-internet",
+          "name": "Voip Telefonia Via Internet",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "slug": "automacao-comercial",
+      "name": "Automação Comercial",
+      "count": 91,
+      "children": [
+        {
+          "slug": "impressoras-de-etiquetas",
+          "name": "Impressoras de Etiquetas",
+          "count": 1
+        },
+        {
+          "slug": "etiquetas-e-bobinas",
+          "name": "Etiquetas e Bobinas",
+          "count": 23
+        },
+        {
+          "slug": "gavetas-de-dinheiro",
+          "name": "Gavetas de Dinheiro",
+          "count": 1
+        },
+        {
+          "slug": "controle-de-ponto",
+          "name": "Controle de Ponto",
+          "count": 5
+        },
+        {
+          "slug": "leitores-de-cartao",
+          "name": "Leitores de Cartão",
+          "count": 4
+        },
+        {
+          "slug": "fragmentadoras-de-papeis",
+          "name": "Fragmentadoras de Papéis",
+          "count": 2
+        },
+        {
+          "slug": "aplicadores-de-fita",
+          "name": "Aplicadores de Fita",
+          "count": 5
+        },
+        {
+          "slug": "etiquetas",
+          "name": "Etiquetas",
+          "count": 3
+        },
+        {
+          "slug": "bobinas-termicas",
+          "name": "Bobinas Térmicas",
+          "count": 3
+        },
+        {
+          "slug": "fitas-para-rotuladores",
+          "name": "Fitas para Rotuladores",
+          "count": 6
+        },
+        {
+          "slug": "industria-e-comercio",
+          "name": "Industria E Comercio",
+          "count": 7
+        },
+        {
+          "slug": "balancas",
+          "name": "Balancas",
+          "count": 1
+        },
+        {
+          "slug": "fotocopiadoras-e-acessorios",
+          "name": "Fotocopiadoras E Acessorios",
+          "count": 4
+        },
+        {
+          "slug": "leitores-de-codigo-de-barras1",
+          "name": "Leitores De Codigo De Barras1",
+          "count": 22
+        },
+        {
+          "slug": "materiais",
+          "name": "Materiais",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "eletronicos-audio-e-video",
+      "name": "Eletrônicos, Áudio e Vídeo",
+      "count": 338,
+      "children": [
+        {
+          "slug": "fones-de-ouvido",
+          "name": "Fones de Ouvido",
+          "count": 46
+        },
+        {
+          "slug": "caixas-bluetooth",
+          "name": "Caixas Bluetooth",
+          "count": 1
+        },
+        {
+          "slug": "caixas-de-som",
+          "name": "Caixas de Som",
+          "count": 2
+        },
+        {
+          "slug": "cabos-hdmi-e-video",
+          "name": "Cabos HDMI e Vídeo",
+          "count": 6
+        },
+        {
+          "slug": "cabos-usb-e-dados",
+          "name": "Cabos USB e Dados",
+          "count": 5
+        },
+        {
+          "slug": "adaptadores-e-conversores",
+          "name": "Adaptadores e Conversores",
+          "count": 9
+        },
+        {
+          "slug": "switches-e-splitters-hdmi",
+          "name": "Switches e Splitters HDMI",
+          "count": 1
+        },
+        {
+          "slug": "fontes-de-alimentacao",
+          "name": "Fontes de Alimentação",
+          "count": 2
+        },
+        {
+          "slug": "inversores-de-corrente",
+          "name": "Inversores de Corrente",
+          "count": 3
+        },
+        {
+          "slug": "pilhas-alcalinas",
+          "name": "Pilhas Alcalinas",
+          "count": 20
+        },
+        {
+          "slug": "pilhas-recarregaveis",
+          "name": "Pilhas Recarregáveis",
+          "count": 2
+        },
+        {
+          "slug": "baterias",
+          "name": "Baterias",
+          "count": 8
+        },
+        {
+          "slug": "suportes-para-tv",
+          "name": "Suportes para TV",
+          "count": 2
+        },
+        {
+          "slug": "acessorios-para-tv",
+          "name": "Acessórios para TV",
+          "count": 7
+        },
+        {
+          "slug": "projetores",
+          "name": "Projetores",
+          "count": 5
+        },
+        {
+          "slug": "conectores-eletronicos",
+          "name": "Conectores Eletrônicos",
+          "count": 7
+        },
+        {
+          "slug": "thermal-pads",
+          "name": "Thermal Pads",
+          "count": 3
+        },
+        {
+          "slug": "eletronicos-audio-e-video",
+          "name": "Eletronicos Audio E Video",
+          "count": 43
+        },
+        {
+          "slug": "audio1",
+          "name": "Audio1",
+          "count": 11
+        },
+        {
+          "slug": "cabos",
+          "name": "Cabos",
+          "count": 106
+        },
+        {
+          "slug": "componentes-eletronicos",
+          "name": "Componentes Eletronicos",
+          "count": 32
+        },
+        {
+          "slug": "pilhas-e-carregadores1",
+          "name": "Pilhas E Carregadores1",
+          "count": 13
+        },
+        {
+          "slug": "projetores-e-telas",
+          "name": "Projetores E Telas",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "material-de-escritorio",
+      "name": "Material de Escritório",
+      "count": 310,
+      "children": [
+        {
+          "slug": "canetas-e-lapis",
+          "name": "Canetas e Lápis",
+          "count": 5
+        },
+        {
+          "slug": "marcadores-e-corretivos",
+          "name": "Marcadores e Corretivos",
+          "count": 4
+        },
+        {
+          "slug": "cadernos-e-blocos",
+          "name": "Cadernos e Blocos",
+          "count": 11
+        },
+        {
+          "slug": "agendas-e-calculadoras",
+          "name": "Agendas e Calculadoras",
+          "count": 29
+        },
+        {
+          "slug": "etiquetas-e-rotulos",
+          "name": "Etiquetas e Rótulos",
+          "count": 1
+        },
+        {
+          "slug": "envelopes",
+          "name": "Envelopes",
+          "count": 4
+        },
+        {
+          "slug": "pastas-e-ficharios",
+          "name": "Pastas e Fichários",
+          "count": 4
+        },
+        {
+          "slug": "pastas-sanfonadas",
+          "name": "Pastas Sanfonadas",
+          "count": 1
+        },
+        {
+          "slug": "caixas-arquivo",
+          "name": "Caixas Arquivo",
+          "count": 1
+        },
+        {
+          "slug": "grampeadores-e-grampos",
+          "name": "Grampeadores e Grampos",
+          "count": 5
+        },
+        {
+          "slug": "clips-e-prendedores",
+          "name": "Clips e Prendedores",
+          "count": 5
+        },
+        {
+          "slug": "organizadores-de-mesa",
+          "name": "Organizadores de Mesa",
+          "count": 3
+        },
+        {
+          "slug": "perfuradores",
+          "name": "Perfuradores",
+          "count": 4
+        },
+        {
+          "slug": "elasticos",
+          "name": "Elásticos",
+          "count": 1
+        },
+        {
+          "slug": "colas-e-adesivos",
+          "name": "Colas e Adesivos",
+          "count": 10
+        },
+        {
+          "slug": "fitas-adesivas",
+          "name": "Fitas Adesivas",
+          "count": 16
+        },
+        {
+          "slug": "tesouras-e-estiletes",
+          "name": "Tesouras e Estiletes",
+          "count": 3
+        },
+        {
+          "slug": "plastificadoras",
+          "name": "Plastificadoras",
+          "count": 2
+        },
+        {
+          "slug": "arte-papelaria-e-armarinho",
+          "name": "Arte Papelaria E Armarinho",
+          "count": 193
+        },
+        {
+          "slug": "papeis-e-etiquetas",
+          "name": "Papeis E Etiquetas",
+          "count": 3
+        },
+        {
+          "slug": "papelaria-e-escrita",
+          "name": "Papelaria E Escrita",
+          "count": 4
+        },
+        {
+          "slug": "pastas-e-arquivos",
+          "name": "Pastas E Arquivos",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "cameras-e-alarmes",
+      "name": "Câmeras e Alarmes",
+      "count": 153,
+      "children": [
+        {
+          "slug": "controles-remotos-para-alarmes",
+          "name": "Controles Remotos para Alarmes",
+          "count": 1
+        },
+        {
+          "slug": "cameras-e-alarmes",
+          "name": "Câmeras e Alarmes",
+          "count": 10
+        },
+        {
+          "slug": "alarmes-e-sensores",
+          "name": "Alarmes e Sensores",
+          "count": 13
+        },
+        {
+          "slug": "microfones3",
+          "name": "Microfones3",
+          "count": 2
+        },
+        {
+          "slug": "audio-e-video",
+          "name": "Audio E Video",
+          "count": 1
+        },
+        {
+          "slug": "usb1",
+          "name": "Usb1",
+          "count": 4
+        },
+        {
+          "slug": "garrafas",
+          "name": "Garrafas",
+          "count": 1
+        },
+        {
+          "slug": "lixeiras",
+          "name": "Lixeiras",
+          "count": 6
+        },
+        {
+          "slug": "garrafas-de-cafe",
+          "name": "Garrafas De Cafe",
+          "count": 9
+        },
+        {
+          "slug": "tesouras-de-cozinha",
+          "name": "Tesouras De Cozinha",
+          "count": 2
+        },
+        {
+          "slug": "sacos-de-lixo",
+          "name": "Sacos De Lixo",
+          "count": 3
+        },
+        {
+          "slug": "adesivos-decorativos",
+          "name": "Adesivos Decorativos",
+          "count": 1
+        },
+        {
+          "slug": "fita-de-led",
+          "name": "Fita De Led",
+          "count": 2
+        },
+        {
+          "slug": "luminarias",
+          "name": "Luminarias",
+          "count": 1
+        },
+        {
+          "slug": "luminarias-de-sal",
+          "name": "Luminarias De Sal",
+          "count": 1
+        },
+        {
+          "slug": "luminarias-solares",
+          "name": "Luminarias Solares",
+          "count": 1
+        },
+        {
+          "slug": "apoios-para-pes",
+          "name": "Apoios Para Pes",
+          "count": 2
+        },
+        {
+          "slug": "cadeiras-para-escritorio",
+          "name": "Cadeiras Para Escritorio",
+          "count": 14
+        },
+        {
+          "slug": "organizadores-de-escritorio",
+          "name": "Organizadores De Escritorio",
+          "count": 2
+        },
+        {
+          "slug": "seguranca-para-casa",
+          "name": "Seguranca Para Casa",
+          "count": 1
+        },
+        {
+          "slug": "controles-remotos-para-portao",
+          "name": "Controles Remotos Para Portao",
+          "count": 2
+        },
+        {
+          "slug": "motores-para-portoes",
+          "name": "Motores Para Portoes",
+          "count": 4
+        },
+        {
+          "slug": "fechaduras",
+          "name": "Fechaduras",
+          "count": 1
+        },
+        {
+          "slug": "eletricas",
+          "name": "Eletricas",
+          "count": 1
+        },
+        {
+          "slug": "localizadores-de-objetos",
+          "name": "Localizadores De Objetos",
+          "count": 1
+        },
+        {
+          "slug": "cameras",
+          "name": "Cameras",
+          "count": 50
+        },
+        {
+          "slug": "gravadores-dvr",
+          "name": "Gravadores Dvr",
+          "count": 10
+        },
+        {
+          "slug": "kits-de-seguranca",
+          "name": "Kits De Seguranca",
+          "count": 1
+        },
+        {
+          "slug": "porteiros-eletricos",
+          "name": "Porteiros Eletricos",
+          "count": 6
+        }
+      ]
+    }
+  ]
+}

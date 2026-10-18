@@ -1,0 +1,4534 @@
+{
+  "categories": [
+    {
+      "slug": "pcs-notebooks-e-acessorios",
+      "name": "PCs, Notebooks e Acessórios",
+      "vzro_root": "informatica",
+      "children": [
+        {
+          "slug": "all-in-one",
+          "name": "All In One",
+          "vzro_path": "informatica/pc-de-mesa1/all-in-one",
+          "vzro_leaf": "all-in-one"
+        },
+        {
+          "slug": "mini-pcs",
+          "name": "Mini PCs",
+          "vzro_path": "informatica/pc-de-mesa1/mini-pcs",
+          "vzro_leaf": "mini-pcs"
+        },
+        {
+          "slug": "computadores",
+          "name": "Computadores",
+          "vzro_path": "informatica/pc-de-mesa1/computadores",
+          "vzro_leaf": "computadores"
+        },
+        {
+          "slug": "suportes-e-mesas",
+          "name": "Suportes e Mesas",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/suportes-e-mesas",
+          "vzro_leaf": "suportes-e-mesas"
+        },
+        {
+          "slug": "kits-de-acessorios",
+          "name": "Kits de Acessórios",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/kits-de-acessorios",
+          "vzro_leaf": "kits-de-acessorios"
+        },
+        {
+          "slug": "cabos-e-adaptadores",
+          "name": "Cabos e Adaptadores",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/cabos-e-adaptadores",
+          "vzro_leaf": "cabos-e-adaptadores"
+        },
+        {
+          "slug": "coolers-externos",
+          "name": "Coolers Externos",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/coolers-externos",
+          "vzro_leaf": "coolers-externos"
+        },
+        {
+          "slug": "mochilas-porta-notebooks",
+          "name": "Mochilas Porta Notebooks",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/maletas-e-bolsas/mochilas-porta-notebooks",
+          "vzro_leaf": "mochilas-porta-notebooks"
+        },
+        {
+          "slug": "carregadores",
+          "name": "Carregadores",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/carregadores1",
+          "vzro_leaf": "carregadores1"
+        },
+        {
+          "slug": "passadores-de-slides",
+          "name": "Passadores de Slides",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/passadores-de-slides",
+          "vzro_leaf": "passadores-de-slides"
+        },
+        {
+          "slug": "capas",
+          "name": "Capas",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/capas",
+          "vzro_leaf": "capas"
+        },
+        {
+          "slug": "controles-remotos",
+          "name": "Controles Remotos",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/controles-remotos",
+          "vzro_leaf": "controles-remotos"
+        },
+        {
+          "slug": "baterias",
+          "name": "Baterias",
+          "vzro_path": "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/baterias",
+          "vzro_leaf": "baterias"
+        },
+        {
+          "slug": "memorias-ram",
+          "name": "Memórias RAM",
+          "vzro_path": "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/memorias-ram1",
+          "vzro_leaf": "memorias-ram1"
+        },
+        {
+          "slug": "teclados",
+          "name": "Teclados",
+          "vzro_path": "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/teclados1",
+          "vzro_leaf": "teclados1"
+        },
+        {
+          "slug": "placas",
+          "name": "Placas",
+          "vzro_path": "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/placas1",
+          "vzro_leaf": "placas1"
+        },
+        {
+          "slug": "telas",
+          "name": "Telas",
+          "vzro_path": "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/telas",
+          "vzro_leaf": "telas"
+        },
+        {
+          "slug": "notebooks",
+          "name": "Notebooks",
+          "vzro_path": "informatica/portateis-e-acessorios/notebooks",
+          "vzro_leaf": "notebooks"
+        },
+        {
+          "slug": "fones",
+          "name": "Fones",
+          "vzro_path": "informatica/games/acessorios-para-pc-gaming/fones",
+          "vzro_leaf": "fones"
+        },
+        {
+          "slug": "cadeiras-gamer",
+          "name": "Cadeiras Gamer",
+          "vzro_path": "informatica/games/acessorios-para-pc-gaming/cadeiras-gamer",
+          "vzro_leaf": "cadeiras-gamer"
+        },
+        {
+          "slug": "controles-e-joysticks",
+          "name": "Controles e Joysticks",
+          "vzro_path": "informatica/games/acessorios-para-pc-gaming/controles-e-joysticks2",
+          "vzro_leaf": "controles-e-joysticks2"
+        },
+        {
+          "slug": "memory-cards",
+          "name": "Memory Cards",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-1/memory-cards",
+          "vzro_leaf": "memory-cards"
+        },
+        {
+          "slug": "volantes",
+          "name": "Volantes",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-2/controles-e-joysticks/volantes",
+          "vzro_leaf": "volantes"
+        },
+        {
+          "slug": "microfones",
+          "name": "Microfones",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-2/microfones",
+          "vzro_leaf": "microfones"
+        },
+        {
+          "slug": "joysticks",
+          "name": "Joysticks",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-3/controles-e-joysticks1/joysticks",
+          "vzro_leaf": "joysticks"
+        },
+        {
+          "slug": "headsets",
+          "name": "Headsets",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-5/audio-e-video-para-gaming/headsets",
+          "vzro_leaf": "headsets"
+        },
+        {
+          "slug": "gamepads-e-joysticks",
+          "name": "Gamepads e Joysticks",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-nintendo/nes/gamepads-e-joysticks",
+          "vzro_leaf": "gamepads-e-joysticks"
+        },
+        {
+          "slug": "hds",
+          "name": "HDs",
+          "vzro_path": "informatica/games/pecas-para-consoles/para-xbox/hds",
+          "vzro_leaf": "hds"
+        },
+        {
+          "slug": "consoles",
+          "name": "Consoles",
+          "vzro_path": "informatica/games/consoles",
+          "vzro_leaf": "consoles"
+        },
+        {
+          "slug": "acessorios",
+          "name": "Acessórios",
+          "vzro_path": "informatica/tablets-e-acessorios/acessorios2",
+          "vzro_leaf": "acessorios2"
+        },
+        {
+          "slug": "tablets",
+          "name": "Tablets",
+          "vzro_path": "informatica/tablets-e-acessorios/tablets",
+          "vzro_leaf": "tablets"
+        },
+        {
+          "slug": "suportes",
+          "name": "Suportes",
+          "vzro_path": "informatica/monitores-e-acessorios2/suportes2",
+          "vzro_leaf": "suportes2"
+        },
+        {
+          "slug": "bases-elevatorias",
+          "name": "Bases Elevatórias",
+          "vzro_path": "informatica/monitores-e-acessorios2/bases-elevatorias",
+          "vzro_leaf": "bases-elevatorias"
+        },
+        {
+          "slug": "outros",
+          "name": "Outros",
+          "vzro_path": "informatica/monitores-e-acessorios2/outros4",
+          "vzro_leaf": "outros4"
+        },
+        {
+          "slug": "monitores",
+          "name": "Monitores",
+          "vzro_path": "informatica/monitores-e-acessorios2/monitores",
+          "vzro_leaf": "monitores"
+        },
+        {
+          "slug": "nobreaks",
+          "name": "Nobreaks",
+          "vzro_path": "informatica/estabilizadores-e-no-breaks1/nobreaks",
+          "vzro_leaf": "nobreaks"
+        },
+        {
+          "slug": "estabilizadores",
+          "name": "Estabilizadores",
+          "vzro_path": "informatica/estabilizadores-e-no-breaks1/estabilizadores",
+          "vzro_leaf": "estabilizadores"
+        },
+        {
+          "slug": "cabos",
+          "name": "Cabos",
+          "vzro_path": "informatica/perifericos-para-pc/cabos-e-hubs-usb/cabos1",
+          "vzro_leaf": "cabos1"
+        },
+        {
+          "slug": "hubs-usb",
+          "name": "Hubs USB",
+          "vzro_path": "informatica/perifericos-para-pc/cabos-e-hubs-usb/hubs-usb",
+          "vzro_leaf": "hubs-usb"
+        },
+        {
+          "slug": "mouses",
+          "name": "Mouses",
+          "vzro_path": "informatica/perifericos-para-pc/mouses-e-teclados/mouses",
+          "vzro_leaf": "mouses"
+        },
+        {
+          "slug": "mouse-pads",
+          "name": "Mouse Pads",
+          "vzro_path": "informatica/perifericos-para-pc/mouses-e-teclados/mouse-pads",
+          "vzro_leaf": "mouse-pads"
+        },
+        {
+          "slug": "caixas-de-som-e-subwoofer",
+          "name": "Caixas de Som e Subwoofer",
+          "vzro_path": "informatica/perifericos-para-pc/caixas-de-som-e-subwoofer",
+          "vzro_leaf": "caixas-de-som-e-subwoofer"
+        },
+        {
+          "slug": "hds-e-ssds",
+          "name": "HDs e SSDs",
+          "vzro_path": "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios/hds-e-ssds",
+          "vzro_leaf": "hds-e-ssds"
+        },
+        {
+          "slug": "cabos-adaptadores",
+          "name": "Cabos Adaptadores",
+          "vzro_path": "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios/acessorios5/cabos-adaptadores",
+          "vzro_leaf": "cabos-adaptadores"
+        },
+        {
+          "slug": "gavetas-para-hds",
+          "name": "Gavetas para HDs",
+          "vzro_path": "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios/acessorios5/gavetas-para-hds",
+          "vzro_leaf": "gavetas-para-hds"
+        },
+        {
+          "slug": "pen-drives",
+          "name": "Pen Drives",
+          "vzro_path": "informatica/perifericos-para-pc/armazenamento1/pen-drives",
+          "vzro_leaf": "pen-drives"
+        },
+        {
+          "slug": "webcams",
+          "name": "Webcams",
+          "vzro_path": "informatica/perifericos-para-pc/webcams",
+          "vzro_leaf": "webcams"
+        },
+        {
+          "slug": "suportes-para-cpu-s",
+          "name": "Suportes para CPU's",
+          "vzro_path": "informatica/perifericos-para-pc/suportes-para-cpus",
+          "vzro_leaf": "suportes-para-cpus"
+        },
+        {
+          "slug": "limpa-telas",
+          "name": "Limpa Telas",
+          "vzro_path": "informatica/perifericos-para-pc/limpeza-de-pcs/limpa-telas",
+          "vzro_leaf": "limpa-telas"
+        },
+        {
+          "slug": "pasta-termica",
+          "name": "Pasta Térmica",
+          "vzro_path": "informatica/perifericos-para-pc/limpeza-de-pcs/pasta-termica",
+          "vzro_leaf": "pasta-termica"
+        },
+        {
+          "slug": "limpadores",
+          "name": "Limpadores",
+          "vzro_path": "informatica/perifericos-para-pc/limpeza-de-pcs/limpadores",
+          "vzro_leaf": "limpadores"
+        },
+        {
+          "slug": "limpa-contatos",
+          "name": "Limpa Contatos",
+          "vzro_path": "informatica/perifericos-para-pc/limpeza-de-pcs/limpa-contatos",
+          "vzro_leaf": "limpa-contatos"
+        },
+        {
+          "slug": "alcool-isopropilico",
+          "name": "Álcool Isopropílico",
+          "vzro_path": "informatica/perifericos-para-pc/limpeza-de-pcs/alcool-isopropilico",
+          "vzro_leaf": "alcool-isopropilico"
+        },
+        {
+          "slug": "gabinetes",
+          "name": "Gabinetes",
+          "vzro_path": "informatica/componentes-para-pc/gabinetes",
+          "vzro_leaf": "gabinetes"
+        },
+        {
+          "slug": "fontes",
+          "name": "Fontes",
+          "vzro_path": "informatica/componentes-para-pc/fontes-de-alimentacao/fontes",
+          "vzro_leaf": "fontes"
+        },
+        {
+          "slug": "cabos-de-energia",
+          "name": "Cabos de Energia",
+          "vzro_path": "informatica/componentes-para-pc/fontes-de-alimentacao/cabos-de-energia1",
+          "vzro_leaf": "cabos-de-energia1"
+        },
+        {
+          "slug": "coolers-e-ventoinhas",
+          "name": "Coolers e Ventoinhas",
+          "vzro_path": "informatica/componentes-para-pc/refrigeracao/coolers-e-ventoinhas",
+          "vzro_leaf": "coolers-e-ventoinhas"
+        },
+        {
+          "slug": "placas-de-video",
+          "name": "Placas de Vídeo",
+          "vzro_path": "informatica/componentes-para-pc/placas/placas-de-video",
+          "vzro_leaf": "placas-de-video"
+        },
+        {
+          "slug": "placas-de-som",
+          "name": "Placas de Som",
+          "vzro_path": "informatica/componentes-para-pc/placas/placas-de-som",
+          "vzro_leaf": "placas-de-som"
+        },
+        {
+          "slug": "placas-de-rede",
+          "name": "Placas de Rede",
+          "vzro_path": "informatica/componentes-para-pc/placas/placas-de-rede1",
+          "vzro_leaf": "placas-de-rede1"
+        },
+        {
+          "slug": "placas-controladoras",
+          "name": "Placas Controladoras",
+          "vzro_path": "informatica/componentes-para-pc/placas/placas-controladoras",
+          "vzro_leaf": "placas-controladoras"
+        },
+        {
+          "slug": "placas-mae",
+          "name": "Placas-Mãe",
+          "vzro_path": "informatica/componentes-para-pc/placas/placas-mae",
+          "vzro_leaf": "placas-mae"
+        },
+        {
+          "slug": "placas-usb-e-firewire",
+          "name": "Placas USB e Firewire",
+          "vzro_path": "informatica/componentes-para-pc/placas/placas-usb-e-firewire",
+          "vzro_leaf": "placas-usb-e-firewire"
+        },
+        {
+          "slug": "acessorios-para-pcs",
+          "name": "Acessórios para PCs",
+          "vzro_path": null,
+          "vzro_leaf": "acessorios-para-pcs",
+          "legacy": true
+        },
+        {
+          "slug": "armazenamento",
+          "name": "Armazenamento",
+          "vzro_path": null,
+          "vzro_leaf": "armazenamento",
+          "legacy": true
+        },
+        {
+          "slug": "componentes",
+          "name": "Componentes",
+          "vzro_path": null,
+          "vzro_leaf": "componentes",
+          "legacy": true
+        },
+        {
+          "slug": "mouses-e-teclados",
+          "name": "Mouses e Teclados",
+          "vzro_path": null,
+          "vzro_leaf": "mouses-e-teclados",
+          "legacy": true
+        },
+        {
+          "slug": "nobreaks-e-estabilizadores",
+          "name": "Nobreaks e Estabilizadores",
+          "vzro_path": null,
+          "vzro_leaf": "nobreaks-e-estabilizadores",
+          "legacy": true
+        },
+        {
+          "slug": "informatica",
+          "name": "Informatica",
+          "vzro_path": "informatica",
+          "vzro_leaf": "informatica"
+        },
+        {
+          "slug": "componentes-para-pc",
+          "name": "Componentes Para Pc",
+          "vzro_path": "informatica/componentes-para-pc",
+          "vzro_leaf": "componentes-para-pc"
+        },
+        {
+          "slug": "discos-e-acessorios1",
+          "name": "Discos E Acessorios1",
+          "vzro_path": "informatica/componentes-para-pc/discos-e-acessorios1",
+          "vzro_leaf": "discos-e-acessorios1"
+        },
+        {
+          "slug": "acessorios8",
+          "name": "Acessorios8",
+          "vzro_path": "informatica/componentes-para-pc/discos-e-acessorios1/acessorios8",
+          "vzro_leaf": "acessorios8"
+        },
+        {
+          "slug": "fontes-de-alimentacao",
+          "name": "Fontes De Alimentacao",
+          "vzro_path": "informatica/componentes-para-pc/fontes-de-alimentacao",
+          "vzro_leaf": "fontes-de-alimentacao"
+        },
+        {
+          "slug": "refrigeracao",
+          "name": "Refrigeracao",
+          "vzro_path": "informatica/componentes-para-pc/refrigeracao",
+          "vzro_leaf": "refrigeracao"
+        },
+        {
+          "slug": "estabilizadores-e-no-breaks1",
+          "name": "Estabilizadores E No Breaks1",
+          "vzro_path": "informatica/estabilizadores-e-no-breaks1",
+          "vzro_leaf": "estabilizadores-e-no-breaks1"
+        },
+        {
+          "slug": "games",
+          "name": "Games",
+          "vzro_path": "informatica/games",
+          "vzro_leaf": "games"
+        },
+        {
+          "slug": "acessorios-para-consoles",
+          "name": "Acessorios Para Consoles",
+          "vzro_path": "informatica/games/acessorios-para-consoles",
+          "vzro_leaf": "acessorios-para-consoles"
+        },
+        {
+          "slug": "para-nintendo",
+          "name": "Para Nintendo",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-nintendo",
+          "vzro_leaf": "para-nintendo"
+        },
+        {
+          "slug": "nes",
+          "name": "Nes",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-nintendo/nes",
+          "vzro_leaf": "nes"
+        },
+        {
+          "slug": "para-playstation",
+          "name": "Para Playstation",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation",
+          "vzro_leaf": "para-playstation"
+        },
+        {
+          "slug": "playstation-1",
+          "name": "Playstation 1",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-1",
+          "vzro_leaf": "playstation-1"
+        },
+        {
+          "slug": "playstation-2",
+          "name": "Playstation 2",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-2",
+          "vzro_leaf": "playstation-2"
+        },
+        {
+          "slug": "playstation-3",
+          "name": "Playstation 3",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-3",
+          "vzro_leaf": "playstation-3"
+        },
+        {
+          "slug": "controles-e-joysticks1",
+          "name": "Controles E Joysticks1",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-3/controles-e-joysticks1",
+          "vzro_leaf": "controles-e-joysticks1"
+        },
+        {
+          "slug": "playstation-5",
+          "name": "Playstation 5",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-5",
+          "vzro_leaf": "playstation-5"
+        },
+        {
+          "slug": "audio-e-video-para-gaming",
+          "name": "Audio E Video Para Gaming",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/playstation-5/audio-e-video-para-gaming",
+          "vzro_leaf": "audio-e-video-para-gaming"
+        },
+        {
+          "slug": "psp",
+          "name": "Psp",
+          "vzro_path": "informatica/games/acessorios-para-consoles/para-playstation/psp",
+          "vzro_leaf": "psp"
+        },
+        {
+          "slug": "acessorios-para-pc-gaming",
+          "name": "Acessorios Para Pc Gaming",
+          "vzro_path": "informatica/games/acessorios-para-pc-gaming",
+          "vzro_leaf": "acessorios-para-pc-gaming"
+        },
+        {
+          "slug": "pecas-para-consoles",
+          "name": "Pecas Para Consoles",
+          "vzro_path": "informatica/games/pecas-para-consoles",
+          "vzro_leaf": "pecas-para-consoles"
+        },
+        {
+          "slug": "para-xbox",
+          "name": "Para Xbox",
+          "vzro_path": "informatica/games/pecas-para-consoles/para-xbox",
+          "vzro_leaf": "para-xbox"
+        },
+        {
+          "slug": "monitores-e-acessorios2",
+          "name": "Monitores E Acessorios2",
+          "vzro_path": "informatica/monitores-e-acessorios2",
+          "vzro_leaf": "monitores-e-acessorios2"
+        },
+        {
+          "slug": "pc-de-mesa1",
+          "name": "Pc De Mesa1",
+          "vzro_path": "informatica/pc-de-mesa1",
+          "vzro_leaf": "pc-de-mesa1"
+        },
+        {
+          "slug": "perifericos-para-pc",
+          "name": "Perifericos Para Pc",
+          "vzro_path": "informatica/perifericos-para-pc",
+          "vzro_leaf": "perifericos-para-pc"
+        },
+        {
+          "slug": "armazenamento1",
+          "name": "Armazenamento1",
+          "vzro_path": "informatica/perifericos-para-pc/armazenamento1",
+          "vzro_leaf": "armazenamento1"
+        },
+        {
+          "slug": "discos-e-acessorios",
+          "name": "Discos E Acessorios",
+          "vzro_path": "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios",
+          "vzro_leaf": "discos-e-acessorios"
+        },
+        {
+          "slug": "acessorios5",
+          "name": "Acessorios5",
+          "vzro_path": "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios/acessorios5",
+          "vzro_leaf": "acessorios5"
+        },
+        {
+          "slug": "cabos-e-hubs-usb",
+          "name": "Cabos E Hubs Usb",
+          "vzro_path": "informatica/perifericos-para-pc/cabos-e-hubs-usb",
+          "vzro_leaf": "cabos-e-hubs-usb"
+        },
+        {
+          "slug": "limpeza-de-pcs",
+          "name": "Limpeza De Pcs",
+          "vzro_path": "informatica/perifericos-para-pc/limpeza-de-pcs",
+          "vzro_leaf": "limpeza-de-pcs"
+        },
+        {
+          "slug": "portateis-e-acessorios",
+          "name": "Portateis E Acessorios",
+          "vzro_path": "informatica/portateis-e-acessorios",
+          "vzro_leaf": "portateis-e-acessorios"
+        },
+        {
+          "slug": "acessorios-para-notebook",
+          "name": "Acessorios Para Notebook",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook",
+          "vzro_leaf": "acessorios-para-notebook"
+        },
+        {
+          "slug": "maletas-e-bolsas",
+          "name": "Maletas E Bolsas",
+          "vzro_path": "informatica/portateis-e-acessorios/acessorios-para-notebook/maletas-e-bolsas",
+          "vzro_leaf": "maletas-e-bolsas"
+        },
+        {
+          "slug": "pecas-e-partes-para-notebooks",
+          "name": "Pecas E Partes Para Notebooks",
+          "vzro_path": "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks",
+          "vzro_leaf": "pecas-e-partes-para-notebooks"
+        },
+        {
+          "slug": "tablets-e-acessorios",
+          "name": "Tablets E Acessorios",
+          "vzro_path": "informatica/tablets-e-acessorios",
+          "vzro_leaf": "tablets-e-acessorios"
+        }
+      ]
+    },
+    {
+      "slug": "impressao",
+      "name": "Impressão",
+      "vzro_root": "impressao",
+      "children": [
+        {
+          "slug": "impressoras-laser",
+          "name": "Impressoras Laser",
+          "vzro_path": "impressao/impressoras/impressoras-laser",
+          "vzro_leaf": "impressoras-laser"
+        },
+        {
+          "slug": "impressoras-tanque-de-tinta",
+          "name": "Impressoras Tanque de Tinta",
+          "vzro_path": "impressao/impressoras/impressoras-tanque-de-tinta",
+          "vzro_leaf": "impressoras-tanque-de-tinta"
+        },
+        {
+          "slug": "impressoras-multifuncionais",
+          "name": "Impressoras Multifuncionais",
+          "vzro_path": "impressao/impressoras/impressoras-multifuncionais",
+          "vzro_leaf": "impressoras-multifuncionais"
+        },
+        {
+          "slug": "impressoras-termicas",
+          "name": "Impressoras Térmicas",
+          "vzro_path": "impressao/impressoras/impressoras-termicas1",
+          "vzro_leaf": "impressoras-termicas1"
+        },
+        {
+          "slug": "toners",
+          "name": "Toners",
+          "vzro_path": "impressao/suprimentos-de-impressao/toners",
+          "vzro_leaf": "toners"
+        },
+        {
+          "slug": "cartuchos-de-tinta",
+          "name": "Cartuchos de Tinta",
+          "vzro_path": "impressao/suprimentos-de-impressao/cartuchos-de-tinta",
+          "vzro_leaf": "cartuchos-de-tinta"
+        },
+        {
+          "slug": "tintas",
+          "name": "Tintas",
+          "vzro_path": "impressao/suprimentos-de-impressao/tintas",
+          "vzro_leaf": "tintas"
+        },
+        {
+          "slug": "recargas-de-toner",
+          "name": "Recargas de Toner",
+          "vzro_path": "impressao/suprimentos-de-impressao/recargas-de-toner",
+          "vzro_leaf": "recargas-de-toner"
+        },
+        {
+          "slug": "ribbons",
+          "name": "Ribbons",
+          "vzro_path": "impressao/suprimentos-de-impressao/ribbons",
+          "vzro_leaf": "ribbons"
+        },
+        {
+          "slug": "kits-de-suprimentos",
+          "name": "Kits de Suprimentos",
+          "vzro_path": "impressao/suprimentos-de-impressao/kits-de-suprimentos",
+          "vzro_leaf": "kits-de-suprimentos"
+        },
+        {
+          "slug": "sulfite",
+          "name": "Sulfite",
+          "vzro_path": "impressao/papeis-para-impressao1/sulfite",
+          "vzro_leaf": "sulfite"
+        },
+        {
+          "slug": "fotografico",
+          "name": "Fotográfico",
+          "vzro_path": "impressao/papeis-para-impressao1/fotografico",
+          "vzro_leaf": "fotografico"
+        },
+        {
+          "slug": "especiais",
+          "name": "Especiais",
+          "vzro_path": "impressao/papeis-para-impressao1/especiais",
+          "vzro_leaf": "especiais"
+        },
+        {
+          "slug": "cilindros-e-unidades-de-imagem",
+          "name": "Cilindros e Unidades de Imagem",
+          "vzro_path": "impressao/pecas/cilindros-para-toner",
+          "vzro_leaf": "cilindros-para-toner"
+        },
+        {
+          "slug": "fusores-e-peliculas",
+          "name": "Fusores e Películas",
+          "vzro_path": "impressao/pecas/fusores",
+          "vzro_leaf": "fusores"
+        },
+        {
+          "slug": "roletes-e-tracionadores",
+          "name": "Roletes e Tracionadores",
+          "vzro_path": "impressao/pecas/roletes-e-tracionadores",
+          "vzro_leaf": "roletes-e-tracionadores"
+        },
+        {
+          "slug": "outras-pecas",
+          "name": "Outras Peças",
+          "vzro_path": "impressao/pecas/outras-pecas",
+          "vzro_leaf": "outras-pecas"
+        },
+        {
+          "slug": "acessorios",
+          "name": "Acessórios",
+          "vzro_path": "impressao/acessorios",
+          "vzro_leaf": "acessorios"
+        },
+        {
+          "slug": "impressoras",
+          "name": "Impressoras",
+          "vzro_path": null,
+          "vzro_leaf": "impressoras",
+          "legacy": true
+        },
+        {
+          "slug": "impressao",
+          "name": "Impressão",
+          "vzro_path": null,
+          "vzro_leaf": "impressao",
+          "legacy": true
+        },
+        {
+          "slug": "papeis-para-impressao",
+          "name": "Papéis para Impressão",
+          "vzro_path": null,
+          "vzro_leaf": "papeis-para-impressao",
+          "legacy": true
+        },
+        {
+          "slug": "toners-e-cartuchos",
+          "name": "Toners e Cartuchos",
+          "vzro_path": null,
+          "vzro_leaf": "toners-e-cartuchos",
+          "legacy": true
+        },
+        {
+          "slug": "papeis-para-impressao1",
+          "name": "Papeis Para Impressao1",
+          "vzro_path": "impressao/papeis-para-impressao1",
+          "vzro_leaf": "papeis-para-impressao1"
+        },
+        {
+          "slug": "pecas",
+          "name": "Pecas",
+          "vzro_path": "impressao/pecas",
+          "vzro_leaf": "pecas"
+        },
+        {
+          "slug": "suprimentos-de-impressao",
+          "name": "Suprimentos De Impressao",
+          "vzro_path": "impressao/suprimentos-de-impressao",
+          "vzro_leaf": "suprimentos-de-impressao"
+        }
+      ]
+    },
+    {
+      "slug": "rede-e-internet",
+      "name": "Rede e Internet",
+      "vzro_root": "conectividade-e-redes",
+      "children": [
+        {
+          "slug": "roteadores-wi-fi",
+          "name": "Roteadores Wi-Fi",
+          "vzro_path": "conectividade-e-redes/roteadores1/roteadores-wi-fi1",
+          "vzro_leaf": "roteadores-wi-fi1"
+        },
+        {
+          "slug": "wi-fi-mesh",
+          "name": "Wi-Fi Mesh",
+          "vzro_path": "conectividade-e-redes/roteadores1/mesh1",
+          "vzro_leaf": "mesh1"
+        },
+        {
+          "slug": "repetidores-wi-fi",
+          "name": "Repetidores Wi-Fi",
+          "vzro_path": "conectividade-e-redes/roteadores1/modems",
+          "vzro_leaf": "modems"
+        },
+        {
+          "slug": "access-points-internos",
+          "name": "Access Points internos",
+          "vzro_path": "conectividade-e-redes/antenas/access-points-internos1",
+          "vzro_leaf": "access-points-internos1"
+        },
+        {
+          "slug": "access-points-externos",
+          "name": "Access Points externos",
+          "vzro_path": "conectividade-e-redes/antenas/access-points-externos1",
+          "vzro_leaf": "access-points-externos1"
+        },
+        {
+          "slug": "antenas-ponto-a-ponto",
+          "name": "Antenas ponto a ponto",
+          "vzro_path": "conectividade-e-redes/antenas/antenas-ponto-a-ponto1",
+          "vzro_leaf": "antenas-ponto-a-ponto1"
+        },
+        {
+          "slug": "roteadores-empresariais",
+          "name": "Roteadores empresariais",
+          "vzro_path": "conectividade-e-redes/antenas/roteadores-empresariais1",
+          "vzro_leaf": "roteadores-empresariais1"
+        },
+        {
+          "slug": "kits-starlink",
+          "name": "Kits Starlink",
+          "vzro_path": "conectividade-e-redes/internet-starlink/kits-starlink1",
+          "vzro_leaf": "kits-starlink1"
+        },
+        {
+          "slug": "suportes",
+          "name": "Suportes",
+          "vzro_path": "conectividade-e-redes/internet-starlink/suportes5",
+          "vzro_leaf": "suportes5"
+        },
+        {
+          "slug": "adaptadores",
+          "name": "Adaptadores",
+          "vzro_path": "conectividade-e-redes/internet-starlink/adaptadores3",
+          "vzro_leaf": "adaptadores3"
+        },
+        {
+          "slug": "cabos-e-acessorios",
+          "name": "Cabos e acessórios",
+          "vzro_path": "conectividade-e-redes/internet-starlink/cabos-e-acessorios2",
+          "vzro_leaf": "cabos-e-acessorios2"
+        },
+        {
+          "slug": "switches-comuns",
+          "name": "Switches comuns",
+          "vzro_path": "conectividade-e-redes/interruptores-de-rede/switches-comuns1",
+          "vzro_leaf": "switches-comuns1"
+        },
+        {
+          "slug": "switches-poe",
+          "name": "Switches PoE",
+          "vzro_path": "conectividade-e-redes/interruptores-de-rede/switches-poe1",
+          "vzro_leaf": "switches-poe1"
+        },
+        {
+          "slug": "switches-gerenciaveis",
+          "name": "Switches gerenciáveis",
+          "vzro_path": "conectividade-e-redes/interruptores-de-rede/switches-gerenciaveis1",
+          "vzro_leaf": "switches-gerenciaveis1"
+        },
+        {
+          "slug": "cabos-de-rede",
+          "name": "Cabos de Rede",
+          "vzro_path": "conectividade-e-redes/cabos-de-rede-e-acessorios/cabos-de-rede",
+          "vzro_leaf": "cabos-de-rede"
+        },
+        {
+          "slug": "patch-cords",
+          "name": "Patch cords",
+          "vzro_path": "conectividade-e-redes/cabos-de-rede-e-acessorios/patch-cords1",
+          "vzro_leaf": "patch-cords1"
+        },
+        {
+          "slug": "conectores-rj45",
+          "name": "Conectores RJ45",
+          "vzro_path": "conectividade-e-redes/cabos-de-rede-e-acessorios/conectores-rj451",
+          "vzro_leaf": "conectores-rj451"
+        },
+        {
+          "slug": "organizadores-de-cabos",
+          "name": "Organizadores de Cabos",
+          "vzro_path": "conectividade-e-redes/cabos-de-rede-e-acessorios/organizadores-de-cabos",
+          "vzro_leaf": "organizadores-de-cabos"
+        },
+        {
+          "slug": "ferramentas",
+          "name": "Ferramentas",
+          "vzro_path": "conectividade-e-redes/cabos-de-rede-e-acessorios/ferramentas",
+          "vzro_leaf": "ferramentas"
+        },
+        {
+          "slug": "patch-panels",
+          "name": "Patch Panels",
+          "vzro_path": "conectividade-e-redes/racks-de-servidores/patch-paineis",
+          "vzro_leaf": "patch-paineis"
+        },
+        {
+          "slug": "racks",
+          "name": "Racks",
+          "vzro_path": "conectividade-e-redes/racks-de-servidores/racks1",
+          "vzro_leaf": "racks1"
+        },
+        {
+          "slug": "organizadores",
+          "name": "Organizadores",
+          "vzro_path": "conectividade-e-redes/racks-de-servidores/organizadores1",
+          "vzro_leaf": "organizadores1"
+        },
+        {
+          "slug": "bandejas",
+          "name": "Bandejas",
+          "vzro_path": "conectividade-e-redes/racks-de-servidores/bandejas1",
+          "vzro_leaf": "bandejas1"
+        },
+        {
+          "slug": "telefones-ip",
+          "name": "Telefones IP",
+          "vzro_path": "conectividade-e-redes/voip-telefonia-via-internet/telefones-ip1",
+          "vzro_leaf": "telefones-ip1"
+        },
+        {
+          "slug": "adaptadores-voip",
+          "name": "Adaptadores VoIP",
+          "vzro_path": "conectividade-e-redes/voip-telefonia-via-internet/adaptadores-voip1",
+          "vzro_leaf": "adaptadores-voip1"
+        },
+        {
+          "slug": "centrais-ip",
+          "name": "Centrais IP",
+          "vzro_path": "conectividade-e-redes/voip-telefonia-via-internet/centrais-ip1",
+          "vzro_leaf": "centrais-ip1"
+        },
+        {
+          "slug": "adaptadores-de-cabos-de-rede",
+          "name": "Adaptadores de Cabos de Rede",
+          "vzro_path": "conectividade-e-redes/adaptadores-e-acessorios/adaptadores-de-cabos-de-rede",
+          "vzro_leaf": "adaptadores-de-cabos-de-rede"
+        },
+        {
+          "slug": "injetores-e-fontes-poe",
+          "name": "Injetores e fontes PoE",
+          "vzro_path": "conectividade-e-redes/adaptadores-e-acessorios/fontes-poe",
+          "vzro_leaf": "fontes-poe"
+        },
+        {
+          "slug": "placas-de-rede",
+          "name": "Placas de Rede",
+          "vzro_path": "conectividade-e-redes/adaptadores-e-acessorios/placas-de-rede",
+          "vzro_leaf": "placas-de-rede"
+        },
+        {
+          "slug": "outros-acessorios",
+          "name": "Outros acessórios",
+          "vzro_path": "conectividade-e-redes/adaptadores-e-acessorios/outros-acessorios1",
+          "vzro_leaf": "outros-acessorios1"
+        },
+        {
+          "slug": "rede-e-internet",
+          "name": "Rede e Internet",
+          "vzro_path": null,
+          "vzro_leaf": "rede-e-internet",
+          "legacy": true
+        },
+        {
+          "slug": "starlink-e-antenas",
+          "name": "Starlink e Antenas",
+          "vzro_path": null,
+          "vzro_leaf": "starlink-e-antenas",
+          "legacy": true
+        },
+        {
+          "slug": "switches-e-cabos-de-rede",
+          "name": "Switches e Cabos de Rede",
+          "vzro_path": null,
+          "vzro_leaf": "switches-e-cabos-de-rede",
+          "legacy": true
+        },
+        {
+          "slug": "wi-fi-e-roteadores",
+          "name": "Wi-Fi e Roteadores",
+          "vzro_path": null,
+          "vzro_leaf": "wi-fi-e-roteadores",
+          "legacy": true
+        },
+        {
+          "slug": "conectividade-e-redes",
+          "name": "Conectividade E Redes",
+          "vzro_path": "conectividade-e-redes",
+          "vzro_leaf": "conectividade-e-redes"
+        },
+        {
+          "slug": "adaptadores-e-acessorios",
+          "name": "Adaptadores E Acessorios",
+          "vzro_path": "conectividade-e-redes/adaptadores-e-acessorios",
+          "vzro_leaf": "adaptadores-e-acessorios"
+        },
+        {
+          "slug": "antenas",
+          "name": "Antenas",
+          "vzro_path": "conectividade-e-redes/antenas",
+          "vzro_leaf": "antenas"
+        },
+        {
+          "slug": "cabos-de-rede-e-acessorios",
+          "name": "Cabos De Rede E Acessorios",
+          "vzro_path": "conectividade-e-redes/cabos-de-rede-e-acessorios",
+          "vzro_leaf": "cabos-de-rede-e-acessorios"
+        },
+        {
+          "slug": "internet-starlink",
+          "name": "Internet Starlink",
+          "vzro_path": "conectividade-e-redes/internet-starlink",
+          "vzro_leaf": "internet-starlink"
+        },
+        {
+          "slug": "interruptores-de-rede",
+          "name": "Interruptores De Rede",
+          "vzro_path": "conectividade-e-redes/interruptores-de-rede",
+          "vzro_leaf": "interruptores-de-rede"
+        },
+        {
+          "slug": "racks-de-servidores",
+          "name": "Racks De Servidores",
+          "vzro_path": "conectividade-e-redes/racks-de-servidores",
+          "vzro_leaf": "racks-de-servidores"
+        },
+        {
+          "slug": "roteadores1",
+          "name": "Roteadores1",
+          "vzro_path": "conectividade-e-redes/roteadores1",
+          "vzro_leaf": "roteadores1"
+        },
+        {
+          "slug": "voip-telefonia-via-internet",
+          "name": "Voip Telefonia Via Internet",
+          "vzro_path": "conectividade-e-redes/voip-telefonia-via-internet",
+          "vzro_leaf": "voip-telefonia-via-internet"
+        }
+      ]
+    },
+    {
+      "slug": "automacao-comercial",
+      "name": "Automação Comercial",
+      "vzro_root": "industria-e-comercio",
+      "children": [
+        {
+          "slug": "kits-pdv-completos",
+          "name": "Kits PDV Completos",
+          "vzro_path": "industria-e-comercio/kits-para-frente-de-caixa/kits-pdv-completos",
+          "vzro_leaf": "kits-pdv-completos"
+        },
+        {
+          "slug": "computadores-pdv",
+          "name": "Computadores PDV",
+          "vzro_path": "industria-e-comercio/kits-para-frente-de-caixa/computadores-pdv",
+          "vzro_leaf": "computadores-pdv"
+        },
+        {
+          "slug": "terminais-de-caixa",
+          "name": "Terminais de Caixa",
+          "vzro_path": "industria-e-comercio/kits-para-frente-de-caixa/terminais-de-caixa",
+          "vzro_leaf": "terminais-de-caixa"
+        },
+        {
+          "slug": "acessorios-para-pdv",
+          "name": "Acessórios para PDV",
+          "vzro_path": "industria-e-comercio/kits-para-frente-de-caixa/acessorios-para-pdv",
+          "vzro_leaf": "acessorios-para-pdv"
+        },
+        {
+          "slug": "impressoras-termicas",
+          "name": "Impressoras Térmicas",
+          "vzro_path": "industria-e-comercio/fotocopiadoras-e-acessorios/impressoras-termicas",
+          "vzro_leaf": "impressoras-termicas"
+        },
+        {
+          "slug": "impressoras-de-etiquetas",
+          "name": "Impressoras de Etiquetas",
+          "vzro_path": "industria-e-comercio/fotocopiadoras-e-acessorios/impressoras-de-etiquetas",
+          "vzro_leaf": "impressoras-de-etiquetas"
+        },
+        {
+          "slug": "etiquetadoras-manuais",
+          "name": "Etiquetadoras Manuais",
+          "vzro_path": "industria-e-comercio/fotocopiadoras-e-acessorios/etiquetadoras-manuais",
+          "vzro_leaf": "etiquetadoras-manuais"
+        },
+        {
+          "slug": "etiquetas-e-bobinas",
+          "name": "Etiquetas e Bobinas",
+          "vzro_path": "industria-e-comercio/fotocopiadoras-e-acessorios/etiquetas-e-bobinas",
+          "vzro_leaf": "etiquetas-e-bobinas"
+        },
+        {
+          "slug": "leitores-1d-e-2d",
+          "name": "Leitores 1D e 2D",
+          "vzro_path": "industria-e-comercio/leitores-de-codigo-de-barras1/leitores-1d-e-2d",
+          "vzro_leaf": "leitores-1d-e-2d"
+        },
+        {
+          "slug": "leitores-sem-fio",
+          "name": "Leitores Sem Fio",
+          "vzro_path": "industria-e-comercio/leitores-de-codigo-de-barras1/leitores-sem-fio",
+          "vzro_leaf": "leitores-sem-fio"
+        },
+        {
+          "slug": "leitores-fixos",
+          "name": "Leitores Fixos",
+          "vzro_path": "industria-e-comercio/leitores-de-codigo-de-barras1/leitores-fixos",
+          "vzro_leaf": "leitores-fixos"
+        },
+        {
+          "slug": "leitores-portateis",
+          "name": "Leitores Portáteis",
+          "vzro_path": "industria-e-comercio/leitores-de-codigo-de-barras1/leitores-portateis",
+          "vzro_leaf": "leitores-portateis"
+        },
+        {
+          "slug": "balancas-para-supermercados",
+          "name": "Balanças para Supermercados",
+          "vzro_path": "industria-e-comercio/balancas/balancas-para-supermercados",
+          "vzro_leaf": "balancas-para-supermercados"
+        },
+        {
+          "slug": "balancas-etiquetadoras",
+          "name": "Balanças Etiquetadoras",
+          "vzro_path": "industria-e-comercio/balancas/balancas-etiquetadoras",
+          "vzro_leaf": "balancas-etiquetadoras"
+        },
+        {
+          "slug": "balancas-de-bancada",
+          "name": "Balanças de Bancada",
+          "vzro_path": "industria-e-comercio/balancas/balancas-de-bancada",
+          "vzro_leaf": "balancas-de-bancada"
+        },
+        {
+          "slug": "acessorios",
+          "name": "Acessórios",
+          "vzro_path": "industria-e-comercio/balancas/acessorios3",
+          "vzro_leaf": "acessorios3"
+        },
+        {
+          "slug": "gavetas-de-dinheiro",
+          "name": "Gavetas de Dinheiro",
+          "vzro_path": "industria-e-comercio/gavetas-de-dinheiro",
+          "vzro_leaf": "gavetas-de-dinheiro"
+        },
+        {
+          "slug": "controle-de-ponto",
+          "name": "Controle de Ponto",
+          "vzro_path": "industria-e-comercio/relogios-de-ponto",
+          "vzro_leaf": "relogios-de-ponto"
+        },
+        {
+          "slug": "leitores-de-cartao",
+          "name": "Leitores de Cartão",
+          "vzro_path": "industria-e-comercio/materiais/leitores-de-cartao",
+          "vzro_leaf": "leitores-de-cartao"
+        },
+        {
+          "slug": "fragmentadoras-de-papeis",
+          "name": "Fragmentadoras de Papéis",
+          "vzro_path": "industria-e-comercio/materiais/fragmentadoras-de-papeis",
+          "vzro_leaf": "fragmentadoras-de-papeis"
+        },
+        {
+          "slug": "aplicadores-de-fita",
+          "name": "Aplicadores de Fita",
+          "vzro_path": "industria-e-comercio/materiais/aplicadores-de-fita",
+          "vzro_leaf": "aplicadores-de-fita"
+        },
+        {
+          "slug": "etiquetas",
+          "name": "Etiquetas",
+          "vzro_path": "industria-e-comercio/materiais/rolos-de-etiquetas",
+          "vzro_leaf": "rolos-de-etiquetas"
+        },
+        {
+          "slug": "ribbons",
+          "name": "Ribbons",
+          "vzro_path": "industria-e-comercio/materiais/ribbons1",
+          "vzro_leaf": "ribbons1"
+        },
+        {
+          "slug": "bobinas-termicas",
+          "name": "Bobinas Térmicas",
+          "vzro_path": "industria-e-comercio/materiais/bobinas-termicas",
+          "vzro_leaf": "bobinas-termicas"
+        },
+        {
+          "slug": "fitas-para-rotuladores",
+          "name": "Fitas para Rotuladores",
+          "vzro_path": "industria-e-comercio/materiais/fitas-para-rotuladores",
+          "vzro_leaf": "fitas-para-rotuladores"
+        },
+        {
+          "slug": "automacao-comercial",
+          "name": "Automação Comercial",
+          "vzro_path": null,
+          "vzro_leaf": "automacao-comercial",
+          "legacy": true
+        },
+        {
+          "slug": "pdv-e-leitores",
+          "name": "PDV e Leitores",
+          "vzro_path": null,
+          "vzro_leaf": "pdv-e-leitores",
+          "legacy": true
+        },
+        {
+          "slug": "industria-e-comercio",
+          "name": "Industria E Comercio",
+          "vzro_path": "industria-e-comercio",
+          "vzro_leaf": "industria-e-comercio"
+        },
+        {
+          "slug": "balancas",
+          "name": "Balancas",
+          "vzro_path": "industria-e-comercio/balancas",
+          "vzro_leaf": "balancas"
+        },
+        {
+          "slug": "fotocopiadoras-e-acessorios",
+          "name": "Fotocopiadoras E Acessorios",
+          "vzro_path": "industria-e-comercio/fotocopiadoras-e-acessorios",
+          "vzro_leaf": "fotocopiadoras-e-acessorios"
+        },
+        {
+          "slug": "kits-para-frente-de-caixa",
+          "name": "Kits Para Frente De Caixa",
+          "vzro_path": "industria-e-comercio/kits-para-frente-de-caixa",
+          "vzro_leaf": "kits-para-frente-de-caixa"
+        },
+        {
+          "slug": "leitores-de-codigo-de-barras1",
+          "name": "Leitores De Codigo De Barras1",
+          "vzro_path": "industria-e-comercio/leitores-de-codigo-de-barras1",
+          "vzro_leaf": "leitores-de-codigo-de-barras1"
+        },
+        {
+          "slug": "materiais",
+          "name": "Materiais",
+          "vzro_path": "industria-e-comercio/materiais",
+          "vzro_leaf": "materiais"
+        }
+      ]
+    },
+    {
+      "slug": "eletronicos-audio-e-video",
+      "name": "Eletrônicos, Áudio e Vídeo",
+      "vzro_root": "eletronicos-audio-e-video",
+      "children": [
+        {
+          "slug": "fones-de-ouvido",
+          "name": "Fones de Ouvido",
+          "vzro_path": "eletronicos-audio-e-video/audio1/fones-de-ouvido",
+          "vzro_leaf": "fones-de-ouvido"
+        },
+        {
+          "slug": "headsets",
+          "name": "Headsets",
+          "vzro_path": "eletronicos-audio-e-video/audio1/headsets1",
+          "vzro_leaf": "headsets1"
+        },
+        {
+          "slug": "caixas-bluetooth",
+          "name": "Caixas Bluetooth",
+          "vzro_path": "eletronicos-audio-e-video/audio1/caixas-bluetooth1",
+          "vzro_leaf": "caixas-bluetooth1"
+        },
+        {
+          "slug": "caixas-de-som",
+          "name": "Caixas de Som",
+          "vzro_path": "eletronicos-audio-e-video/audio1/caixas-de-som",
+          "vzro_leaf": "caixas-de-som"
+        },
+        {
+          "slug": "cabos-hdmi-e-video",
+          "name": "Cabos HDMI e Vídeo",
+          "vzro_path": "eletronicos-audio-e-video/cabos/cabos-hdmi-e-video",
+          "vzro_leaf": "cabos-hdmi-e-video"
+        },
+        {
+          "slug": "cabos-de-audio",
+          "name": "Cabos de Áudio",
+          "vzro_path": "eletronicos-audio-e-video/cabos/cabos-de-audio",
+          "vzro_leaf": "cabos-de-audio"
+        },
+        {
+          "slug": "cabos-usb-e-dados",
+          "name": "Cabos USB e Dados",
+          "vzro_path": "eletronicos-audio-e-video/cabos/cabos-usb-e-dados",
+          "vzro_leaf": "cabos-usb-e-dados"
+        },
+        {
+          "slug": "cabos-de-energia",
+          "name": "Cabos de Energia",
+          "vzro_path": "eletronicos-audio-e-video/cabos/cabos-de-energia2",
+          "vzro_leaf": "cabos-de-energia2"
+        },
+        {
+          "slug": "adaptadores-e-conversores",
+          "name": "Adaptadores e Conversores",
+          "vzro_path": "eletronicos-audio-e-video/cabos/adaptadores-e-conversores",
+          "vzro_leaf": "adaptadores-e-conversores"
+        },
+        {
+          "slug": "switches-e-splitters-hdmi",
+          "name": "Switches e Splitters HDMI",
+          "vzro_path": "eletronicos-audio-e-video/cabos/switches-e-splitters-hdmi",
+          "vzro_leaf": "switches-e-splitters-hdmi"
+        },
+        {
+          "slug": "carregadores-de-pilhas",
+          "name": "Carregadores de Pilhas",
+          "vzro_path": "eletronicos-audio-e-video/carregadores-e-fontes/carregadores-de-pilhas1",
+          "vzro_leaf": "carregadores-de-pilhas1"
+        },
+        {
+          "slug": "fontes-de-alimentacao",
+          "name": "Fontes de Alimentação",
+          "vzro_path": "eletronicos-audio-e-video/carregadores-e-fontes/fontes-de-alimentacao3",
+          "vzro_leaf": "fontes-de-alimentacao3"
+        },
+        {
+          "slug": "fontes-chaveadas",
+          "name": "Fontes Chaveadas",
+          "vzro_path": "eletronicos-audio-e-video/carregadores-e-fontes/fontes-chaveadas1",
+          "vzro_leaf": "fontes-chaveadas1"
+        },
+        {
+          "slug": "conversores-de-tensao",
+          "name": "Conversores de Tensão",
+          "vzro_path": "eletronicos-audio-e-video/carregadores-e-fontes/conversores-de-tensao",
+          "vzro_leaf": "conversores-de-tensao"
+        },
+        {
+          "slug": "inversores-de-corrente",
+          "name": "Inversores de Corrente",
+          "vzro_path": "eletronicos-audio-e-video/carregadores-e-fontes/inversores-de-corrente1",
+          "vzro_leaf": "inversores-de-corrente1"
+        },
+        {
+          "slug": "pilhas-alcalinas",
+          "name": "Pilhas Alcalinas",
+          "vzro_path": "eletronicos-audio-e-video/pilhas-e-carregadores1/pilhas-alcalinas",
+          "vzro_leaf": "pilhas-alcalinas"
+        },
+        {
+          "slug": "pilhas-recarregaveis",
+          "name": "Pilhas Recarregáveis",
+          "vzro_path": "eletronicos-audio-e-video/pilhas-e-carregadores1/pilhas-recarregaveis",
+          "vzro_leaf": "pilhas-recarregaveis"
+        },
+        {
+          "slug": "baterias",
+          "name": "Baterias",
+          "vzro_path": "eletronicos-audio-e-video/pilhas-e-carregadores1/baterias3",
+          "vzro_leaf": "baterias3"
+        },
+        {
+          "slug": "dispositivos-de-streaming",
+          "name": "Dispositivos de Streaming",
+          "vzro_path": "eletronicos-audio-e-video/acessorios-para-tv/dispositivos-de-streaming",
+          "vzro_leaf": "dispositivos-de-streaming"
+        },
+        {
+          "slug": "suportes-para-tv",
+          "name": "Suportes para TV",
+          "vzro_path": "eletronicos-audio-e-video/acessorios-para-tv/suportes-para-tv",
+          "vzro_leaf": "suportes-para-tv"
+        },
+        {
+          "slug": "antenas-de-tv",
+          "name": "Antenas de TV",
+          "vzro_path": "eletronicos-audio-e-video/acessorios-para-tv/antenas-de-tv1",
+          "vzro_leaf": "antenas-de-tv1"
+        },
+        {
+          "slug": "acessorios-para-tv",
+          "name": "Acessórios para TV",
+          "vzro_path": "eletronicos-audio-e-video/acessorios-para-tv/acessorios-para-tv1",
+          "vzro_leaf": "acessorios-para-tv1"
+        },
+        {
+          "slug": "projetores",
+          "name": "Projetores",
+          "vzro_path": "eletronicos-audio-e-video/projetores-e-telas/projetores",
+          "vzro_leaf": "projetores"
+        },
+        {
+          "slug": "telas-de-projecao",
+          "name": "Telas de Projeção",
+          "vzro_path": "eletronicos-audio-e-video/projetores-e-telas/telas-de-projecao",
+          "vzro_leaf": "telas-de-projecao"
+        },
+        {
+          "slug": "suportes-para-projetores",
+          "name": "Suportes para Projetores",
+          "vzro_path": "eletronicos-audio-e-video/projetores-e-telas/suportes-para-projetores",
+          "vzro_leaf": "suportes-para-projetores"
+        },
+        {
+          "slug": "conectores-eletronicos",
+          "name": "Conectores Eletrônicos",
+          "vzro_path": "eletronicos-audio-e-video/componentes-eletronicos/conectores-eletronicos",
+          "vzro_leaf": "conectores-eletronicos"
+        },
+        {
+          "slug": "capacitores",
+          "name": "Capacitores",
+          "vzro_path": "eletronicos-audio-e-video/componentes-eletronicos/capacitores",
+          "vzro_leaf": "capacitores"
+        },
+        {
+          "slug": "dissipadores-termicos",
+          "name": "Dissipadores Térmicos",
+          "vzro_path": "eletronicos-audio-e-video/componentes-eletronicos/dissipadores-termicos",
+          "vzro_leaf": "dissipadores-termicos"
+        },
+        {
+          "slug": "thermal-pads",
+          "name": "Thermal Pads",
+          "vzro_path": "eletronicos-audio-e-video/componentes-eletronicos/thermal-pads",
+          "vzro_leaf": "thermal-pads"
+        },
+        {
+          "slug": "outros-componentes",
+          "name": "Outros Componentes",
+          "vzro_path": "eletronicos-audio-e-video/componentes-eletronicos/outros-componentes",
+          "vzro_leaf": "outros-componentes"
+        },
+        {
+          "slug": "cabos-e-adaptadores",
+          "name": "Cabos e Adaptadores",
+          "vzro_path": null,
+          "vzro_leaf": "cabos-e-adaptadores",
+          "legacy": true
+        },
+        {
+          "slug": "eletronicos",
+          "name": "Eletrônicos",
+          "vzro_path": null,
+          "vzro_leaf": "eletronicos",
+          "legacy": true
+        },
+        {
+          "slug": "energia-e-fontes",
+          "name": "Energia e Fontes",
+          "vzro_path": null,
+          "vzro_leaf": "energia-e-fontes",
+          "legacy": true
+        },
+        {
+          "slug": "audio",
+          "name": "Áudio",
+          "vzro_path": null,
+          "vzro_leaf": "audio",
+          "legacy": true
+        },
+        {
+          "slug": "eletronicos-audio-e-video",
+          "name": "Eletronicos Audio E Video",
+          "vzro_path": "eletronicos-audio-e-video",
+          "vzro_leaf": "eletronicos-audio-e-video"
+        },
+        {
+          "slug": "audio1",
+          "name": "Audio1",
+          "vzro_path": "eletronicos-audio-e-video/audio1",
+          "vzro_leaf": "audio1"
+        },
+        {
+          "slug": "cabos",
+          "name": "Cabos",
+          "vzro_path": "eletronicos-audio-e-video/cabos",
+          "vzro_leaf": "cabos"
+        },
+        {
+          "slug": "carregadores-e-fontes",
+          "name": "Carregadores E Fontes",
+          "vzro_path": "eletronicos-audio-e-video/carregadores-e-fontes",
+          "vzro_leaf": "carregadores-e-fontes"
+        },
+        {
+          "slug": "componentes-eletronicos",
+          "name": "Componentes Eletronicos",
+          "vzro_path": "eletronicos-audio-e-video/componentes-eletronicos",
+          "vzro_leaf": "componentes-eletronicos"
+        },
+        {
+          "slug": "pilhas-e-carregadores1",
+          "name": "Pilhas E Carregadores1",
+          "vzro_path": "eletronicos-audio-e-video/pilhas-e-carregadores1",
+          "vzro_leaf": "pilhas-e-carregadores1"
+        },
+        {
+          "slug": "projetores-e-telas",
+          "name": "Projetores E Telas",
+          "vzro_path": "eletronicos-audio-e-video/projetores-e-telas",
+          "vzro_leaf": "projetores-e-telas"
+        }
+      ]
+    },
+    {
+      "slug": "material-de-escritorio",
+      "name": "Material de Escritório",
+      "vzro_root": "arte-papelaria-e-armarinho",
+      "children": [
+        {
+          "slug": "canetas-e-lapis",
+          "name": "Canetas e Lápis",
+          "vzro_path": "arte-papelaria-e-armarinho/papelaria-e-escrita/canetas-e-lapis",
+          "vzro_leaf": "canetas-e-lapis"
+        },
+        {
+          "slug": "marcadores-e-corretivos",
+          "name": "Marcadores e Corretivos",
+          "vzro_path": "arte-papelaria-e-armarinho/papelaria-e-escrita/marcadores-e-corretivos",
+          "vzro_leaf": "marcadores-e-corretivos"
+        },
+        {
+          "slug": "cadernos-e-blocos",
+          "name": "Cadernos e Blocos",
+          "vzro_path": "arte-papelaria-e-armarinho/papelaria-e-escrita/cadernos-e-blocos",
+          "vzro_leaf": "cadernos-e-blocos"
+        },
+        {
+          "slug": "agendas-e-calculadoras",
+          "name": "Agendas e Calculadoras",
+          "vzro_path": "arte-papelaria-e-armarinho/papelaria-e-escrita/agendas-e-calculadoras",
+          "vzro_leaf": "agendas-e-calculadoras"
+        },
+        {
+          "slug": "material-escolar",
+          "name": "Material Escolar",
+          "vzro_path": "arte-papelaria-e-armarinho/papelaria-e-escrita/material-escolar",
+          "vzro_leaf": "material-escolar"
+        },
+        {
+          "slug": "papel-a4-e-sulfite",
+          "name": "Papel A4 e Sulfite",
+          "vzro_path": "arte-papelaria-e-armarinho/papeis-e-etiquetas/papel-a4-e-sulfite",
+          "vzro_leaf": "papel-a4-e-sulfite"
+        },
+        {
+          "slug": "papeis-especiais",
+          "name": "Papéis Especiais",
+          "vzro_path": "arte-papelaria-e-armarinho/papeis-e-etiquetas/papeis-especiais",
+          "vzro_leaf": "papeis-especiais"
+        },
+        {
+          "slug": "etiquetas-e-rotulos",
+          "name": "Etiquetas e Rótulos",
+          "vzro_path": "arte-papelaria-e-armarinho/papeis-e-etiquetas/etiquetas-e-rotulos1",
+          "vzro_leaf": "etiquetas-e-rotulos1"
+        },
+        {
+          "slug": "envelopes",
+          "name": "Envelopes",
+          "vzro_path": "arte-papelaria-e-armarinho/papeis-e-etiquetas/envelopes",
+          "vzro_leaf": "envelopes"
+        },
+        {
+          "slug": "pastas-e-ficharios",
+          "name": "Pastas e Fichários",
+          "vzro_path": "arte-papelaria-e-armarinho/pastas-e-arquivos/pastas-e-ficharios",
+          "vzro_leaf": "pastas-e-ficharios"
+        },
+        {
+          "slug": "pastas-sanfonadas",
+          "name": "Pastas Sanfonadas",
+          "vzro_path": "arte-papelaria-e-armarinho/pastas-e-arquivos/pastas-sanfonadas",
+          "vzro_leaf": "pastas-sanfonadas"
+        },
+        {
+          "slug": "caixas-arquivo",
+          "name": "Caixas Arquivo",
+          "vzro_path": "arte-papelaria-e-armarinho/pastas-e-arquivos/caixas-arquivo",
+          "vzro_leaf": "caixas-arquivo"
+        },
+        {
+          "slug": "organizadores-de-documentos",
+          "name": "Organizadores de Documentos",
+          "vzro_path": "arte-papelaria-e-armarinho/pastas-e-arquivos/organizadores-de-documentos",
+          "vzro_leaf": "organizadores-de-documentos"
+        },
+        {
+          "slug": "grampeadores-e-grampos",
+          "name": "Grampeadores e Grampos",
+          "vzro_path": "arte-papelaria-e-armarinho/organizacao-e-acessorios/grampeadores-e-grampos",
+          "vzro_leaf": "grampeadores-e-grampos"
+        },
+        {
+          "slug": "clips-e-prendedores",
+          "name": "Clips e Prendedores",
+          "vzro_path": "arte-papelaria-e-armarinho/organizacao-e-acessorios/clips-e-prendedores1",
+          "vzro_leaf": "clips-e-prendedores1"
+        },
+        {
+          "slug": "organizadores-de-mesa",
+          "name": "Organizadores de Mesa",
+          "vzro_path": "arte-papelaria-e-armarinho/organizacao-e-acessorios/organizadores-de-mesa1",
+          "vzro_leaf": "organizadores-de-mesa1"
+        },
+        {
+          "slug": "perfuradores",
+          "name": "Perfuradores",
+          "vzro_path": "arte-papelaria-e-armarinho/organizacao-e-acessorios/perfuradores",
+          "vzro_leaf": "perfuradores"
+        },
+        {
+          "slug": "elasticos",
+          "name": "Elásticos",
+          "vzro_path": "arte-papelaria-e-armarinho/organizacao-e-acessorios/elasticos",
+          "vzro_leaf": "elasticos"
+        },
+        {
+          "slug": "colas-e-adesivos",
+          "name": "Colas e Adesivos",
+          "vzro_path": "arte-papelaria-e-armarinho/colas-fitas-e-corte/colas-e-adesivos",
+          "vzro_leaf": "colas-e-adesivos"
+        },
+        {
+          "slug": "fitas-adesivas",
+          "name": "Fitas Adesivas",
+          "vzro_path": "arte-papelaria-e-armarinho/colas-fitas-e-corte/fitas-adesivas1",
+          "vzro_leaf": "fitas-adesivas1"
+        },
+        {
+          "slug": "tesouras-e-estiletes",
+          "name": "Tesouras e Estiletes",
+          "vzro_path": "arte-papelaria-e-armarinho/colas-fitas-e-corte/tesouras-e-estiletes",
+          "vzro_leaf": "tesouras-e-estiletes"
+        },
+        {
+          "slug": "pistolas-de-cola",
+          "name": "Pistolas de Cola",
+          "vzro_path": "arte-papelaria-e-armarinho/colas-fitas-e-corte/pistolas-de-cola1",
+          "vzro_leaf": "pistolas-de-cola1"
+        },
+        {
+          "slug": "plastificadoras",
+          "name": "Plastificadoras",
+          "vzro_path": "arte-papelaria-e-armarinho/equipamentos-de-escritorio/plastificadoras1",
+          "vzro_leaf": "plastificadoras1"
+        },
+        {
+          "slug": "bolsas-para-plastificacao",
+          "name": "Bolsas para Plastificação",
+          "vzro_path": "arte-papelaria-e-armarinho/equipamentos-de-escritorio/bolsas-para-plastificacao1",
+          "vzro_leaf": "bolsas-para-plastificacao1"
+        },
+        {
+          "slug": "fragmentadoras-de-papel",
+          "name": "Fragmentadoras de Papel",
+          "vzro_path": "arte-papelaria-e-armarinho/equipamentos-de-escritorio/fragmentadoras-de-papel",
+          "vzro_leaf": "fragmentadoras-de-papel"
+        },
+        {
+          "slug": "quadros-e-lousas",
+          "name": "Quadros e Lousas",
+          "vzro_path": "arte-papelaria-e-armarinho/equipamentos-de-escritorio/quadros-e-lousas1",
+          "vzro_leaf": "quadros-e-lousas1"
+        },
+        {
+          "slug": "cadeiras-de-escritorio",
+          "name": "Cadeiras de Escritório",
+          "vzro_path": "arte-papelaria-e-armarinho/cadeiras-e-moveis/cadeiras-de-escritorio",
+          "vzro_leaf": "cadeiras-de-escritorio"
+        },
+        {
+          "slug": "mesas-de-escritorio",
+          "name": "Mesas de Escritório",
+          "vzro_path": "arte-papelaria-e-armarinho/cadeiras-e-moveis/mesas-de-escritorio",
+          "vzro_leaf": "mesas-de-escritorio"
+        },
+        {
+          "slug": "acessorios-para-moveis",
+          "name": "Acessórios para Móveis",
+          "vzro_path": "arte-papelaria-e-armarinho/cadeiras-e-moveis/acessorios-para-moveis",
+          "vzro_leaf": "acessorios-para-moveis"
+        },
+        {
+          "slug": "material-de-escritorio",
+          "name": "Material de Escritório",
+          "vzro_path": null,
+          "vzro_leaf": "material-de-escritorio",
+          "legacy": true
+        },
+        {
+          "slug": "papelaria",
+          "name": "Papelaria",
+          "vzro_path": null,
+          "vzro_leaf": "papelaria",
+          "legacy": true
+        },
+        {
+          "slug": "arte-papelaria-e-armarinho",
+          "name": "Arte Papelaria E Armarinho",
+          "vzro_path": "arte-papelaria-e-armarinho",
+          "vzro_leaf": "arte-papelaria-e-armarinho"
+        },
+        {
+          "slug": "cadeiras-e-moveis",
+          "name": "Cadeiras E Moveis",
+          "vzro_path": "arte-papelaria-e-armarinho/cadeiras-e-moveis",
+          "vzro_leaf": "cadeiras-e-moveis"
+        },
+        {
+          "slug": "colas-fitas-e-corte",
+          "name": "Colas Fitas E Corte",
+          "vzro_path": "arte-papelaria-e-armarinho/colas-fitas-e-corte",
+          "vzro_leaf": "colas-fitas-e-corte"
+        },
+        {
+          "slug": "equipamentos-de-escritorio",
+          "name": "Equipamentos De Escritorio",
+          "vzro_path": "arte-papelaria-e-armarinho/equipamentos-de-escritorio",
+          "vzro_leaf": "equipamentos-de-escritorio"
+        },
+        {
+          "slug": "organizacao-e-acessorios",
+          "name": "Organizacao E Acessorios",
+          "vzro_path": "arte-papelaria-e-armarinho/organizacao-e-acessorios",
+          "vzro_leaf": "organizacao-e-acessorios"
+        },
+        {
+          "slug": "papeis-e-etiquetas",
+          "name": "Papeis E Etiquetas",
+          "vzro_path": "arte-papelaria-e-armarinho/papeis-e-etiquetas",
+          "vzro_leaf": "papeis-e-etiquetas"
+        },
+        {
+          "slug": "papelaria-e-escrita",
+          "name": "Papelaria E Escrita",
+          "vzro_path": "arte-papelaria-e-armarinho/papelaria-e-escrita",
+          "vzro_leaf": "papelaria-e-escrita"
+        },
+        {
+          "slug": "pastas-e-arquivos",
+          "name": "Pastas E Arquivos",
+          "vzro_path": "arte-papelaria-e-armarinho/pastas-e-arquivos",
+          "vzro_leaf": "pastas-e-arquivos"
+        }
+      ]
+    },
+    {
+      "slug": "cameras-e-alarmes",
+      "name": "Câmeras e Alarmes",
+      "vzro_root": "casa-moveis-e-decoracao",
+      "children": [
+        {
+          "slug": "cameras-wi-fi",
+          "name": "Câmeras Wi-Fi",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-wi-fi",
+          "vzro_leaf": "cameras-wi-fi"
+        },
+        {
+          "slug": "cameras-externas",
+          "name": "Câmeras Externas",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-externas",
+          "vzro_leaf": "cameras-externas"
+        },
+        {
+          "slug": "cameras-internas",
+          "name": "Câmeras Internas",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-internas",
+          "vzro_leaf": "cameras-internas"
+        },
+        {
+          "slug": "cameras-ip-e-poe",
+          "name": "Câmeras IP e PoE",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-ip-e-poe",
+          "vzro_leaf": "cameras-ip-e-poe"
+        },
+        {
+          "slug": "cameras-profissionais",
+          "name": "Câmeras Profissionais",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-profissionais",
+          "vzro_leaf": "cameras-profissionais"
+        },
+        {
+          "slug": "kits-com-2-cameras",
+          "name": "Kits com 2 Câmeras",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca/kits-com-2-cameras",
+          "vzro_leaf": "kits-com-2-cameras"
+        },
+        {
+          "slug": "kits-com-4-cameras",
+          "name": "Kits com 4 Câmeras",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca/kits-com-4-cameras",
+          "vzro_leaf": "kits-com-4-cameras"
+        },
+        {
+          "slug": "kits-com-8-cameras",
+          "name": "Kits com 8 Câmeras",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca/kits-com-8-cameras",
+          "vzro_leaf": "kits-com-8-cameras"
+        },
+        {
+          "slug": "kits-com-16-cameras",
+          "name": "Kits com 16 Câmeras",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca/kits-com-16-cameras",
+          "vzro_leaf": "kits-com-16-cameras"
+        },
+        {
+          "slug": "kits-de-alarme",
+          "name": "Kits de Alarme",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/kits-de-alarme",
+          "vzro_leaf": "kits-de-alarme"
+        },
+        {
+          "slug": "sensores-de-presenca",
+          "name": "Sensores de Presença",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/sensores-de-presenca",
+          "vzro_leaf": "sensores-de-presenca"
+        },
+        {
+          "slug": "sensores-de-abertura",
+          "name": "Sensores de Abertura",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/sensores-de-abertura",
+          "vzro_leaf": "sensores-de-abertura"
+        },
+        {
+          "slug": "centrais-de-alarme",
+          "name": "Centrais de Alarme",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/centrais-de-alarme",
+          "vzro_leaf": "centrais-de-alarme"
+        },
+        {
+          "slug": "sirene-e-controles",
+          "name": "Sirene e Controles",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/sirene-e-controles",
+          "vzro_leaf": "sirene-e-controles"
+        },
+        {
+          "slug": "dvr",
+          "name": "DVR",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr/dvr",
+          "vzro_leaf": "dvr"
+        },
+        {
+          "slug": "nvr",
+          "name": "NVR",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr/nvr",
+          "vzro_leaf": "nvr"
+        },
+        {
+          "slug": "hd-para-cameras",
+          "name": "HD para Câmeras",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr/hd-para-cameras",
+          "vzro_leaf": "hd-para-cameras"
+        },
+        {
+          "slug": "cartao-de-memoria-para-camera",
+          "name": "Cartão de Memória para Camera",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr/cartao-de-memoria-para-camera",
+          "vzro_leaf": "cartao-de-memoria-para-camera"
+        },
+        {
+          "slug": "interfones-residenciais",
+          "name": "Interfones Residenciais",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos/interfones-residenciais",
+          "vzro_leaf": "interfones-residenciais"
+        },
+        {
+          "slug": "videoporteiros",
+          "name": "Videoporteiros",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos/videoporteiros",
+          "vzro_leaf": "videoporteiros"
+        },
+        {
+          "slug": "porteiros-eletronicos",
+          "name": "Porteiros Eletrônicos",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos/porteiros-eletronicos",
+          "vzro_leaf": "porteiros-eletronicos"
+        },
+        {
+          "slug": "acessorios-para-porteiros",
+          "name": "Acessórios para Porteiros",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos/acessorios-para-porteiros",
+          "vzro_leaf": "acessorios-para-porteiros"
+        },
+        {
+          "slug": "fechaduras-digitais",
+          "name": "Fechaduras Digitais",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso/fechaduras-digitais",
+          "vzro_leaf": "fechaduras-digitais"
+        },
+        {
+          "slug": "controle-de-acesso-facial",
+          "name": "Controle de Acesso Facial",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso/controle-de-acesso-facial",
+          "vzro_leaf": "controle-de-acesso-facial"
+        },
+        {
+          "slug": "leitores-e-biometria",
+          "name": "Leitores e Biometria",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso/leitores-e-biometria",
+          "vzro_leaf": "leitores-e-biometria"
+        },
+        {
+          "slug": "botoeiras-e-acessorios",
+          "name": "Botoeiras e Acessórios",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso/botoeiras-e-acessorios",
+          "vzro_leaf": "botoeiras-e-acessorios"
+        },
+        {
+          "slug": "controles-remotos-para-alarmes",
+          "name": "Controles Remotos para Alarmes",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/controles-remotos-para-alarmes",
+          "vzro_leaf": "controles-remotos-para-alarmes"
+        },
+        {
+          "slug": "fontes-de-alimentacao",
+          "name": "Fontes de Alimentação",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/fontes-de-alimentacao2",
+          "vzro_leaf": "fontes-de-alimentacao2"
+        },
+        {
+          "slug": "cabos-e-conectores",
+          "name": "Cabos e Conectores",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/cabos-e-conectores",
+          "vzro_leaf": "cabos-e-conectores"
+        },
+        {
+          "slug": "caixas-de-protecao",
+          "name": "Caixas de Proteção",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/caixas-de-protecao",
+          "vzro_leaf": "caixas-de-protecao"
+        },
+        {
+          "slug": "suportes-e-acessorios",
+          "name": "Suportes e Acessórios",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/suportes-e-acessorios",
+          "vzro_leaf": "suportes-e-acessorios"
+        },
+        {
+          "slug": "placas-capturadoras",
+          "name": "Placas Capturadoras",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/placas-capturadoras1",
+          "vzro_leaf": "placas-capturadoras1"
+        },
+        {
+          "slug": "cameras-e-alarmes",
+          "name": "Câmeras e Alarmes",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento",
+          "vzro_leaf": "sistemas-de-monitoramento"
+        },
+        {
+          "slug": "alarmes-e-sensores",
+          "name": "Alarmes e Sensores",
+          "vzro_path": null,
+          "vzro_leaf": "alarmes-e-sensores",
+          "legacy": true
+        },
+        {
+          "slug": "cameras-de-seguranca",
+          "name": "Câmeras de Segurança",
+          "vzro_path": null,
+          "vzro_leaf": "cameras-de-seguranca",
+          "legacy": true
+        },
+        {
+          "slug": "cameras-e-acessorios",
+          "name": "Cameras E Acessorios",
+          "vzro_path": "cameras-e-acessorios",
+          "vzro_leaf": "cameras-e-acessorios"
+        },
+        {
+          "slug": "acessorios-para-cameras",
+          "name": "Acessorios Para Cameras",
+          "vzro_path": "cameras-e-acessorios/acessorios-para-cameras",
+          "vzro_leaf": "acessorios-para-cameras"
+        },
+        {
+          "slug": "microfones3",
+          "name": "Microfones3",
+          "vzro_path": "cameras-e-acessorios/acessorios-para-cameras/microfones3",
+          "vzro_leaf": "microfones3"
+        },
+        {
+          "slug": "cabos5",
+          "name": "Cabos5",
+          "vzro_path": "cameras-e-acessorios/cabos5",
+          "vzro_leaf": "cabos5"
+        },
+        {
+          "slug": "audio-e-video",
+          "name": "Audio E Video",
+          "vzro_path": "cameras-e-acessorios/cabos5/audio-e-video",
+          "vzro_leaf": "audio-e-video"
+        },
+        {
+          "slug": "usb1",
+          "name": "Usb1",
+          "vzro_path": "cameras-e-acessorios/cabos5/usb1",
+          "vzro_leaf": "usb1"
+        },
+        {
+          "slug": "casa-moveis-e-decoracao",
+          "name": "Casa Moveis E Decoracao",
+          "vzro_path": "casa-moveis-e-decoracao",
+          "vzro_leaf": "casa-moveis-e-decoracao"
+        },
+        {
+          "slug": "cozinha",
+          "name": "Cozinha",
+          "vzro_path": "casa-moveis-e-decoracao/cozinha",
+          "vzro_leaf": "cozinha"
+        },
+        {
+          "slug": "armazenamento-e-organizacao",
+          "name": "Armazenamento E Organizacao",
+          "vzro_path": "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao",
+          "vzro_leaf": "armazenamento-e-organizacao"
+        },
+        {
+          "slug": "garrafas",
+          "name": "Garrafas",
+          "vzro_path": "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao/garrafas",
+          "vzro_leaf": "garrafas"
+        },
+        {
+          "slug": "lixeiras",
+          "name": "Lixeiras",
+          "vzro_path": "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao/lixeiras",
+          "vzro_leaf": "lixeiras"
+        },
+        {
+          "slug": "recipientes-termicos",
+          "name": "Recipientes Termicos",
+          "vzro_path": "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao/recipientes-termicos",
+          "vzro_leaf": "recipientes-termicos"
+        },
+        {
+          "slug": "garrafas-de-cafe",
+          "name": "Garrafas De Cafe",
+          "vzro_path": "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao/recipientes-termicos/garrafas-de-cafe",
+          "vzro_leaf": "garrafas-de-cafe"
+        },
+        {
+          "slug": "utensilios-de-preparacao",
+          "name": "Utensilios De Preparacao",
+          "vzro_path": "casa-moveis-e-decoracao/cozinha/utensilios-de-preparacao",
+          "vzro_leaf": "utensilios-de-preparacao"
+        },
+        {
+          "slug": "tesouras-de-cozinha",
+          "name": "Tesouras De Cozinha",
+          "vzro_path": "casa-moveis-e-decoracao/cozinha/utensilios-de-preparacao/tesouras-de-cozinha",
+          "vzro_leaf": "tesouras-de-cozinha"
+        },
+        {
+          "slug": "cuidado-da-casa-e-lavanderia",
+          "name": "Cuidado Da Casa E Lavanderia",
+          "vzro_path": "casa-moveis-e-decoracao/cuidado-da-casa-e-lavanderia",
+          "vzro_leaf": "cuidado-da-casa-e-lavanderia"
+        },
+        {
+          "slug": "descartaveis",
+          "name": "Descartaveis",
+          "vzro_path": "casa-moveis-e-decoracao/cuidado-da-casa-e-lavanderia/descartaveis",
+          "vzro_leaf": "descartaveis"
+        },
+        {
+          "slug": "sacos-de-lixo",
+          "name": "Sacos De Lixo",
+          "vzro_path": "casa-moveis-e-decoracao/cuidado-da-casa-e-lavanderia/descartaveis/sacos-de-lixo",
+          "vzro_leaf": "sacos-de-lixo"
+        },
+        {
+          "slug": "enfeites-e-decoracao-da-casa",
+          "name": "Enfeites E Decoracao Da Casa",
+          "vzro_path": "casa-moveis-e-decoracao/enfeites-e-decoracao-da-casa",
+          "vzro_leaf": "enfeites-e-decoracao-da-casa"
+        },
+        {
+          "slug": "adesivos-decorativos",
+          "name": "Adesivos Decorativos",
+          "vzro_path": "casa-moveis-e-decoracao/enfeites-e-decoracao-da-casa/adesivos-decorativos",
+          "vzro_leaf": "adesivos-decorativos"
+        },
+        {
+          "slug": "iluminacao-residencial",
+          "name": "Iluminacao Residencial",
+          "vzro_path": "casa-moveis-e-decoracao/iluminacao-residencial",
+          "vzro_leaf": "iluminacao-residencial"
+        },
+        {
+          "slug": "fita-de-led",
+          "name": "Fita De Led",
+          "vzro_path": "casa-moveis-e-decoracao/iluminacao-residencial/fita-de-led",
+          "vzro_leaf": "fita-de-led"
+        },
+        {
+          "slug": "luminarias",
+          "name": "Luminarias",
+          "vzro_path": "casa-moveis-e-decoracao/iluminacao-residencial/luminarias",
+          "vzro_leaf": "luminarias"
+        },
+        {
+          "slug": "luminarias-de-sal",
+          "name": "Luminarias De Sal",
+          "vzro_path": "casa-moveis-e-decoracao/iluminacao-residencial/luminarias/luminarias-de-sal",
+          "vzro_leaf": "luminarias-de-sal"
+        },
+        {
+          "slug": "luminarias-solares",
+          "name": "Luminarias Solares",
+          "vzro_path": "casa-moveis-e-decoracao/iluminacao-residencial/luminarias/luminarias-solares",
+          "vzro_leaf": "luminarias-solares"
+        },
+        {
+          "slug": "moveis-para-casa",
+          "name": "Moveis Para Casa",
+          "vzro_path": "casa-moveis-e-decoracao/moveis-para-casa",
+          "vzro_leaf": "moveis-para-casa"
+        },
+        {
+          "slug": "cadeiras-sofas-e-banquetas",
+          "name": "Cadeiras Sofas E Banquetas",
+          "vzro_path": "casa-moveis-e-decoracao/moveis-para-casa/cadeiras-sofas-e-banquetas",
+          "vzro_leaf": "cadeiras-sofas-e-banquetas"
+        },
+        {
+          "slug": "apoios-para-pes",
+          "name": "Apoios Para Pes",
+          "vzro_path": "casa-moveis-e-decoracao/moveis-para-casa/cadeiras-sofas-e-banquetas/apoios-para-pes",
+          "vzro_leaf": "apoios-para-pes"
+        },
+        {
+          "slug": "cadeiras-para-escritorio",
+          "name": "Cadeiras Para Escritorio",
+          "vzro_path": "casa-moveis-e-decoracao/moveis-para-casa/cadeiras-sofas-e-banquetas/cadeiras-para-escritorio",
+          "vzro_leaf": "cadeiras-para-escritorio"
+        },
+        {
+          "slug": "organizacao-para-casa",
+          "name": "Organizacao Para Casa",
+          "vzro_path": "casa-moveis-e-decoracao/organizacao-para-casa",
+          "vzro_leaf": "organizacao-para-casa"
+        },
+        {
+          "slug": "organizadores-de-escritorio",
+          "name": "Organizadores De Escritorio",
+          "vzro_path": "casa-moveis-e-decoracao/organizacao-para-casa/organizadores-de-escritorio",
+          "vzro_leaf": "organizadores-de-escritorio"
+        },
+        {
+          "slug": "seguranca-para-casa",
+          "name": "Seguranca Para Casa",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa",
+          "vzro_leaf": "seguranca-para-casa"
+        },
+        {
+          "slug": "automacao-para-portoes",
+          "name": "Automacao Para Portoes",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/automacao-para-portoes",
+          "vzro_leaf": "automacao-para-portoes"
+        },
+        {
+          "slug": "controles-remotos-para-portao",
+          "name": "Controles Remotos Para Portao",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/automacao-para-portoes/controles-remotos-para-portao",
+          "vzro_leaf": "controles-remotos-para-portao"
+        },
+        {
+          "slug": "motores-para-portoes",
+          "name": "Motores Para Portoes",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/automacao-para-portoes/motores-para-portoes",
+          "vzro_leaf": "motores-para-portoes"
+        },
+        {
+          "slug": "ferragens-de-seguranca",
+          "name": "Ferragens De Seguranca",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/ferragens-de-seguranca",
+          "vzro_leaf": "ferragens-de-seguranca"
+        },
+        {
+          "slug": "fechaduras",
+          "name": "Fechaduras",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/ferragens-de-seguranca/fechaduras",
+          "vzro_leaf": "fechaduras"
+        },
+        {
+          "slug": "eletricas",
+          "name": "Eletricas",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/ferragens-de-seguranca/fechaduras/eletricas",
+          "vzro_leaf": "eletricas"
+        },
+        {
+          "slug": "localizadores-de-objetos",
+          "name": "Localizadores De Objetos",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/localizadores-de-objetos",
+          "vzro_leaf": "localizadores-de-objetos"
+        },
+        {
+          "slug": "acessorios-para-instalacao",
+          "name": "Acessorios Para Instalacao",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao",
+          "vzro_leaf": "acessorios-para-instalacao"
+        },
+        {
+          "slug": "cameras",
+          "name": "Cameras",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras",
+          "vzro_leaf": "cameras"
+        },
+        {
+          "slug": "fechaduras-e-controle-de-acesso",
+          "name": "Fechaduras E Controle De Acesso",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso",
+          "vzro_leaf": "fechaduras-e-controle-de-acesso"
+        },
+        {
+          "slug": "gravadores-dvr",
+          "name": "Gravadores Dvr",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr",
+          "vzro_leaf": "gravadores-dvr"
+        },
+        {
+          "slug": "kits-de-seguranca",
+          "name": "Kits De Seguranca",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca",
+          "vzro_leaf": "kits-de-seguranca"
+        },
+        {
+          "slug": "porteiros-eletricos",
+          "name": "Porteiros Eletricos",
+          "vzro_path": "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos",
+          "vzro_leaf": "porteiros-eletricos"
+        }
+      ]
+    }
+  ],
+  "by_vzro_path": {
+    "informatica/pc-de-mesa1/all-in-one": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "all-in-one",
+      "subcategory": "All In One"
+    },
+    "informatica/pc-de-mesa1/mini-pcs": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "mini-pcs",
+      "subcategory": "Mini PCs"
+    },
+    "informatica/pc-de-mesa1/computadores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "computadores",
+      "subcategory": "Computadores"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/suportes-e-mesas": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "suportes-e-mesas",
+      "subcategory": "Suportes e Mesas"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/kits-de-acessorios": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "kits-de-acessorios",
+      "subcategory": "Kits de Acessórios"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/cabos-e-adaptadores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "cabos-e-adaptadores",
+      "subcategory": "Cabos e Adaptadores"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/coolers-externos": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "coolers-externos",
+      "subcategory": "Coolers Externos"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/maletas-e-bolsas/mochilas-porta-notebooks": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "mochilas-porta-notebooks",
+      "subcategory": "Mochilas Porta Notebooks"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/carregadores1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "carregadores",
+      "subcategory": "Carregadores"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/passadores-de-slides": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "passadores-de-slides",
+      "subcategory": "Passadores de Slides"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/capas": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "capas",
+      "subcategory": "Capas"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/controles-remotos": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "controles-remotos",
+      "subcategory": "Controles Remotos"
+    },
+    "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/baterias": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "baterias",
+      "subcategory": "Baterias"
+    },
+    "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/memorias-ram1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "memorias-ram",
+      "subcategory": "Memórias RAM"
+    },
+    "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/teclados1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "teclados",
+      "subcategory": "Teclados"
+    },
+    "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/placas1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "placas",
+      "subcategory": "Placas"
+    },
+    "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks/telas": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "telas",
+      "subcategory": "Telas"
+    },
+    "informatica/portateis-e-acessorios/notebooks": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "notebooks",
+      "subcategory": "Notebooks"
+    },
+    "informatica/games/acessorios-para-pc-gaming/fones": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "fones",
+      "subcategory": "Fones"
+    },
+    "informatica/games/acessorios-para-pc-gaming/cadeiras-gamer": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "cadeiras-gamer",
+      "subcategory": "Cadeiras Gamer"
+    },
+    "informatica/games/acessorios-para-pc-gaming/controles-e-joysticks2": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "controles-e-joysticks",
+      "subcategory": "Controles e Joysticks"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-1/memory-cards": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "memory-cards",
+      "subcategory": "Memory Cards"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-2/controles-e-joysticks/volantes": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "volantes",
+      "subcategory": "Volantes"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-2/microfones": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "microfones",
+      "subcategory": "Microfones"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-2/microfones1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "microfones",
+      "subcategory": "Microfones"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-2/cabos-e-adaptadores2": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "cabos-e-adaptadores",
+      "subcategory": "Cabos e Adaptadores"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-3/controles-e-joysticks1/joysticks": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "joysticks",
+      "subcategory": "Joysticks"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/psp/cabos-e-adaptadores1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "cabos-e-adaptadores",
+      "subcategory": "Cabos e Adaptadores"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-5/audio-e-video-para-gaming/headsets": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "headsets",
+      "subcategory": "Headsets"
+    },
+    "informatica/games/acessorios-para-consoles/para-nintendo/nes/gamepads-e-joysticks": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "gamepads-e-joysticks",
+      "subcategory": "Gamepads e Joysticks"
+    },
+    "informatica/games/pecas-para-consoles/para-xbox/hds": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "hds",
+      "subcategory": "HDs"
+    },
+    "informatica/games/consoles": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "consoles",
+      "subcategory": "Consoles"
+    },
+    "informatica/tablets-e-acessorios/acessorios2": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "acessorios",
+      "subcategory": "Acessórios"
+    },
+    "informatica/tablets-e-acessorios/tablets": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "tablets",
+      "subcategory": "Tablets"
+    },
+    "informatica/monitores-e-acessorios2/suportes2": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "suportes",
+      "subcategory": "Suportes"
+    },
+    "informatica/monitores-e-acessorios2/bases-elevatorias": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "bases-elevatorias",
+      "subcategory": "Bases Elevatórias"
+    },
+    "informatica/monitores-e-acessorios2/outros4": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "outros",
+      "subcategory": "Outros"
+    },
+    "informatica/monitores-e-acessorios2/monitores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "monitores",
+      "subcategory": "Monitores"
+    },
+    "informatica/estabilizadores-e-no-breaks1/nobreaks": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "nobreaks",
+      "subcategory": "Nobreaks"
+    },
+    "informatica/estabilizadores-e-no-breaks1/estabilizadores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "estabilizadores",
+      "subcategory": "Estabilizadores"
+    },
+    "informatica/estabilizadores-e-no-breaks1/baterias1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "baterias",
+      "subcategory": "Baterias"
+    },
+    "informatica/perifericos-para-pc/cabos-e-hubs-usb/cabos1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "cabos",
+      "subcategory": "Cabos"
+    },
+    "informatica/perifericos-para-pc/cabos-e-hubs-usb/hubs-usb": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "hubs-usb",
+      "subcategory": "Hubs USB"
+    },
+    "informatica/perifericos-para-pc/mouses-e-teclados/teclados": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "teclados",
+      "subcategory": "Teclados"
+    },
+    "informatica/perifericos-para-pc/mouses-e-teclados/mouses": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "mouses",
+      "subcategory": "Mouses"
+    },
+    "informatica/perifericos-para-pc/mouses-e-teclados/mouse-pads": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "mouse-pads",
+      "subcategory": "Mouse Pads"
+    },
+    "informatica/perifericos-para-pc/caixas-de-som-e-subwoofer": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "caixas-de-som-e-subwoofer",
+      "subcategory": "Caixas de Som e Subwoofer"
+    },
+    "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios/hds-e-ssds": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "hds-e-ssds",
+      "subcategory": "HDs e SSDs"
+    },
+    "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios/acessorios5/cabos-adaptadores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "cabos-adaptadores",
+      "subcategory": "Cabos Adaptadores"
+    },
+    "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios/acessorios5/gavetas-para-hds": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "gavetas-para-hds",
+      "subcategory": "Gavetas para HDs"
+    },
+    "informatica/perifericos-para-pc/armazenamento1/pen-drives": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "pen-drives",
+      "subcategory": "Pen Drives"
+    },
+    "informatica/perifericos-para-pc/webcams": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "webcams",
+      "subcategory": "Webcams"
+    },
+    "informatica/perifericos-para-pc/suportes-para-cpus": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "suportes-para-cpu-s",
+      "subcategory": "Suportes para CPU's"
+    },
+    "informatica/perifericos-para-pc/limpeza-de-pcs/limpa-telas": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "limpa-telas",
+      "subcategory": "Limpa Telas"
+    },
+    "informatica/perifericos-para-pc/limpeza-de-pcs/pasta-termica": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "pasta-termica",
+      "subcategory": "Pasta Térmica"
+    },
+    "informatica/perifericos-para-pc/limpeza-de-pcs/limpadores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "limpadores",
+      "subcategory": "Limpadores"
+    },
+    "informatica/perifericos-para-pc/limpeza-de-pcs/limpa-contatos": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "limpa-contatos",
+      "subcategory": "Limpa Contatos"
+    },
+    "informatica/perifericos-para-pc/limpeza-de-pcs/alcool-isopropilico": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "alcool-isopropilico",
+      "subcategory": "Álcool Isopropílico"
+    },
+    "informatica/componentes-para-pc/gabinetes": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "gabinetes",
+      "subcategory": "Gabinetes"
+    },
+    "informatica/componentes-para-pc/memorias-ram": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "memorias-ram",
+      "subcategory": "Memórias RAM"
+    },
+    "informatica/componentes-para-pc/fontes-de-alimentacao/fontes": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "fontes",
+      "subcategory": "Fontes"
+    },
+    "informatica/componentes-para-pc/fontes-de-alimentacao/cabos-de-energia1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "cabos-de-energia",
+      "subcategory": "Cabos de Energia"
+    },
+    "informatica/componentes-para-pc/refrigeracao/coolers-e-ventoinhas": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "coolers-e-ventoinhas",
+      "subcategory": "Coolers e Ventoinhas"
+    },
+    "informatica/componentes-para-pc/placas/placas-de-video": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "placas-de-video",
+      "subcategory": "Placas de Vídeo"
+    },
+    "informatica/componentes-para-pc/placas/placas-de-som": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "placas-de-som",
+      "subcategory": "Placas de Som"
+    },
+    "informatica/componentes-para-pc/placas/placas-de-rede1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "placas-de-rede",
+      "subcategory": "Placas de Rede"
+    },
+    "informatica/componentes-para-pc/placas/placas-controladoras": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "placas-controladoras",
+      "subcategory": "Placas Controladoras"
+    },
+    "informatica/componentes-para-pc/placas/placas-mae": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "placas-mae",
+      "subcategory": "Placas-Mãe"
+    },
+    "informatica/componentes-para-pc/placas/placas-usb-e-firewire": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "placas-usb-e-firewire",
+      "subcategory": "Placas USB e Firewire"
+    },
+    "informatica/componentes-para-pc/discos-e-acessorios1/acessorios8/gavetas-para-hds1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "gavetas-para-hds",
+      "subcategory": "Gavetas para HDs"
+    },
+    "impressao/impressoras/impressoras-laser": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "impressoras-laser",
+      "subcategory": "Impressoras Laser"
+    },
+    "impressao/impressoras/impressoras-tanque-de-tinta": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "impressoras-tanque-de-tinta",
+      "subcategory": "Impressoras Tanque de Tinta"
+    },
+    "impressao/impressoras/impressoras-multifuncionais": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "impressoras-multifuncionais",
+      "subcategory": "Impressoras Multifuncionais"
+    },
+    "impressao/impressoras/impressoras-termicas1": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "impressoras-termicas",
+      "subcategory": "Impressoras Térmicas"
+    },
+    "impressao/suprimentos-de-impressao/toners": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "toners",
+      "subcategory": "Toners"
+    },
+    "impressao/suprimentos-de-impressao/cartuchos-de-tinta": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "cartuchos-de-tinta",
+      "subcategory": "Cartuchos de Tinta"
+    },
+    "impressao/suprimentos-de-impressao/tintas": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "tintas",
+      "subcategory": "Tintas"
+    },
+    "impressao/suprimentos-de-impressao/recargas-de-toner": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "recargas-de-toner",
+      "subcategory": "Recargas de Toner"
+    },
+    "impressao/suprimentos-de-impressao/ribbons": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "ribbons",
+      "subcategory": "Ribbons"
+    },
+    "impressao/suprimentos-de-impressao/kits-de-suprimentos": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "kits-de-suprimentos",
+      "subcategory": "Kits de Suprimentos"
+    },
+    "impressao/papeis-para-impressao1/sulfite": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "sulfite",
+      "subcategory": "Sulfite"
+    },
+    "impressao/papeis-para-impressao1/fotografico": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "fotografico",
+      "subcategory": "Fotográfico"
+    },
+    "impressao/papeis-para-impressao1/especiais": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "especiais",
+      "subcategory": "Especiais"
+    },
+    "impressao/pecas/cilindros-para-toner": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "cilindros-e-unidades-de-imagem",
+      "subcategory": "Cilindros e Unidades de Imagem"
+    },
+    "impressao/pecas/fusores": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "fusores-e-peliculas",
+      "subcategory": "Fusores e Películas"
+    },
+    "impressao/pecas/roletes-e-tracionadores": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "roletes-e-tracionadores",
+      "subcategory": "Roletes e Tracionadores"
+    },
+    "impressao/pecas/outras-pecas": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "outras-pecas",
+      "subcategory": "Outras Peças"
+    },
+    "impressao/acessorios": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "acessorios",
+      "subcategory": "Acessórios"
+    },
+    "conectividade-e-redes/roteadores1/roteadores-wi-fi1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "roteadores-wi-fi",
+      "subcategory": "Roteadores Wi-Fi"
+    },
+    "conectividade-e-redes/roteadores1/mesh1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "wi-fi-mesh",
+      "subcategory": "Wi-Fi Mesh"
+    },
+    "conectividade-e-redes/roteadores1/modems": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "repetidores-wi-fi",
+      "subcategory": "Repetidores Wi-Fi"
+    },
+    "conectividade-e-redes/antenas/access-points-internos1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "access-points-internos",
+      "subcategory": "Access Points internos"
+    },
+    "conectividade-e-redes/antenas/access-points-externos1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "access-points-externos",
+      "subcategory": "Access Points externos"
+    },
+    "conectividade-e-redes/antenas/antenas-ponto-a-ponto1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "antenas-ponto-a-ponto",
+      "subcategory": "Antenas ponto a ponto"
+    },
+    "conectividade-e-redes/antenas/roteadores-empresariais1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "roteadores-empresariais",
+      "subcategory": "Roteadores empresariais"
+    },
+    "conectividade-e-redes/internet-starlink/kits-starlink1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "kits-starlink",
+      "subcategory": "Kits Starlink"
+    },
+    "conectividade-e-redes/internet-starlink/suportes5": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "suportes",
+      "subcategory": "Suportes"
+    },
+    "conectividade-e-redes/internet-starlink/adaptadores3": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "adaptadores",
+      "subcategory": "Adaptadores"
+    },
+    "conectividade-e-redes/internet-starlink/cabos-e-acessorios2": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "cabos-e-acessorios",
+      "subcategory": "Cabos e acessórios"
+    },
+    "conectividade-e-redes/interruptores-de-rede/switches-comuns1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "switches-comuns",
+      "subcategory": "Switches comuns"
+    },
+    "conectividade-e-redes/interruptores-de-rede/switches-poe1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "switches-poe",
+      "subcategory": "Switches PoE"
+    },
+    "conectividade-e-redes/interruptores-de-rede/switches-gerenciaveis1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "switches-gerenciaveis",
+      "subcategory": "Switches gerenciáveis"
+    },
+    "conectividade-e-redes/cabos-de-rede-e-acessorios/cabos-de-rede": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "cabos-de-rede",
+      "subcategory": "Cabos de Rede"
+    },
+    "conectividade-e-redes/cabos-de-rede-e-acessorios/patch-cords1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "patch-cords",
+      "subcategory": "Patch cords"
+    },
+    "conectividade-e-redes/cabos-de-rede-e-acessorios/conectores-rj451": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "conectores-rj45",
+      "subcategory": "Conectores RJ45"
+    },
+    "conectividade-e-redes/cabos-de-rede-e-acessorios/organizadores-de-cabos": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "organizadores-de-cabos",
+      "subcategory": "Organizadores de Cabos"
+    },
+    "conectividade-e-redes/cabos-de-rede-e-acessorios/ferramentas": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "ferramentas",
+      "subcategory": "Ferramentas"
+    },
+    "conectividade-e-redes/racks-de-servidores/patch-paineis": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "patch-panels",
+      "subcategory": "Patch Panels"
+    },
+    "conectividade-e-redes/racks-de-servidores/racks1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "racks",
+      "subcategory": "Racks"
+    },
+    "conectividade-e-redes/racks-de-servidores/organizadores1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "organizadores",
+      "subcategory": "Organizadores"
+    },
+    "conectividade-e-redes/racks-de-servidores/bandejas1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "bandejas",
+      "subcategory": "Bandejas"
+    },
+    "conectividade-e-redes/voip-telefonia-via-internet/telefones-ip1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "telefones-ip",
+      "subcategory": "Telefones IP"
+    },
+    "conectividade-e-redes/voip-telefonia-via-internet/adaptadores-voip1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "adaptadores-voip",
+      "subcategory": "Adaptadores VoIP"
+    },
+    "conectividade-e-redes/voip-telefonia-via-internet/centrais-ip1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "centrais-ip",
+      "subcategory": "Centrais IP"
+    },
+    "conectividade-e-redes/adaptadores-e-acessorios/adaptadores-de-cabos-de-rede": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "adaptadores-de-cabos-de-rede",
+      "subcategory": "Adaptadores de Cabos de Rede"
+    },
+    "conectividade-e-redes/adaptadores-e-acessorios/fontes-poe": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "injetores-e-fontes-poe",
+      "subcategory": "Injetores e fontes PoE"
+    },
+    "conectividade-e-redes/adaptadores-e-acessorios/placas-de-rede": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "placas-de-rede",
+      "subcategory": "Placas de Rede"
+    },
+    "conectividade-e-redes/adaptadores-e-acessorios/outros-acessorios1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "outros-acessorios",
+      "subcategory": "Outros acessórios"
+    },
+    "industria-e-comercio/kits-para-frente-de-caixa/kits-pdv-completos": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "kits-pdv-completos",
+      "subcategory": "Kits PDV Completos"
+    },
+    "industria-e-comercio/kits-para-frente-de-caixa/computadores-pdv": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "computadores-pdv",
+      "subcategory": "Computadores PDV"
+    },
+    "industria-e-comercio/kits-para-frente-de-caixa/terminais-de-caixa": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "terminais-de-caixa",
+      "subcategory": "Terminais de Caixa"
+    },
+    "industria-e-comercio/kits-para-frente-de-caixa/acessorios-para-pdv": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "acessorios-para-pdv",
+      "subcategory": "Acessórios para PDV"
+    },
+    "industria-e-comercio/fotocopiadoras-e-acessorios/impressoras-termicas": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "impressoras-termicas",
+      "subcategory": "Impressoras Térmicas"
+    },
+    "industria-e-comercio/fotocopiadoras-e-acessorios/impressoras-de-etiquetas": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "impressoras-de-etiquetas",
+      "subcategory": "Impressoras de Etiquetas"
+    },
+    "industria-e-comercio/fotocopiadoras-e-acessorios/etiquetadoras-manuais": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "etiquetadoras-manuais",
+      "subcategory": "Etiquetadoras Manuais"
+    },
+    "industria-e-comercio/fotocopiadoras-e-acessorios/etiquetas-e-bobinas": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "etiquetas-e-bobinas",
+      "subcategory": "Etiquetas e Bobinas"
+    },
+    "industria-e-comercio/leitores-de-codigo-de-barras1/leitores-1d-e-2d": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "leitores-1d-e-2d",
+      "subcategory": "Leitores 1D e 2D"
+    },
+    "industria-e-comercio/leitores-de-codigo-de-barras1/leitores-sem-fio": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "leitores-sem-fio",
+      "subcategory": "Leitores Sem Fio"
+    },
+    "industria-e-comercio/leitores-de-codigo-de-barras1/leitores-fixos": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "leitores-fixos",
+      "subcategory": "Leitores Fixos"
+    },
+    "industria-e-comercio/leitores-de-codigo-de-barras1/leitores-portateis": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "leitores-portateis",
+      "subcategory": "Leitores Portáteis"
+    },
+    "industria-e-comercio/balancas/balancas-para-supermercados": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "balancas-para-supermercados",
+      "subcategory": "Balanças para Supermercados"
+    },
+    "industria-e-comercio/balancas/balancas-etiquetadoras": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "balancas-etiquetadoras",
+      "subcategory": "Balanças Etiquetadoras"
+    },
+    "industria-e-comercio/balancas/balancas-de-bancada": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "balancas-de-bancada",
+      "subcategory": "Balanças de Bancada"
+    },
+    "industria-e-comercio/balancas/acessorios3": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "acessorios",
+      "subcategory": "Acessórios"
+    },
+    "industria-e-comercio/gavetas-de-dinheiro": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "gavetas-de-dinheiro",
+      "subcategory": "Gavetas de Dinheiro"
+    },
+    "industria-e-comercio/relogios-de-ponto": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "controle-de-ponto",
+      "subcategory": "Controle de Ponto"
+    },
+    "industria-e-comercio/materiais/leitores-de-cartao": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "leitores-de-cartao",
+      "subcategory": "Leitores de Cartão"
+    },
+    "industria-e-comercio/materiais/fragmentadoras-de-papeis": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "fragmentadoras-de-papeis",
+      "subcategory": "Fragmentadoras de Papéis"
+    },
+    "industria-e-comercio/materiais/aplicadores-de-fita": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "aplicadores-de-fita",
+      "subcategory": "Aplicadores de Fita"
+    },
+    "industria-e-comercio/materiais/rolos-de-etiquetas": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "etiquetas",
+      "subcategory": "Etiquetas"
+    },
+    "industria-e-comercio/materiais/ribbons1": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "ribbons",
+      "subcategory": "Ribbons"
+    },
+    "industria-e-comercio/materiais/bobinas-termicas": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "bobinas-termicas",
+      "subcategory": "Bobinas Térmicas"
+    },
+    "industria-e-comercio/materiais/fitas-para-rotuladores": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "fitas-para-rotuladores",
+      "subcategory": "Fitas para Rotuladores"
+    },
+    "eletronicos-audio-e-video/audio1/fones-de-ouvido": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "fones-de-ouvido",
+      "subcategory": "Fones de Ouvido"
+    },
+    "eletronicos-audio-e-video/audio1/headsets1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "headsets",
+      "subcategory": "Headsets"
+    },
+    "eletronicos-audio-e-video/audio1/caixas-bluetooth1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "caixas-bluetooth",
+      "subcategory": "Caixas Bluetooth"
+    },
+    "eletronicos-audio-e-video/audio1/caixas-de-som": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "caixas-de-som",
+      "subcategory": "Caixas de Som"
+    },
+    "eletronicos-audio-e-video/cabos/cabos-hdmi-e-video": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "cabos-hdmi-e-video",
+      "subcategory": "Cabos HDMI e Vídeo"
+    },
+    "eletronicos-audio-e-video/cabos/cabos-de-audio": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "cabos-de-audio",
+      "subcategory": "Cabos de Áudio"
+    },
+    "eletronicos-audio-e-video/cabos/cabos-usb-e-dados": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "cabos-usb-e-dados",
+      "subcategory": "Cabos USB e Dados"
+    },
+    "eletronicos-audio-e-video/cabos/cabos-de-energia2": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "cabos-de-energia",
+      "subcategory": "Cabos de Energia"
+    },
+    "eletronicos-audio-e-video/cabos/adaptadores-e-conversores": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "adaptadores-e-conversores",
+      "subcategory": "Adaptadores e Conversores"
+    },
+    "eletronicos-audio-e-video/cabos/switches-e-splitters-hdmi": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "switches-e-splitters-hdmi",
+      "subcategory": "Switches e Splitters HDMI"
+    },
+    "eletronicos-audio-e-video/carregadores-e-fontes/carregadores-de-pilhas1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "carregadores-de-pilhas",
+      "subcategory": "Carregadores de Pilhas"
+    },
+    "eletronicos-audio-e-video/carregadores-e-fontes/fontes-de-alimentacao3": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "fontes-de-alimentacao",
+      "subcategory": "Fontes de Alimentação"
+    },
+    "eletronicos-audio-e-video/carregadores-e-fontes/fontes-chaveadas1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "fontes-chaveadas",
+      "subcategory": "Fontes Chaveadas"
+    },
+    "eletronicos-audio-e-video/carregadores-e-fontes/conversores-de-tensao": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "conversores-de-tensao",
+      "subcategory": "Conversores de Tensão"
+    },
+    "eletronicos-audio-e-video/carregadores-e-fontes/inversores-de-corrente1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "inversores-de-corrente",
+      "subcategory": "Inversores de Corrente"
+    },
+    "eletronicos-audio-e-video/pilhas-e-carregadores1/pilhas-alcalinas": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "pilhas-alcalinas",
+      "subcategory": "Pilhas Alcalinas"
+    },
+    "eletronicos-audio-e-video/pilhas-e-carregadores1/pilhas-recarregaveis": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "pilhas-recarregaveis",
+      "subcategory": "Pilhas Recarregáveis"
+    },
+    "eletronicos-audio-e-video/pilhas-e-carregadores1/baterias3": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "baterias",
+      "subcategory": "Baterias"
+    },
+    "eletronicos-audio-e-video/acessorios-para-tv/dispositivos-de-streaming": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "dispositivos-de-streaming",
+      "subcategory": "Dispositivos de Streaming"
+    },
+    "eletronicos-audio-e-video/acessorios-para-tv/suportes-para-tv": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "suportes-para-tv",
+      "subcategory": "Suportes para TV"
+    },
+    "eletronicos-audio-e-video/acessorios-para-tv/antenas-de-tv1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "antenas-de-tv",
+      "subcategory": "Antenas de TV"
+    },
+    "eletronicos-audio-e-video/acessorios-para-tv/acessorios-para-tv1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "acessorios-para-tv",
+      "subcategory": "Acessórios para TV"
+    },
+    "eletronicos-audio-e-video/projetores-e-telas/projetores": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "projetores",
+      "subcategory": "Projetores"
+    },
+    "eletronicos-audio-e-video/projetores-e-telas/telas-de-projecao": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "telas-de-projecao",
+      "subcategory": "Telas de Projeção"
+    },
+    "eletronicos-audio-e-video/projetores-e-telas/suportes-para-projetores": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "suportes-para-projetores",
+      "subcategory": "Suportes para Projetores"
+    },
+    "eletronicos-audio-e-video/componentes-eletronicos/conectores-eletronicos": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "conectores-eletronicos",
+      "subcategory": "Conectores Eletrônicos"
+    },
+    "eletronicos-audio-e-video/componentes-eletronicos/capacitores": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "capacitores",
+      "subcategory": "Capacitores"
+    },
+    "eletronicos-audio-e-video/componentes-eletronicos/dissipadores-termicos": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "dissipadores-termicos",
+      "subcategory": "Dissipadores Térmicos"
+    },
+    "eletronicos-audio-e-video/componentes-eletronicos/thermal-pads": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "thermal-pads",
+      "subcategory": "Thermal Pads"
+    },
+    "eletronicos-audio-e-video/componentes-eletronicos/outros-componentes": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "outros-componentes",
+      "subcategory": "Outros Componentes"
+    },
+    "arte-papelaria-e-armarinho/papelaria-e-escrita/canetas-e-lapis": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "canetas-e-lapis",
+      "subcategory": "Canetas e Lápis"
+    },
+    "arte-papelaria-e-armarinho/papelaria-e-escrita/marcadores-e-corretivos": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "marcadores-e-corretivos",
+      "subcategory": "Marcadores e Corretivos"
+    },
+    "arte-papelaria-e-armarinho/papelaria-e-escrita/cadernos-e-blocos": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "cadernos-e-blocos",
+      "subcategory": "Cadernos e Blocos"
+    },
+    "arte-papelaria-e-armarinho/papelaria-e-escrita/agendas-e-calculadoras": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "agendas-e-calculadoras",
+      "subcategory": "Agendas e Calculadoras"
+    },
+    "arte-papelaria-e-armarinho/papelaria-e-escrita/material-escolar": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "material-escolar",
+      "subcategory": "Material Escolar"
+    },
+    "arte-papelaria-e-armarinho/papeis-e-etiquetas/papel-a4-e-sulfite": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "papel-a4-e-sulfite",
+      "subcategory": "Papel A4 e Sulfite"
+    },
+    "arte-papelaria-e-armarinho/papeis-e-etiquetas/papeis-especiais": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "papeis-especiais",
+      "subcategory": "Papéis Especiais"
+    },
+    "arte-papelaria-e-armarinho/papeis-e-etiquetas/etiquetas-e-rotulos1": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "etiquetas-e-rotulos",
+      "subcategory": "Etiquetas e Rótulos"
+    },
+    "arte-papelaria-e-armarinho/papeis-e-etiquetas/envelopes": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "envelopes",
+      "subcategory": "Envelopes"
+    },
+    "arte-papelaria-e-armarinho/pastas-e-arquivos/pastas-e-ficharios": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "pastas-e-ficharios",
+      "subcategory": "Pastas e Fichários"
+    },
+    "arte-papelaria-e-armarinho/pastas-e-arquivos/pastas-sanfonadas": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "pastas-sanfonadas",
+      "subcategory": "Pastas Sanfonadas"
+    },
+    "arte-papelaria-e-armarinho/pastas-e-arquivos/caixas-arquivo": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "caixas-arquivo",
+      "subcategory": "Caixas Arquivo"
+    },
+    "arte-papelaria-e-armarinho/pastas-e-arquivos/organizadores-de-documentos": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "organizadores-de-documentos",
+      "subcategory": "Organizadores de Documentos"
+    },
+    "arte-papelaria-e-armarinho/organizacao-e-acessorios/grampeadores-e-grampos": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "grampeadores-e-grampos",
+      "subcategory": "Grampeadores e Grampos"
+    },
+    "arte-papelaria-e-armarinho/organizacao-e-acessorios/clips-e-prendedores1": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "clips-e-prendedores",
+      "subcategory": "Clips e Prendedores"
+    },
+    "arte-papelaria-e-armarinho/organizacao-e-acessorios/organizadores-de-mesa1": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "organizadores-de-mesa",
+      "subcategory": "Organizadores de Mesa"
+    },
+    "arte-papelaria-e-armarinho/organizacao-e-acessorios/perfuradores": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "perfuradores",
+      "subcategory": "Perfuradores"
+    },
+    "arte-papelaria-e-armarinho/organizacao-e-acessorios/elasticos": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "elasticos",
+      "subcategory": "Elásticos"
+    },
+    "arte-papelaria-e-armarinho/colas-fitas-e-corte/colas-e-adesivos": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "colas-e-adesivos",
+      "subcategory": "Colas e Adesivos"
+    },
+    "arte-papelaria-e-armarinho/colas-fitas-e-corte/fitas-adesivas1": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "fitas-adesivas",
+      "subcategory": "Fitas Adesivas"
+    },
+    "arte-papelaria-e-armarinho/colas-fitas-e-corte/tesouras-e-estiletes": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "tesouras-e-estiletes",
+      "subcategory": "Tesouras e Estiletes"
+    },
+    "arte-papelaria-e-armarinho/colas-fitas-e-corte/pistolas-de-cola1": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "pistolas-de-cola",
+      "subcategory": "Pistolas de Cola"
+    },
+    "arte-papelaria-e-armarinho/equipamentos-de-escritorio/plastificadoras1": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "plastificadoras",
+      "subcategory": "Plastificadoras"
+    },
+    "arte-papelaria-e-armarinho/equipamentos-de-escritorio/bolsas-para-plastificacao1": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "bolsas-para-plastificacao",
+      "subcategory": "Bolsas para Plastificação"
+    },
+    "arte-papelaria-e-armarinho/equipamentos-de-escritorio/fragmentadoras-de-papel": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "fragmentadoras-de-papel",
+      "subcategory": "Fragmentadoras de Papel"
+    },
+    "arte-papelaria-e-armarinho/equipamentos-de-escritorio/quadros-e-lousas1": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "quadros-e-lousas",
+      "subcategory": "Quadros e Lousas"
+    },
+    "arte-papelaria-e-armarinho/cadeiras-e-moveis/cadeiras-de-escritorio": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "cadeiras-de-escritorio",
+      "subcategory": "Cadeiras de Escritório"
+    },
+    "arte-papelaria-e-armarinho/cadeiras-e-moveis/mesas-de-escritorio": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "mesas-de-escritorio",
+      "subcategory": "Mesas de Escritório"
+    },
+    "arte-papelaria-e-armarinho/cadeiras-e-moveis/acessorios-para-moveis": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "acessorios-para-moveis",
+      "subcategory": "Acessórios para Móveis"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-wi-fi": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cameras-wi-fi",
+      "subcategory": "Câmeras Wi-Fi"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-externas": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cameras-externas",
+      "subcategory": "Câmeras Externas"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-internas": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cameras-internas",
+      "subcategory": "Câmeras Internas"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-ip-e-poe": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cameras-ip-e-poe",
+      "subcategory": "Câmeras IP e PoE"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras/cameras-profissionais": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cameras-profissionais",
+      "subcategory": "Câmeras Profissionais"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca/kits-com-2-cameras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "kits-com-2-cameras",
+      "subcategory": "Kits com 2 Câmeras"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca/kits-com-4-cameras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "kits-com-4-cameras",
+      "subcategory": "Kits com 4 Câmeras"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca/kits-com-8-cameras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "kits-com-8-cameras",
+      "subcategory": "Kits com 8 Câmeras"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca/kits-com-16-cameras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "kits-com-16-cameras",
+      "subcategory": "Kits com 16 Câmeras"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/kits-de-alarme": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "kits-de-alarme",
+      "subcategory": "Kits de Alarme"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/sensores-de-presenca": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "sensores-de-presenca",
+      "subcategory": "Sensores de Presença"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/sensores-de-abertura": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "sensores-de-abertura",
+      "subcategory": "Sensores de Abertura"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/centrais-de-alarme": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "centrais-de-alarme",
+      "subcategory": "Centrais de Alarme"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores/sirene-e-controles": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "sirene-e-controles",
+      "subcategory": "Sirene e Controles"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr/dvr": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "dvr",
+      "subcategory": "DVR"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr/nvr": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "nvr",
+      "subcategory": "NVR"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr/hd-para-cameras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "hd-para-cameras",
+      "subcategory": "HD para Câmeras"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr/cartao-de-memoria-para-camera": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cartao-de-memoria-para-camera",
+      "subcategory": "Cartão de Memória para Camera"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos/interfones-residenciais": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "interfones-residenciais",
+      "subcategory": "Interfones Residenciais"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos/videoporteiros": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "videoporteiros",
+      "subcategory": "Videoporteiros"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos/porteiros-eletronicos": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "porteiros-eletronicos",
+      "subcategory": "Porteiros Eletrônicos"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos/acessorios-para-porteiros": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "acessorios-para-porteiros",
+      "subcategory": "Acessórios para Porteiros"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso/fechaduras-digitais": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "fechaduras-digitais",
+      "subcategory": "Fechaduras Digitais"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso/controle-de-acesso-facial": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "controle-de-acesso-facial",
+      "subcategory": "Controle de Acesso Facial"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso/leitores-e-biometria": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "leitores-e-biometria",
+      "subcategory": "Leitores e Biometria"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso/botoeiras-e-acessorios": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "botoeiras-e-acessorios",
+      "subcategory": "Botoeiras e Acessórios"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/controles-remotos-para-alarmes": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "controles-remotos-para-alarmes",
+      "subcategory": "Controles Remotos para Alarmes"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/fontes-de-alimentacao2": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "fontes-de-alimentacao",
+      "subcategory": "Fontes de Alimentação"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/cabos-e-conectores": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cabos-e-conectores",
+      "subcategory": "Cabos e Conectores"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/caixas-de-protecao": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "caixas-de-protecao",
+      "subcategory": "Caixas de Proteção"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/suportes-e-acessorios": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "suportes-e-acessorios",
+      "subcategory": "Suportes e Acessórios"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao/placas-capturadoras1": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "placas-capturadoras",
+      "subcategory": "Placas Capturadoras"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cameras-e-alarmes",
+      "subcategory": "Câmeras e Alarmes"
+    },
+    "arte-papelaria-e-armarinho": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "arte-papelaria-e-armarinho",
+      "subcategory": "Arte Papelaria E Armarinho"
+    },
+    "arte-papelaria-e-armarinho/cadeiras-e-moveis": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "cadeiras-e-moveis",
+      "subcategory": "Cadeiras E Moveis"
+    },
+    "arte-papelaria-e-armarinho/colas-fitas-e-corte": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "colas-fitas-e-corte",
+      "subcategory": "Colas Fitas E Corte"
+    },
+    "arte-papelaria-e-armarinho/equipamentos-de-escritorio": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "equipamentos-de-escritorio",
+      "subcategory": "Equipamentos De Escritorio"
+    },
+    "arte-papelaria-e-armarinho/organizacao-e-acessorios": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "organizacao-e-acessorios",
+      "subcategory": "Organizacao E Acessorios"
+    },
+    "arte-papelaria-e-armarinho/papeis-e-etiquetas": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "papeis-e-etiquetas",
+      "subcategory": "Papeis E Etiquetas"
+    },
+    "arte-papelaria-e-armarinho/papelaria-e-escrita": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "papelaria-e-escrita",
+      "subcategory": "Papelaria E Escrita"
+    },
+    "arte-papelaria-e-armarinho/pastas-e-arquivos": {
+      "category_slug": "material-de-escritorio",
+      "category": "Material de Escritório",
+      "subcategory_slug": "pastas-e-arquivos",
+      "subcategory": "Pastas E Arquivos"
+    },
+    "cameras-e-acessorios": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cameras-e-acessorios",
+      "subcategory": "Cameras E Acessorios"
+    },
+    "cameras-e-acessorios/acessorios-para-cameras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "acessorios-para-cameras",
+      "subcategory": "Acessorios Para Cameras"
+    },
+    "cameras-e-acessorios/acessorios-para-cameras/microfones3": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "microfones3",
+      "subcategory": "Microfones3"
+    },
+    "cameras-e-acessorios/cabos5": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cabos5",
+      "subcategory": "Cabos5"
+    },
+    "cameras-e-acessorios/cabos5/audio-e-video": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "audio-e-video",
+      "subcategory": "Audio E Video"
+    },
+    "cameras-e-acessorios/cabos5/usb1": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "usb1",
+      "subcategory": "Usb1"
+    },
+    "casa-moveis-e-decoracao": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "casa-moveis-e-decoracao",
+      "subcategory": "Casa Moveis E Decoracao"
+    },
+    "casa-moveis-e-decoracao/cozinha": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cozinha",
+      "subcategory": "Cozinha"
+    },
+    "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "armazenamento-e-organizacao",
+      "subcategory": "Armazenamento E Organizacao"
+    },
+    "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao/garrafas": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "garrafas",
+      "subcategory": "Garrafas"
+    },
+    "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao/lixeiras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "lixeiras",
+      "subcategory": "Lixeiras"
+    },
+    "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao/recipientes-termicos": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "recipientes-termicos",
+      "subcategory": "Recipientes Termicos"
+    },
+    "casa-moveis-e-decoracao/cozinha/armazenamento-e-organizacao/recipientes-termicos/garrafas-de-cafe": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "garrafas-de-cafe",
+      "subcategory": "Garrafas De Cafe"
+    },
+    "casa-moveis-e-decoracao/cozinha/utensilios-de-preparacao": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "utensilios-de-preparacao",
+      "subcategory": "Utensilios De Preparacao"
+    },
+    "casa-moveis-e-decoracao/cozinha/utensilios-de-preparacao/tesouras-de-cozinha": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "tesouras-de-cozinha",
+      "subcategory": "Tesouras De Cozinha"
+    },
+    "casa-moveis-e-decoracao/cuidado-da-casa-e-lavanderia": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cuidado-da-casa-e-lavanderia",
+      "subcategory": "Cuidado Da Casa E Lavanderia"
+    },
+    "casa-moveis-e-decoracao/cuidado-da-casa-e-lavanderia/descartaveis": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "descartaveis",
+      "subcategory": "Descartaveis"
+    },
+    "casa-moveis-e-decoracao/cuidado-da-casa-e-lavanderia/descartaveis/sacos-de-lixo": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "sacos-de-lixo",
+      "subcategory": "Sacos De Lixo"
+    },
+    "casa-moveis-e-decoracao/enfeites-e-decoracao-da-casa": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "enfeites-e-decoracao-da-casa",
+      "subcategory": "Enfeites E Decoracao Da Casa"
+    },
+    "casa-moveis-e-decoracao/enfeites-e-decoracao-da-casa/adesivos-decorativos": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "adesivos-decorativos",
+      "subcategory": "Adesivos Decorativos"
+    },
+    "casa-moveis-e-decoracao/iluminacao-residencial": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "iluminacao-residencial",
+      "subcategory": "Iluminacao Residencial"
+    },
+    "casa-moveis-e-decoracao/iluminacao-residencial/fita-de-led": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "fita-de-led",
+      "subcategory": "Fita De Led"
+    },
+    "casa-moveis-e-decoracao/iluminacao-residencial/luminarias": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "luminarias",
+      "subcategory": "Luminarias"
+    },
+    "casa-moveis-e-decoracao/iluminacao-residencial/luminarias/luminarias-de-sal": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "luminarias-de-sal",
+      "subcategory": "Luminarias De Sal"
+    },
+    "casa-moveis-e-decoracao/iluminacao-residencial/luminarias/luminarias-solares": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "luminarias-solares",
+      "subcategory": "Luminarias Solares"
+    },
+    "casa-moveis-e-decoracao/moveis-para-casa": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "moveis-para-casa",
+      "subcategory": "Moveis Para Casa"
+    },
+    "casa-moveis-e-decoracao/moveis-para-casa/cadeiras-sofas-e-banquetas": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cadeiras-sofas-e-banquetas",
+      "subcategory": "Cadeiras Sofas E Banquetas"
+    },
+    "casa-moveis-e-decoracao/moveis-para-casa/cadeiras-sofas-e-banquetas/apoios-para-pes": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "apoios-para-pes",
+      "subcategory": "Apoios Para Pes"
+    },
+    "casa-moveis-e-decoracao/moveis-para-casa/cadeiras-sofas-e-banquetas/cadeiras-para-escritorio": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cadeiras-para-escritorio",
+      "subcategory": "Cadeiras Para Escritorio"
+    },
+    "casa-moveis-e-decoracao/organizacao-para-casa": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "organizacao-para-casa",
+      "subcategory": "Organizacao Para Casa"
+    },
+    "casa-moveis-e-decoracao/organizacao-para-casa/organizadores-de-escritorio": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "organizadores-de-escritorio",
+      "subcategory": "Organizadores De Escritorio"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "seguranca-para-casa",
+      "subcategory": "Seguranca Para Casa"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/automacao-para-portoes": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "automacao-para-portoes",
+      "subcategory": "Automacao Para Portoes"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/automacao-para-portoes/controles-remotos-para-portao": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "controles-remotos-para-portao",
+      "subcategory": "Controles Remotos Para Portao"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/automacao-para-portoes/motores-para-portoes": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "motores-para-portoes",
+      "subcategory": "Motores Para Portoes"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/ferragens-de-seguranca": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "ferragens-de-seguranca",
+      "subcategory": "Ferragens De Seguranca"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/ferragens-de-seguranca/fechaduras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "fechaduras",
+      "subcategory": "Fechaduras"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/ferragens-de-seguranca/fechaduras/eletricas": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "eletricas",
+      "subcategory": "Eletricas"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/localizadores-de-objetos": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "localizadores-de-objetos",
+      "subcategory": "Localizadores De Objetos"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/acessorios-para-instalacao": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "acessorios-para-instalacao",
+      "subcategory": "Acessorios Para Instalacao"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/alarmes-e-sensores": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "alarmes-e-sensores",
+      "subcategory": "Alarmes E Sensores"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/cameras": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "cameras",
+      "subcategory": "Cameras"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/fechaduras-e-controle-de-acesso": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "fechaduras-e-controle-de-acesso",
+      "subcategory": "Fechaduras E Controle De Acesso"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/gravadores-dvr": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "gravadores-dvr",
+      "subcategory": "Gravadores Dvr"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/kits-de-seguranca": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "kits-de-seguranca",
+      "subcategory": "Kits De Seguranca"
+    },
+    "casa-moveis-e-decoracao/seguranca-para-casa/sistemas-de-monitoramento/porteiros-eletricos": {
+      "category_slug": "cameras-e-alarmes",
+      "category": "Câmeras e Alarmes",
+      "subcategory_slug": "porteiros-eletricos",
+      "subcategory": "Porteiros Eletricos"
+    },
+    "conectividade-e-redes": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "conectividade-e-redes",
+      "subcategory": "Conectividade E Redes"
+    },
+    "conectividade-e-redes/adaptadores-e-acessorios": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "adaptadores-e-acessorios",
+      "subcategory": "Adaptadores E Acessorios"
+    },
+    "conectividade-e-redes/antenas": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "antenas",
+      "subcategory": "Antenas"
+    },
+    "conectividade-e-redes/cabos-de-rede-e-acessorios": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "cabos-de-rede-e-acessorios",
+      "subcategory": "Cabos De Rede E Acessorios"
+    },
+    "conectividade-e-redes/internet-starlink": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "internet-starlink",
+      "subcategory": "Internet Starlink"
+    },
+    "conectividade-e-redes/interruptores-de-rede": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "interruptores-de-rede",
+      "subcategory": "Interruptores De Rede"
+    },
+    "conectividade-e-redes/racks-de-servidores": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "racks-de-servidores",
+      "subcategory": "Racks De Servidores"
+    },
+    "conectividade-e-redes/roteadores1": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "roteadores1",
+      "subcategory": "Roteadores1"
+    },
+    "conectividade-e-redes/voip-telefonia-via-internet": {
+      "category_slug": "rede-e-internet",
+      "category": "Rede e Internet",
+      "subcategory_slug": "voip-telefonia-via-internet",
+      "subcategory": "Voip Telefonia Via Internet"
+    },
+    "eletronicos-audio-e-video": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "eletronicos-audio-e-video",
+      "subcategory": "Eletronicos Audio E Video"
+    },
+    "eletronicos-audio-e-video/acessorios-para-tv": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "acessorios-para-tv",
+      "subcategory": "Acessorios Para Tv"
+    },
+    "eletronicos-audio-e-video/audio1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "audio1",
+      "subcategory": "Audio1"
+    },
+    "eletronicos-audio-e-video/cabos": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "cabos",
+      "subcategory": "Cabos"
+    },
+    "eletronicos-audio-e-video/carregadores-e-fontes": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "carregadores-e-fontes",
+      "subcategory": "Carregadores E Fontes"
+    },
+    "eletronicos-audio-e-video/componentes-eletronicos": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "componentes-eletronicos",
+      "subcategory": "Componentes Eletronicos"
+    },
+    "eletronicos-audio-e-video/pilhas-e-carregadores1": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "pilhas-e-carregadores1",
+      "subcategory": "Pilhas E Carregadores1"
+    },
+    "eletronicos-audio-e-video/projetores-e-telas": {
+      "category_slug": "eletronicos-audio-e-video",
+      "category": "Eletrônicos, Áudio e Vídeo",
+      "subcategory_slug": "projetores-e-telas",
+      "subcategory": "Projetores E Telas"
+    },
+    "impressao": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "impressao",
+      "subcategory": "Impressao"
+    },
+    "impressao/impressoras": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "impressoras",
+      "subcategory": "Impressoras"
+    },
+    "impressao/papeis-para-impressao1": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "papeis-para-impressao1",
+      "subcategory": "Papeis Para Impressao1"
+    },
+    "impressao/pecas": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "pecas",
+      "subcategory": "Pecas"
+    },
+    "impressao/suprimentos-de-impressao": {
+      "category_slug": "impressao",
+      "category": "Impressão",
+      "subcategory_slug": "suprimentos-de-impressao",
+      "subcategory": "Suprimentos De Impressao"
+    },
+    "industria-e-comercio": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "industria-e-comercio",
+      "subcategory": "Industria E Comercio"
+    },
+    "industria-e-comercio/balancas": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "balancas",
+      "subcategory": "Balancas"
+    },
+    "industria-e-comercio/fotocopiadoras-e-acessorios": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "fotocopiadoras-e-acessorios",
+      "subcategory": "Fotocopiadoras E Acessorios"
+    },
+    "industria-e-comercio/kits-para-frente-de-caixa": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "kits-para-frente-de-caixa",
+      "subcategory": "Kits Para Frente De Caixa"
+    },
+    "industria-e-comercio/leitores-de-codigo-de-barras1": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "leitores-de-codigo-de-barras1",
+      "subcategory": "Leitores De Codigo De Barras1"
+    },
+    "industria-e-comercio/materiais": {
+      "category_slug": "automacao-comercial",
+      "category": "Automação Comercial",
+      "subcategory_slug": "materiais",
+      "subcategory": "Materiais"
+    },
+    "informatica": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "informatica",
+      "subcategory": "Informatica"
+    },
+    "informatica/componentes-para-pc": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "componentes-para-pc",
+      "subcategory": "Componentes Para Pc"
+    },
+    "informatica/componentes-para-pc/discos-e-acessorios1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "discos-e-acessorios1",
+      "subcategory": "Discos E Acessorios1"
+    },
+    "informatica/componentes-para-pc/discos-e-acessorios1/acessorios8": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "acessorios8",
+      "subcategory": "Acessorios8"
+    },
+    "informatica/componentes-para-pc/fontes-de-alimentacao": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "fontes-de-alimentacao",
+      "subcategory": "Fontes De Alimentacao"
+    },
+    "informatica/componentes-para-pc/placas": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "placas",
+      "subcategory": "Placas"
+    },
+    "informatica/componentes-para-pc/refrigeracao": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "refrigeracao",
+      "subcategory": "Refrigeracao"
+    },
+    "informatica/estabilizadores-e-no-breaks1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "estabilizadores-e-no-breaks1",
+      "subcategory": "Estabilizadores E No Breaks1"
+    },
+    "informatica/games": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "games",
+      "subcategory": "Games"
+    },
+    "informatica/games/acessorios-para-consoles": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "acessorios-para-consoles",
+      "subcategory": "Acessorios Para Consoles"
+    },
+    "informatica/games/acessorios-para-consoles/para-nintendo": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "para-nintendo",
+      "subcategory": "Para Nintendo"
+    },
+    "informatica/games/acessorios-para-consoles/para-nintendo/nes": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "nes",
+      "subcategory": "Nes"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "para-playstation",
+      "subcategory": "Para Playstation"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "playstation-1",
+      "subcategory": "Playstation 1"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-2": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "playstation-2",
+      "subcategory": "Playstation 2"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-2/controles-e-joysticks": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "controles-e-joysticks",
+      "subcategory": "Controles E Joysticks"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-3": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "playstation-3",
+      "subcategory": "Playstation 3"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-3/controles-e-joysticks1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "controles-e-joysticks1",
+      "subcategory": "Controles E Joysticks1"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-5": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "playstation-5",
+      "subcategory": "Playstation 5"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/playstation-5/audio-e-video-para-gaming": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "audio-e-video-para-gaming",
+      "subcategory": "Audio E Video Para Gaming"
+    },
+    "informatica/games/acessorios-para-consoles/para-playstation/psp": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "psp",
+      "subcategory": "Psp"
+    },
+    "informatica/games/acessorios-para-pc-gaming": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "acessorios-para-pc-gaming",
+      "subcategory": "Acessorios Para Pc Gaming"
+    },
+    "informatica/games/pecas-para-consoles": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "pecas-para-consoles",
+      "subcategory": "Pecas Para Consoles"
+    },
+    "informatica/games/pecas-para-consoles/para-xbox": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "para-xbox",
+      "subcategory": "Para Xbox"
+    },
+    "informatica/monitores-e-acessorios2": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "monitores-e-acessorios2",
+      "subcategory": "Monitores E Acessorios2"
+    },
+    "informatica/pc-de-mesa1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "pc-de-mesa1",
+      "subcategory": "Pc De Mesa1"
+    },
+    "informatica/perifericos-para-pc": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "perifericos-para-pc",
+      "subcategory": "Perifericos Para Pc"
+    },
+    "informatica/perifericos-para-pc/armazenamento1": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "armazenamento1",
+      "subcategory": "Armazenamento1"
+    },
+    "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "discos-e-acessorios",
+      "subcategory": "Discos E Acessorios"
+    },
+    "informatica/perifericos-para-pc/armazenamento1/discos-e-acessorios/acessorios5": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "acessorios5",
+      "subcategory": "Acessorios5"
+    },
+    "informatica/perifericos-para-pc/cabos-e-hubs-usb": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "cabos-e-hubs-usb",
+      "subcategory": "Cabos E Hubs Usb"
+    },
+    "informatica/perifericos-para-pc/limpeza-de-pcs": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "limpeza-de-pcs",
+      "subcategory": "Limpeza De Pcs"
+    },
+    "informatica/perifericos-para-pc/mouses-e-teclados": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "mouses-e-teclados",
+      "subcategory": "Mouses E Teclados"
+    },
+    "informatica/portateis-e-acessorios": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "portateis-e-acessorios",
+      "subcategory": "Portateis E Acessorios"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "acessorios-para-notebook",
+      "subcategory": "Acessorios Para Notebook"
+    },
+    "informatica/portateis-e-acessorios/acessorios-para-notebook/maletas-e-bolsas": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "maletas-e-bolsas",
+      "subcategory": "Maletas E Bolsas"
+    },
+    "informatica/portateis-e-acessorios/pecas-e-partes-para-notebooks": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "pecas-e-partes-para-notebooks",
+      "subcategory": "Pecas E Partes Para Notebooks"
+    },
+    "informatica/tablets-e-acessorios": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "category": "PCs, Notebooks e Acessórios",
+      "subcategory_slug": "tablets-e-acessorios",
+      "subcategory": "Tablets E Acessorios"
+    }
+  },
+  "legacy_sub": {
+    "Acessórios para PCs": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "subcategory_slug": "acessorios-para-pcs",
+      "subcategory": "Acessórios para PCs"
+    },
+    "Armazenamento": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "subcategory_slug": "armazenamento",
+      "subcategory": "Armazenamento"
+    },
+    "Componentes": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "subcategory_slug": "componentes",
+      "subcategory": "Componentes"
+    },
+    "Computadores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "subcategory_slug": "computadores",
+      "subcategory": "Computadores"
+    },
+    "Monitores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "subcategory_slug": "monitores",
+      "subcategory": "Monitores"
+    },
+    "Mouses e Teclados": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "subcategory_slug": "mouses-e-teclados",
+      "subcategory": "Mouses e Teclados"
+    },
+    "Nobreaks e Estabilizadores": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "subcategory_slug": "nobreaks-e-estabilizadores",
+      "subcategory": "Nobreaks e Estabilizadores"
+    },
+    "Notebooks": {
+      "category_slug": "pcs-notebooks-e-acessorios",
+      "subcategory_slug": "notebooks",
+      "subcategory": "Notebooks"
+    },
+    "Impressoras": {
+      "category_slug": "impressao",
+      "subcategory_slug": "impressoras",
+      "subcategory": "Impressoras"
+    },
+    "Impressão": {
+      "category_slug": "impressao",
+      "subcategory_slug": "impressao",
+      "subcategory": "Impressão"
+    },
+    "Papéis para Impressão": {
+      "category_slug": "impressao",
+      "subcategory_slug": "papeis-para-impressao",
+      "subcategory": "Papéis para Impressão"
+    },
+    "Toners e Cartuchos": {
+      "category_slug": "impressao",
+      "subcategory_slug": "toners-e-cartuchos",
+      "subcategory": "Toners e Cartuchos"
+    },
+    "Rede e Internet": {
+      "category_slug": "rede-e-internet",
+      "subcategory_slug": "rede-e-internet",
+      "subcategory": "Rede e Internet"
+    },
+    "Starlink e Antenas": {
+      "category_slug": "rede-e-internet",
+      "subcategory_slug": "starlink-e-antenas",
+      "subcategory": "Starlink e Antenas"
+    },
+    "Switches e Cabos de Rede": {
+      "category_slug": "rede-e-internet",
+      "subcategory_slug": "switches-e-cabos-de-rede",
+      "subcategory": "Switches e Cabos de Rede"
+    },
+    "Wi-Fi e Roteadores": {
+      "category_slug": "rede-e-internet",
+      "subcategory_slug": "wi-fi-e-roteadores",
+      "subcategory": "Wi-Fi e Roteadores"
+    },
+    "Automação Comercial": {
+      "category_slug": "automacao-comercial",
+      "subcategory_slug": "automacao-comercial",
+      "subcategory": "Automação Comercial"
+    },
+    "PDV e Leitores": {
+      "category_slug": "automacao-comercial",
+      "subcategory_slug": "pdv-e-leitores",
+      "subcategory": "PDV e Leitores"
+    },
+    "Alarmes e Sensores": {
+      "category_slug": "cameras-e-alarmes",
+      "subcategory_slug": "alarmes-e-sensores",
+      "subcategory": "Alarmes e Sensores"
+    },
+    "Câmeras de Segurança": {
+      "category_slug": "cameras-e-alarmes",
+      "subcategory_slug": "cameras-de-seguranca",
+      "subcategory": "Câmeras de Segurança"
+    },
+    "Cabos e Adaptadores": {
+      "category_slug": "eletronicos-audio-e-video",
+      "subcategory_slug": "cabos-e-adaptadores",
+      "subcategory": "Cabos e Adaptadores"
+    },
+    "Eletrônicos": {
+      "category_slug": "eletronicos-audio-e-video",
+      "subcategory_slug": "eletronicos",
+      "subcategory": "Eletrônicos"
+    },
+    "Energia e Fontes": {
+      "category_slug": "eletronicos-audio-e-video",
+      "subcategory_slug": "energia-e-fontes",
+      "subcategory": "Energia e Fontes"
+    },
+    "Áudio": {
+      "category_slug": "eletronicos-audio-e-video",
+      "subcategory_slug": "audio",
+      "subcategory": "Áudio"
+    },
+    "Material de Escritório": {
+      "category_slug": "material-de-escritorio",
+      "subcategory_slug": "material-de-escritorio",
+      "subcategory": "Material de Escritório"
+    },
+    "Papelaria": {
+      "category_slug": "material-de-escritorio",
+      "subcategory_slug": "papelaria",
+      "subcategory": "Papelaria"
+    }
+  },
+  "root_map": {
+    "informatica": "pcs-notebooks-e-acessorios",
+    "impressao": "impressao",
+    "conectividade-e-redes": "rede-e-internet",
+    "industria-e-comercio": "automacao-comercial",
+    "eletronicos-audio-e-video": "eletronicos-audio-e-video",
+    "arte-papelaria-e-armarinho": "material-de-escritorio",
+    "casa-moveis-e-decoracao": "cameras-e-alarmes",
+    "cameras-e-acessorios": "cameras-e-alarmes"
+  }
+}

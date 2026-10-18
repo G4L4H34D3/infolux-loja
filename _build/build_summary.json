@@ -1,0 +1,14 @@
+{
+  "products": 3526,
+  "categories": 7,
+  "subcategories": 210,
+  "by_category": {
+    "pcs-notebooks-e-acessorios": 1881,
+    "impressao": 400,
+    "rede-e-internet": 353,
+    "automacao-comercial": 91,
+    "eletronicos-audio-e-video": 338,
+    "material-de-escritorio": 310,
+    "cameras-e-alarmes": 153
+  }
+}
