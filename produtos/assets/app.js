@@ -126,13 +126,14 @@ function initParallax(){
     ticking=false;
     const rect=banner.getBoundingClientRect();
     const view=window.innerHeight || 800;
-    if(rect.bottom<0 || rect.top>view) return;
+    if(rect.bottom<0 || rect.top>view){
+      banner.style.setProperty('--parallax', '0px');
+      return;
+    }
     const progress = (view/2 - (rect.top+rect.height/2)) / view;
-    const y = Math.max(-28, Math.min(28, progress*36));
+    // tight clamp so media never drifts out of the slide box
+    const y = Math.max(-10, Math.min(10, progress*14));
     banner.style.setProperty('--parallax', y.toFixed(1)+'px');
-    banner.querySelectorAll('.slide-bg, .slide img').forEach(el=>{
-      el.style.setProperty('--parallax', y.toFixed(1)+'px');
-    });
   };
   const onScroll=()=>{ if(!ticking){ ticking=true; requestAnimationFrame(update); } };
   window.addEventListener('scroll', onScroll, {passive:true});
