@@ -16,6 +16,17 @@ SPECIAL = [  # whole-phrase rewrites where the generic rules would read badly
   (r'-\s*Instala[çc][ãa]o r[áa]pida e sem necessidade de configura[çc][ãa]o\s*', ''),
   (r'F[áa]cil instala[çc][ãa]o:\s*tecnologia', 'Tecnologia'),
 ]
+GEN2 = [  # 'Instale fácil e ...' family (2nd pass, Apollo)
+  (r'Instale (?:f[áa]cil|facilmente|com facilidade) e (\w)', lambda m: m.group(1).upper()),
+  (r',\s*instala f[áa]cil e ', ' e '),
+  (r' e instala[çc][ãa]o pr[áa]tica', ''),
+  (r' com instala[çc][ãa]o pr[áa]tica', ''),
+  (r',\s*maior facilidade na instala[çc][ãa]o', ''),
+  (r'Facilite a instala[çc][ãa]o na parede\.', 'Para instalação na parede.'),
+]
+SPECIAL += GEN2
+P2 = r'(?:instale (?:f[áa]cil|facilmente|com facilidade)|instala f[áa]cil|instala[çc][ãa]o pr[áa]tica|maior facilidade na instala[çc][ãa]o|facilite a instala[çc][ãa]o na parede)'
+P = P + '|' + P2
 GEN = [
   (rf'(^|[.!?>•]\s*|"\s*){P} e (\w)', lambda m: m.group(1) + m.group(2).upper()),  # "Fácil instalação e X" -> "X"
   (rf',\s*{P} e ', ' e '),            # ", fácil instalação e X" -> " e X"
