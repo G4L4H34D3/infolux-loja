@@ -3,7 +3,7 @@
     {
       "slug": "pcs-notebooks-e-acessorios",
       "name": "PCs, Notebooks e Acessórios",
-      "count": 1881,
+      "count": 1854,
       "children": [
         {
           "slug": "all-in-one",
@@ -123,7 +123,7 @@
         {
           "slug": "microfones",
           "name": "Microfones",
-          "count": 5
+          "count": 7
         },
         {
           "slug": "joysticks",
@@ -288,7 +288,7 @@
         {
           "slug": "coolers-e-ventoinhas",
           "name": "Coolers e Ventoinhas",
-          "count": 25
+          "count": 26
         },
         {
           "slug": "placas-de-video",
@@ -318,7 +318,7 @@
         {
           "slug": "mouses-e-teclados",
           "name": "Mouses e Teclados",
-          "count": 24
+          "count": 69
         },
         {
           "slug": "informatica",
@@ -373,7 +373,7 @@
         {
           "slug": "geral",
           "name": "Geral",
-          "count": 816
+          "count": 786
         }
       ]
     },
@@ -711,7 +711,7 @@
     {
       "slug": "eletronicos-audio-e-video",
       "name": "Eletrônicos, Áudio e Vídeo",
-      "count": 338,
+      "count": 343,
       "children": [
         {
           "slug": "fones-de-ouvido",
@@ -736,12 +736,12 @@
         {
           "slug": "cabos-usb-e-dados",
           "name": "Cabos USB e Dados",
-          "count": 5
+          "count": 9
         },
         {
           "slug": "adaptadores-e-conversores",
           "name": "Adaptadores e Conversores",
-          "count": 9
+          "count": 10
         },
         {
           "slug": "switches-e-splitters-hdmi",
@@ -833,7 +833,7 @@
     {
       "slug": "material-de-escritorio",
       "name": "Material de Escritório",
-      "count": 310,
+      "count": 350,
       "children": [
         {
           "slug": "canetas-e-lapis",
@@ -944,13 +944,58 @@
           "slug": "pastas-e-arquivos",
           "name": "Pastas E Arquivos",
           "count": 1
+        },
+        {
+          "slug": "cadeiras-para-escritorio",
+          "name": "Cadeiras Para Escritorio",
+          "count": 14
+        },
+        {
+          "slug": "garrafas-de-cafe",
+          "name": "Garrafas De Cafe",
+          "count": 9
+        },
+        {
+          "slug": "garrafas",
+          "name": "Garrafas",
+          "count": 1
+        },
+        {
+          "slug": "lixeiras",
+          "name": "Lixeiras",
+          "count": 6
+        },
+        {
+          "slug": "sacos-de-lixo",
+          "name": "Sacos De Lixo",
+          "count": 3
+        },
+        {
+          "slug": "tesouras-de-cozinha",
+          "name": "Tesouras De Cozinha",
+          "count": 2
+        },
+        {
+          "slug": "apoios-para-pes",
+          "name": "Apoios Para Pes",
+          "count": 2
+        },
+        {
+          "slug": "organizadores-de-escritorio",
+          "name": "Organizadores De Escritorio",
+          "count": 2
+        },
+        {
+          "slug": "adesivos-decorativos",
+          "name": "Adesivos Decorativos",
+          "count": 1
         }
       ]
     },
     {
       "slug": "cameras-e-alarmes",
       "name": "Câmeras e Alarmes",
-      "count": 153,
+      "count": 135,
       "children": [
         {
           "slug": "controles-remotos-para-alarmes",
@@ -965,57 +1010,12 @@
         {
           "slug": "alarmes-e-sensores",
           "name": "Alarmes e Sensores",
-          "count": 13
+          "count": 18
         },
         {
-          "slug": "microfones3",
-          "name": "Microfones3",
-          "count": 2
-        },
-        {
-          "slug": "audio-e-video",
-          "name": "Audio E Video",
-          "count": 1
-        },
-        {
-          "slug": "usb1",
-          "name": "Usb1",
-          "count": 4
-        },
-        {
-          "slug": "garrafas",
-          "name": "Garrafas",
-          "count": 1
-        },
-        {
-          "slug": "lixeiras",
-          "name": "Lixeiras",
-          "count": 6
-        },
-        {
-          "slug": "garrafas-de-cafe",
-          "name": "Garrafas De Cafe",
-          "count": 9
-        },
-        {
-          "slug": "tesouras-de-cozinha",
-          "name": "Tesouras De Cozinha",
-          "count": 2
-        },
-        {
-          "slug": "sacos-de-lixo",
-          "name": "Sacos De Lixo",
-          "count": 3
-        },
-        {
-          "slug": "adesivos-decorativos",
-          "name": "Adesivos Decorativos",
-          "count": 1
-        },
-        {
-          "slug": "fita-de-led",
-          "name": "Fita De Led",
-          "count": 2
+          "slug": "casa-inteligente",
+          "name": "Casa Inteligente",
+          "count": 25
         },
         {
           "slug": "luminarias",
@@ -1031,21 +1031,6 @@
           "slug": "luminarias-solares",
           "name": "Luminarias Solares",
           "count": 1
-        },
-        {
-          "slug": "apoios-para-pes",
-          "name": "Apoios Para Pes",
-          "count": 2
-        },
-        {
-          "slug": "cadeiras-para-escritorio",
-          "name": "Cadeiras Para Escritorio",
-          "count": 14
-        },
-        {
-          "slug": "organizadores-de-escritorio",
-          "name": "Organizadores De Escritorio",
-          "count": 2
         },
         {
           "slug": "seguranca-para-casa",
@@ -1080,7 +1065,7 @@
         {
           "slug": "cameras",
           "name": "Cameras",
-          "count": 50
+          "count": 51
         },
         {
           "slug": "gravadores-dvr",

@@ -52,7 +52,7 @@
       cepOk = cep; shipOpts = q.options;
       msg.innerHTML = `<strong>${escHtml(addr.localidade)}/${escHtml(addr.uf)}</strong> · peso cobrado ~ ${q.kg.toLocaleString('pt-BR')} kg`;
       $('coShip').innerHTML = q.options.map((o,k)=>`<label class="ship-opt"><input type="radio" name="ship" value="${o.id}" ${k===0?'checked':''}>
-        <span><strong>${escHtml(o.name)}</strong><br><small style="color:#666">${o.days?`${o.days[0]}–${o.days[1]} dias úteis`:''}</small></span>
+        <span><strong>${escHtml(o.name)}</strong><br><small style="color:#666">Enviado pelo distribuidor parceiro; prazo confirmado após o pagamento</small></span>
         <span class="sp">${money(o.price)}</span></label>`).join('');
       ship = q.options[0]; totals();
       const f = $('coForm');

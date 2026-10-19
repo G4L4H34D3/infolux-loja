@@ -163,7 +163,7 @@
       <div class="frete-box" data-frete>
         <div class="frete-head">
           <strong>Calcular frete</strong>
-          <span class="frete-origin">Saída: ${cfg.origin.label} (${formatCep(cfg.origin.cep)})</span>
+          <span class="frete-origin">Enviado pelo distribuidor parceiro; prazo confirmado após o pagamento</span>
         </div>
         <form class="frete-form" autocomplete="postal">
           <input type="text" name="cep" inputmode="numeric" placeholder="CEP de destino" maxlength="9" value="${state.cep||''}" aria-label="CEP">
@@ -190,7 +190,7 @@
           <div class="frete-opt">
             <div>
               <strong>${o.name}</strong>
-              <div class="frete-meta">${o.days?`Prazo estimado: ${o.days[0]}–${o.days[1]} dias úteis`:''}${o.note?` · ${o.note}`:''}</div>
+              <div class="frete-meta">Prazo confirmado após o pagamento${o.note?` · ${o.note}`:''}</div>
             </div>
             <div class="frete-price">${money(o.price)}</div>
           </div>`).join('');
