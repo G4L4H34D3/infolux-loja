@@ -911,3 +911,16 @@ body:has(.cookie-bar:not(.hidden)) .wa-float{bottom:104px}
 }
 @media (min-width:1080px){.ach-opts{grid-template-columns:repeat(3,1fr)}.kit-grid{grid-template-columns:repeat(3,1fr)}.kit-mini-grid{grid-template-columns:repeat(6,1fr)}}
 @media (prefers-reduced-motion:reduce){.ach-opt,.kit-mini{transition:none}}
+
+/* ===== Carrinho: correção de largura no celular (2026-10-19) =====
+   Os campos do formulário tinham largura mínima própria e esticavam a grade
+   além da tela em 390-430 px, cortando os botões à direita. */
+.checkout-wrap{grid-template-columns:minmax(0,1fr)}
+.checkout-wrap>*{min-width:0}
+@media(min-width:980px){.checkout-wrap{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}}
+.co-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.co-grid label{min-width:0}
+.co-grid input,.co-grid select{width:100%;min-width:0}
+.co-grid .btn{max-width:100%;white-space:normal}
+.ship-opt>span{min-width:0}
+.cart-item>*{min-width:0}
