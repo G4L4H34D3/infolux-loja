@@ -847,3 +847,67 @@ body:has(.cookie-bar:not(.hidden)) .wa-float{bottom:104px}
 .co-msg.err{color:var(--red);font-weight:600}
 .btn-wa-final{background:#0A0A0A;color:#fff}
 .co-secure{font-size:12px;color:var(--muted);margin-top:8px;text-align:center}
+
+/* ===== Achador de Soluções + Kits (2026-10-18) ===== */
+.achador{position:relative;overflow:hidden;background:radial-gradient(120% 90% at 0% 0%,#3a0000 0%,#0A0A0A 55%),#0A0A0A;color:#fff;padding:44px 0 40px;margin:8px 0 0}
+.ach-glow{position:absolute;inset:auto -20% -40% auto;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(248,0,0,.38),transparent 65%);filter:blur(10px);pointer-events:none}
+.ach-inner{position:relative;width:min(var(--max),calc(100% - 30px));margin-inline:auto}
+.ach-kicker{display:inline-flex;align-items:center;gap:8px;margin:0 0 10px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#ff5a5a}
+.ach-kicker i{width:8px;height:8px;border-radius:50%;background:var(--red);box-shadow:0 0 12px var(--red)}
+.achador h2,.kits-hero h1{margin:0;font-size:clamp(26px,5vw,44px);font-weight:800;letter-spacing:-.03em;line-height:1.08}
+.achador h2 span,.kits-hero h1 span{background:linear-gradient(90deg,#ff3b3b,#F80000 60%,#ff8a8a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.ach-lead{max-width:640px;color:#cfcfcf;font-size:15px;margin:12px 0 22px}
+.ach-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:18px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 0 0 1px rgba(248,0,0,.08),0 20px 60px rgba(0,0,0,.45)}
+.ach-steps{display:flex;gap:8px;margin-bottom:14px}
+.ach-steps span{flex:1;height:6px;border-radius:6px;background:rgba(255,255,255,.12);font-size:0;transition:background .3s var(--ease)}
+.ach-steps span.on{background:linear-gradient(90deg,#F80000,#ff5a5a);box-shadow:0 0 10px rgba(248,0,0,.6)}
+.ach-q{margin:0 0 12px;font-size:18px;font-weight:800}
+.ach-sub{margin:-6px 0 12px;color:#aaa;font-size:13px}
+.ach-opts{display:grid;grid-template-columns:1fr;gap:10px}
+.ach-opt{display:flex;align-items:center;gap:12px;width:100%;min-height:54px;padding:12px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.03);color:#fff;font-weight:700;font-size:14px;text-align:left;cursor:pointer;transition:transform .15s var(--ease),border-color .2s,background .2s}
+.ach-opt:hover,.ach-opt:focus-visible{border-color:var(--red);background:rgba(248,0,0,.12);transform:translateY(-1px);outline:none}
+.ach-ico{font-size:22px;line-height:1}
+.ach-back{margin-top:12px;background:none;border:0;color:#bbb;cursor:pointer;font-weight:600;padding:6px 0}
+.ach-back:hover{color:#fff}
+.ach-items,.kit-items{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.ach-items li,.kit-items li{display:grid;grid-template-columns:48px 1fr auto;gap:10px;align-items:center;padding:8px;border-radius:12px;background:rgba(255,255,255,.05)}
+.ach-items img,.kit-items img{width:48px;height:48px;object-fit:contain;background:#fff;border-radius:8px}
+.ach-items a{color:#fff;font-weight:600;font-size:13px;line-height:1.3}
+.ach-items span{font-weight:800;white-space:nowrap}
+.ach-total,.kit-foot{display:flex;flex-direction:column;gap:12px;margin-top:14px}
+.ach-total small,.kit-foot small{display:block;color:#aaa;font-size:12px}
+.ach-total strong{font-size:26px;font-weight:800}
+.ach-warn{color:#ffb3b3!important}
+.ach-kit{display:grid;gap:4px;margin-top:16px;padding:14px;border-radius:14px;border:1px dashed rgba(248,0,0,.6);background:rgba(248,0,0,.08)}
+.ach-kit strong{font-size:16px}.ach-kit .btn{margin-top:8px;justify-self:start}
+.ach-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:14px}
+.ach-link{color:#ff7a7a;font-weight:700}
+.btn.is-added{background:#0a7d32!important;border-color:#0a7d32!important}
+.kit-tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--red)}
+.kits-teaser .section-head{display:flex;flex-direction:column;gap:10px}
+.kit-mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.kit-mini{display:grid;gap:4px;padding:14px;border-radius:14px;background:linear-gradient(160deg,#0A0A0A,#2a0000);color:#fff;border:1px solid rgba(248,0,0,.25);transition:transform .2s var(--ease),box-shadow .2s}
+.kit-mini:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(248,0,0,.25)}
+.kit-mini strong{font-size:15px}.kit-mini-total{color:#ccc;font-size:12px}
+.kits-hero{background:radial-gradient(120% 100% at 100% 0%,#3a0000 0%,#0A0A0A 60%);color:#fff;padding:26px 0 30px}
+.kits-hero .crumb,.kits-hero .crumb a{color:#bbb}
+.kits-hero p{color:#cfcfcf;max-width:720px;font-size:15px}
+.kits-hero-cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.kit-grid{display:grid;grid-template-columns:1fr;gap:16px}
+.kit-card{display:flex;flex-direction:column;gap:12px;padding:16px;border-radius:18px;background:#0A0A0A;color:#fff;border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow-md);position:relative;overflow:hidden}
+.kit-card:before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:var(--grad-rb)}
+.kit-card h3{margin:4px 0;font-size:20px;font-weight:800}
+.kit-card p{margin:0;color:#bdbdbd;font-size:13px}
+.kit-items a{color:#fff;font-size:13px;font-weight:600;line-height:1.3}
+.kit-items span{font-weight:800;white-space:nowrap}
+.kit-foot strong{font-size:24px;font-weight:800}
+.kit-off{opacity:.55}
+.kits-note{color:var(--muted);font-size:12px;margin-top:16px}
+@media (min-width:720px){
+  .ach-card{padding:26px}.ach-opts{grid-template-columns:repeat(2,1fr)}
+  .ach-total,.kit-foot{flex-direction:row;align-items:center;justify-content:space-between}
+  .kit-mini-grid{grid-template-columns:repeat(3,1fr)}.kit-grid{grid-template-columns:repeat(2,1fr)}
+  .kits-teaser .section-head{flex-direction:row;align-items:flex-end;justify-content:space-between}
+}
+@media (min-width:1080px){.ach-opts{grid-template-columns:repeat(3,1fr)}.kit-grid{grid-template-columns:repeat(3,1fr)}.kit-mini-grid{grid-template-columns:repeat(6,1fr)}}
+@media (prefers-reduced-motion:reduce){.ach-opt,.kit-mini{transition:none}}
