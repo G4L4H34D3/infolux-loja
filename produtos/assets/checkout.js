@@ -6,6 +6,7 @@
   let ship = null;          // {id,name,price,days}
   let shipOpts = [];
   let cepOk = '';
+  let shipBlock = [];      // cart items the partner does not ship to this CEP's UF
 
   function validCPF(c){ c=digits(c); if(c.length!==11||/^(\d)\1+$/.test(c)) return false;
     for(let t=9;t<11;t++){ let s=0; for(let i=0;i<t;i++) s+=+c[i]*(t+1-i); if(((s*10)%11)%10!==+c[t]) return false; } return true; }
@@ -42,7 +43,7 @@
   async function calcFrete(e){
     e && e.preventDefault();
     const cep = digits($('coCep').value); const msg = $('coCepMsg');
-    ship = null; shipOpts = []; $('coShip').innerHTML=''; totals();
+    ship = null; shipOpts = []; shipBlock = []; $('coShip').innerHTML=''; $('coBlock') && $('coBlock').remove(); totals();
     if(!loadCart().length){ msg.textContent='Adicione produtos ao carrinho.'; return; }
     msg.className='co-msg'; msg.textContent='Consultando CEP…';
     try{
@@ -55,6 +56,14 @@
         <span><strong>${escHtml(o.name)}</strong><br><small style="color:#666">Enviado pelo distribuidor parceiro; prazo confirmado após o pagamento</small></span>
         <span class="sp">${money(o.price)}</span></label>`).join('');
       ship = q.options[0]; totals();
+      const SB = window.INFOLUX_SHIP_BLOCK || {};
+      shipBlock = loadCart().filter(i=>SB[i.id] && SB[i.id].ufs.includes(addr.uf));
+      if(shipBlock.length){
+        const wa = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Olá! Quero comprar ${shipBlock.map(i=>i.name).join(', ')} com entrega em ${addr.localidade}/${addr.uf} (CEP ${cep}). Tem alternativa?`)}`;
+        const box = document.createElement('div'); box.id='coBlock'; box.className='co-msg err co-block'; box.style.marginTop='10px';
+        box.innerHTML = `<strong>${shipBlock.map(i=>escHtml(i.name)).join(', ')}</strong>: não enviamos para <strong>${escHtml(addr.uf)}</strong> pela loja online. Remova este item para pagar os demais, ou <a href="${wa}" target="_blank" rel="noopener">fale com a INFOLUX no WhatsApp</a> que buscamos uma alternativa.`;
+        $('coShip').after(box);
+      }
       const f = $('coForm');
       if(!f.address.value) f.address.value = addr.logradouro||'';
       if(!f.province.value) f.province.value = addr.bairro||'';
@@ -74,6 +83,7 @@
     f.querySelectorAll('input[required]').forEach(i=>{ const v=i.value.trim(); const ok = v && (i.name!=='email' || /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)) && (i.name!=='cpfCnpj' || validDoc(v)) && (i.name!=='phone' || digits(v).length>=10); i.classList.toggle('invalid',!ok); if(!ok) bad.push(i); });
     if(!loadCart().length) return 'Carrinho vazio.';
     if(!ship) return 'Calcule o frete pelo CEP.';
+    if(shipBlock.length) return 'Um item do carrinho não é enviado para o seu estado pela loja online. Remova-o ou fale com a gente no WhatsApp.';
     if(bad.length){ bad[0].focus(); return 'Confira os campos destacados.'; }
     return '';
   }
