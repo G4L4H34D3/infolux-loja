@@ -307,7 +307,83 @@ document.addEventListener('DOMContentLoaded', ()=>{
   initTilt();
   initCounters();
   initDynamicCards();
+  initServiceGuide();
 });
+
+/* Orientador de serviços: catálogo local, sem rede. O relato só sai no WhatsApp. */
+function initServiceGuide(){
+  const root=document.querySelector('[data-svc-guide]');
+  if(!root) return;
+  const input=root.querySelector('textarea');
+  const out=root.querySelector('[data-svc-out]');
+  const countEl=root.querySelector('[data-svc-count]');
+  const hint=root.querySelector('[data-svc-hint]');
+  const btn=root.querySelector('[data-svc-go]');
+  if(!input||!out||!btn) return;
+  const MIN=15, MAX=1200;
+  const items=[
+    {name:'Instalação Starlink', href:'#starlink', keys:['starlink','satelite','satélite','antena starlink'],
+      reason:'O relato combina com instalação de internet via satélite Starlink.',
+      next:'Diga se o equipamento já chegou e como é o local da instalação.'},
+    {name:'Câmeras de Segurança', href:'#cameras', keys:['câmera','camera','cftv','alarme','dvr','nvr','segurança','seguranca','visão noturna','visao noturna'],
+      reason:'O relato combina com câmeras, CFTV ou alarme.',
+      next:'Informe o local e se quer ver as imagens pelo celular.'},
+    {name:'Redes e Conectividade', href:'#redes', keys:['wi-fi','wifi','roteador','cabeamento','switch','repetidor','rede ','redes','sinal fraco'],
+      reason:'O relato combina com instalação ou ajuste de rede e Wi-Fi.',
+      next:'Diga se é casa, empresa ou fazenda e quantos ambientes precisam de sinal.'},
+    {name:'Conserto de Celulares', href:'#celulares', keys:['celular','smartphone','iphone','android','bateria','conector de carga','tablet'],
+      reason:'O relato aponta para reparo de celular ou tablet.',
+      next:'Envie a marca, o modelo e o defeito para o Lucas.'},
+    {name:'Impressão e Toners', href:'#impressao', keys:['impressora','toner','cartucho','tinta','não imprime','nao imprime'],
+      reason:'O relato combina com impressora, toner ou suprimento.',
+      next:'Envie a marca e o modelo da impressora.'},
+    {name:'Formatação e Backup', href:'#formatacao', keys:['format','backup','vírus','virus','windows','lento','arquivos','dados'],
+      reason:'Formatação com backup combina com lentidão, vírus ou sistema que não abre.',
+      next:'Diga se precisa guardar arquivos antes da formatação.'},
+    {name:'Suporte Técnico Remoto', href:'#remoto', keys:['remoto','senha','e-mail','email','configura','software','programa'],
+      reason:'Dá para começar por atendimento remoto de software e configuração.',
+      next:'Combine um horário com o Lucas no WhatsApp.'},
+    {name:'Manutenção de Computadores', href:'#manutencao', keys:['computador','notebook','pc','desktop','esquenta','ssd','memória','memoria','não liga','nao liga','tela azul','fonte','placa'],
+      reason:'O relato combina com manutenção de computador ou notebook.',
+      next:'Informe a marca, o modelo e o que o aparelho faz quando o problema aparece.'}
+  ];
+  const high=['não liga','nao liga','quebrou','quebrado','trinc','parou','urgente','molhou','caiu','sem imagem'];
+  const mid=['lento','esquenta','trav','intermit'];
+  const urgLabel=t=> high.some(k=>t.includes(k))?'Alta':mid.some(k=>t.includes(k))?'Média':'Baixa';
+  const sync=()=>{
+    const n=input.value.length;
+    if(countEl) countEl.textContent=n+'/'+MAX;
+    const ok=input.value.trim().length>=MIN;
+    btn.disabled=!ok;
+    if(hint){
+      hint.hidden=ok||n===0;
+      hint.textContent=ok||n===0?'':'Escreva pelo menos '+MIN+' caracteres para receber uma recomendação.';
+    }
+  };
+  input.addEventListener('input',()=>{ if(input.value.length>MAX) input.value=input.value.slice(0,MAX); sync(); });
+  root.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    const raw=input.value.trim();
+    if(raw.length<MIN) return;
+    const text=raw.toLowerCase();
+    let scored=items.map(it=>{
+      let s=0; it.keys.forEach(k=>{ if(text.includes(k)) s+=k.length>7?2:1; });
+      return Object.assign({s}, it);
+    }).filter(it=>it.s>0).sort((a,b)=>b.s-a.s).slice(0,3);
+    const urg=urgLabel(text);
+    if(!scored.length){
+      scored=[{name:'Assistência técnica', href:'#manutencao', reason:'Não houve um encaixe claro no catálogo. O Lucas confirma o serviço no WhatsApp.', next:'Descreva o aparelho e o sintoma para o Lucas.', s:0}];
+    }
+    const lines=scored.map((it,i)=>`${i+1}. ${it.name} (urgência ${urg.toLowerCase()}) — ${it.reason}`);
+    const msg='Olá Lucas, vim pelo site da INFOLUX. Usei o orientador de serviços.\n\nMeu problema:\n'+raw+'\n\nIndicações:\n'+lines.join('\n')+'\n\nGostaria de confirmar o diagnóstico e solicitar um orçamento.';
+    const wa='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);
+    out.innerHTML='<p class="sp-kicker" style="color:var(--red)">Análise concluída</p><h3>Serviços recomendados</h3>'+
+      scored.map(it=>`<article class="sp-rec"><header><h4><a href="${escHtml(it.href)}">${escHtml(it.name)}</a></h4><span class="sp-urg ${urg==='Alta'?'alta':urg==='Média'?'media':'baixa'}">Urgência ${escHtml(urg.toLowerCase())}</span></header><p>${escHtml(it.reason)}</p><p><strong>Próximo passo:</strong> ${escHtml(it.next)}</p></article>`).join('')+
+      `<a class="sp-btn" href="${escHtml(wa)}" target="_blank" rel="noopener">Enviar análise para o Lucas</a>`+
+      '<p class="sp-hint">Esta é uma orientação inicial, feita neste aparelho. O diagnóstico e o orçamento são confirmados pelo Lucas.</p>';
+  });
+  sync();
+}
 
 function initWhatsAppFloat(){
   if(document.getElementById('waFloat')) return;
